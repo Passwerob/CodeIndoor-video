@@ -1,0 +1,1028 @@
+{
+  "schema": "finescene.scene.v1",
+  "scene_id": "baroque_reception_pbr_20261104",
+  "brief": "西欧巴洛克会客厅：8.0×6.4×3.6m 中轴对称沙龙，人字拼地板、深色胡桃木护墙板、酒红天鹅绒与四叶纹织锦、科林斯凹槽柱与茛苕叶柱头、鎏金涡卷镜框、大理石壁炉、cabriole 弯腿家具、齿饰檐口、藻井与水晶烛台吊灯；真实 Poly Haven CC0 PBR 贴图 + 真实 HDRI，未使用 TRELLIS。",
+  "units": "m",
+  "coordinate_frame": {
+    "up": "+Z",
+    "front": "-Y",
+    "right": "+X"
+  },
+  "parameters": {
+    "sofa_width": 2.8400000000000003,
+    "table_height": 0.53,
+    "column_height": 2.72,
+    "room_width": 8.0,
+    "room_depth": 6.4,
+    "room_height": 3.6
+  },
+  "zones": [
+    "hearth_axis",
+    "conversation",
+    "perimeter_circulation"
+  ],
+  "components": [
+    {
+      "id": "room_shell",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          8.54,
+          6.94,
+          3.98
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "boiserie",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          7.976,
+          6.37,
+          0.86
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "columns",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          7.96,
+          6.12,
+          3.476
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale",
+        "column_height"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "fireplace",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          2.38,
+          0.725,
+          1.701
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          2.9000000000000004,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "gilt_mirror",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          2.453,
+          0.247,
+          1.981
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          3.14,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "windows",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          8.45,
+          5.324,
+          3.218
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "entrance",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          2.36,
+          0.3,
+          3.241
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          -3.22,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "wall_panels",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          6.905,
+          6.325,
+          1.59
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "sofa_west",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          2.85,
+          1.054,
+          1.593
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          -2.42,
+          0.3,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          90.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale",
+        "sofa_width"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "sofa_east",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          2.85,
+          1.054,
+          1.593
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          2.42,
+          0.3,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          -90.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale",
+        "sofa_width"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "armchair_southwest",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          0.99,
+          0.937,
+          1.623
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          -1.38,
+          -1.72,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          165.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "armchair_southeast",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          0.99,
+          0.937,
+          1.623
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          1.38,
+          -1.72,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          195.0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "coffee_table",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          1.56,
+          0.92,
+          0.915
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0.18,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale",
+        "table_height"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "area_carpet",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          5.25,
+          3.87,
+          0.221
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0.1,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "gueridon_west",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          0.63,
+          0.63,
+          0.768
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          -3.52,
+          -0.9,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "gueridon_east",
+      "kind": "structure",
+      "parent": null,
+      "bounds": {
+        "size": [
+          0.63,
+          0.63,
+          0.768
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          3.52,
+          -0.9,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "chandelier",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          1.24,
+          1.09,
+          2.52
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0.2,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "wall_sconces",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          7.79,
+          4.596,
+          0.552
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    },
+    {
+      "id": "candelabra",
+      "kind": "detail",
+      "parent": null,
+      "bounds": {
+        "size": [
+          7.15,
+          0.575,
+          1.602
+        ],
+        "unit": "m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "anchors": [
+        "bottom_center",
+        "top",
+        "front_edge"
+      ],
+      "editable": [
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "style": "west_european_baroque",
+      "source": {
+        "mode": "adsl",
+        "path": "E:/3DUse/aDSL",
+        "license": "CC0 1.0 Universal (Poly Haven PBR surfaces)",
+        "generator": "aDSL core + Blender 5.2 parametric ornament"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "facing",
+      "from": "sofa_west",
+      "to": "coffee_table"
+    },
+    {
+      "type": "facing",
+      "from": "sofa_east",
+      "to": "coffee_table"
+    },
+    {
+      "type": "facing",
+      "from": "armchair_southwest",
+      "to": "gilt_mirror"
+    },
+    {
+      "type": "facing",
+      "from": "armchair_southeast",
+      "to": "gilt_mirror"
+    },
+    {
+      "type": "inside",
+      "from": "coffee_table",
+      "to": "room_shell"
+    },
+    {
+      "type": "adjacent_to",
+      "from": "gilt_mirror",
+      "to": "fireplace"
+    },
+    {
+      "type": "clearance",
+      "from": "area_carpet",
+      "to": "coffee_table",
+      "value": 0.45
+    }
+  ],
+  "edit_operations": [
+    {
+      "id": "widen_sofa",
+      "op": "add",
+      "parameter": "sofa_width",
+      "delta": 0.2,
+      "expected_affected": [
+        "sofa_west",
+        "sofa_east"
+      ],
+      "resolved_affected": [
+        "sofa_east",
+        "sofa_west"
+      ],
+      "before": 2.64,
+      "after": 2.8400000000000003
+    },
+    {
+      "id": "raise_table",
+      "op": "add",
+      "parameter": "table_height",
+      "delta": 0.05,
+      "expected_affected": [
+        "coffee_table"
+      ],
+      "resolved_affected": [
+        "coffee_table"
+      ],
+      "before": 0.48,
+      "after": 0.53
+    },
+    {
+      "id": "raise_columns",
+      "op": "add",
+      "parameter": "column_height",
+      "delta": 0.1,
+      "expected_affected": [
+        "columns"
+      ],
+      "resolved_affected": [
+        "columns"
+      ],
+      "before": 2.62,
+      "after": 2.72
+    }
+  ],
+  "planning_backend": "direct_parametric_adsl_polyhaven_pbr_no_trellis",
+  "planning_assumptions": [
+    "Direct aDSL parametric construction, NOT a FineScene Agent/Planner/Vision-Judge run.",
+    "No TRELLIS, no retrieved meshes, no generated 3D models; all ornament is deterministic geometry.",
+    "Swept/sculpted parts inside the .blend are real Blender curves/meshes; the aDSL tree stores their bounding primitives.",
+    "All surfaces use real CC0 PBR maps from Poly Haven (diffuse/normal/roughness/height/AO) plus a real ballroom HDRI.",
+    "Gilt leaf uses a constant gold colour; its normal/roughness/AO/height still come from a real scanned metal map.",
+    "Style is a stylised prototype: dense hand-carved relief and oil paintings are out of scope. Drapery IS physically simulated via Blender CLOTH and baked to editable parts."
+  ],
+  "builder_parameter_bindings": {
+    "sofa_width": {
+      "sofa_west": "frame_base.scale[0]",
+      "sofa_east": "frame_base.scale[0]"
+    },
+    "table_height": {
+      "coffee_table": "table_top.center[2]"
+    },
+    "column_height": {
+      "columns": "*_shaft.height"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "engine": "BLENDER_CLOTH",
+  "drapes": 8,
+  "frames": 60,
+  "settings": {
+    "engine": "BLENDER_CLOTH",
+    "pin_vertex_group": "Pinned",
+    "pin_stiffness": 1.0,
+    "mass": 0.18,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "air_damping": 2.2,
+    "quality": 5,
+    "tension_stiffness": 24.0,
+    "compression_stiffness": 12.0,
+    "shear_stiffness": 12.0,
+    "bending_stiffness": 1.2,
+    "tension_damping": 3.0,
+    "shear_damping": 2.0,
+    "bending_damping": 1.0,
+    "use_self_collision": false,
+    "use_object_collision": false,
+    "solidify_thickness_m": 0.012
+  },
+  "note": "Baked into independent aDSL parts; hidden pinned sources remain for deterministic re-simulation."
+}

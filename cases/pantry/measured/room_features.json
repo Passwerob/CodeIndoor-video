@@ -1,0 +1,310 @@
+{
+ "_note": "room architecture read by hand from point-cloud slices and the footage (2026-11-14)",
+ "floor": "stone:#C9CBCA:0.42:speckle=#5E6163:terrazzo",
+ "features": [
+  {
+   "name": "pier_nw",
+   "lo": [
+    -1.06,
+    2.02,
+    0
+   ],
+   "hi": [
+    -0.58,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#EDEDED:0.75",
+   "why": "NW corner pier (boxed column), x -1.06..-0.58, y 2.02..2.28, full height: top-down point-cloud slices at 0.4-2.4 m; its east face carries the dispenser's socket (t = 232 s)",
+   "surface": "wall_north"
+  },
+  {
+   "name": "pier_nw_skirting_s",
+   "lo": [
+    -1.06,
+    2.008,
+    0
+   ],
+   "hi": [
+    -0.58,
+    2.02,
+    0.04
+   ],
+   "material": "paint:#1C1C1C:0.45",
+   "why": "NW corner pier (boxed column), x -1.06..-0.58, y 2.02..2.28, full height: top-down point-cloud slices at 0.4-2.4 m; its east face carries the dispenser's socket (t = 232 s)",
+   "surface": "skirting"
+  },
+  {
+   "name": "pier_nw_skirting_e",
+   "lo": [
+    -0.58,
+    2.02,
+    0
+   ],
+   "hi": [
+    -0.568,
+    2.279,
+    0.04
+   ],
+   "material": "paint:#1C1C1C:0.45",
+   "why": "NW corner pier (boxed column), x -1.06..-0.58, y 2.02..2.28, full height: top-down point-cloud slices at 0.4-2.4 m; its east face carries the dispenser's socket (t = 232 s)",
+   "surface": "skirting"
+  },
+  {
+   "name": "socket_pier",
+   "lo": [
+    -0.58,
+    2.11,
+    1.217
+   ],
+   "hi": [
+    -0.571,
+    2.196,
+    1.303
+   ],
+   "material": "plastic:#F2F2F0:0.35",
+   "why": "86-type socket on the pier's east face, the dispenser plugged in (t = 232 s)",
+   "surface": "feature"
+  },
+  {
+   "name": "wall_step_ne",
+   "lo": [
+    0.48,
+    2.08,
+    0
+   ],
+   "hi": [
+    1.06,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#EDEDED:0.75",
+   "why": "north wall steps forward to y 2.08 over the counter end (x 0.48..1.06): slices at 0.95-2.4 m; tiled between worktop and wall cabinets (t = 0-11 s, 101-110 s)",
+   "surface": "wall_north"
+  },
+  {
+   "name": "wall_step_ne_tile",
+   "lo": [
+    0.45,
+    2.074,
+    0.891
+   ],
+   "hi": [
+    1.06,
+    2.08,
+    1.64
+   ],
+   "material": "tile:#EDEFEF:0.12:grout=#383230:size=0.099:gap=0.003",
+   "why": "north wall steps forward to y 2.08 over the counter end (x 0.48..1.06): slices at 0.95-2.4 m; tiled between worktop and wall cabinets (t = 0-11 s, 101-110 s)",
+   "surface": "splashback"
+  },
+  {
+   "name": "wall_step_ne_skirting",
+   "lo": [
+    0.468,
+    2.08,
+    0
+   ],
+   "hi": [
+    0.48,
+    2.279,
+    0.04
+   ],
+   "material": "paint:#1C1C1C:0.45",
+   "why": "north wall steps forward to y 2.08 over the counter end (x 0.48..1.06): slices at 0.95-2.4 m; tiled between worktop and wall cabinets (t = 0-11 s, 101-110 s)",
+   "surface": "skirting"
+  },
+  {
+   "name": "band_west",
+   "lo": [
+    -1.06,
+    -2.279,
+    2.56
+   ],
+   "hi": [
+    -1.054,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_east",
+   "lo": [
+    1.054,
+    -2.279,
+    2.56
+   ],
+   "hi": [
+    1.06,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_north",
+   "lo": [
+    -1.06,
+    2.273,
+    2.56
+   ],
+   "hi": [
+    1.06,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_pier_s",
+   "lo": [
+    -1.06,
+    2.014,
+    2.56
+   ],
+   "hi": [
+    -0.58,
+    2.02,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_pier_e",
+   "lo": [
+    -0.58,
+    2.02,
+    2.56
+   ],
+   "hi": [
+    -0.574,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_step_s",
+   "lo": [
+    0.48,
+    2.074,
+    2.56
+   ],
+   "hi": [
+    1.06,
+    2.08,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "band_step_w",
+   "lo": [
+    0.474,
+    2.08,
+    2.56
+   ],
+   "hi": [
+    0.48,
+    2.279,
+    3.937
+   ],
+   "material": "paint:#1F2022:0.8",
+   "why": "walls are white up to ~2.55 m, black above with the exposed ceiling and pipes (t = 11-50 s, 96-110 s)",
+   "surface": "upper_band"
+  },
+  {
+   "name": "threshold_strip",
+   "lo": [
+    -1.06,
+    -0.905,
+    0
+   ],
+   "hi": [
+    1.06,
+    -0.88,
+    0.006
+   ],
+   "material": "metal:#C8CACC:0.25:brushed",
+   "why": "aluminium step nosing across the floor beside the 小心台阶 (Careful of the step) label (t = 63 s, 193 s)",
+   "surface": "feature"
+  },
+  {
+   "name": "socket_counter",
+   "lo": [
+    1.022,
+    1.236,
+    1.0
+   ],
+   "hi": [
+    1.054,
+    1.324,
+    1.165
+   ],
+   "material": "plastic:#F0F0EE:0.3",
+   "why": "splash-proof socket box on the tiles beside the tap (t = 120 s)",
+   "surface": "feature"
+  },
+  {
+   "name": "upstand_east",
+   "lo": [
+    1.042,
+    0.02,
+    0.891
+   ],
+   "hi": [
+    1.054,
+    2.074,
+    0.94
+   ],
+   "material": "stone:#EEEEEC:0.16:veins=#B9B9B9:scale=0.7",
+   "why": "low marble upstand where the worktop meets the tiles, along the wall and the north end (t = 120 s, 156 s)",
+   "surface": "upstand"
+  },
+  {
+   "name": "upstand_north",
+   "lo": [
+    0.45,
+    2.062,
+    0.891
+   ],
+   "hi": [
+    1.042,
+    2.074,
+    0.94
+   ],
+   "material": "stone:#EEEEEC:0.16:veins=#B9B9B9:scale=0.7",
+   "why": "low marble upstand where the worktop meets the tiles, along the wall and the north end (t = 120 s, 156 s)",
+   "surface": "upstand"
+  },
+  {
+   "name": "niche_tile",
+   "lo": [
+    1.048,
+    -0.735,
+    1.6
+   ],
+   "hi": [
+    1.054,
+    -0.025,
+    1.79
+   ],
+   "material": "tile:#EDEFEF:0.12:grout=#383230:size=0.099:gap=0.003",
+   "surface": "splashback",
+   "why": "the open niche between the fridge top and the over-fridge cabinet shows the tiled wall (t = 79-99 s)"
+  }
+ ]
+}

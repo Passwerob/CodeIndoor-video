@@ -1,0 +1,2 @@
+# Optional numerical backend; candidates still pass the same production audit.
+z3-solver==5.3.1.0

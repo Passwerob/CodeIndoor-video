@@ -1,0 +1,30 @@
+CodeIndoor-Video pantry (tea room) — hand-modeled version v5.2 (2026-11-14)
+
+v5.2: joints changed from "rotate about a point" to "rotate about an axis". Previously each joint was an empty object at a point, and only one channel was used by the driver,
+so when rotated by hand it turned in all three directions (equivalent to a ball joint). Now all 28 joints have 1 degree of freedom:
+- Hinges (cabinet doors, fridge door, microwave door, bin lid, push plate, faucet handle, spout) rotate only about their own axis, with translation locked;
+- Turntables/pump heads (unlimited rotation) likewise rotate only about their own axis;
+- Drawers, filters, push-doors and pump-head presses move only along their own axis, with rotation locked;
+- Under each joint there is an AXIS_xxx empty object that draws the axis line in the viewport (a door's hinge edge, a drawer's pull direction);
+- The ci_joint record states kind (hinge/swivel/slider/press), dof=1, origin and axis, and can be exported directly to URDF.
+Geometry is unchanged; the interpenetration check and sim2real audit results are the same as v5.1 (0 collisions, 0 failures).
+
+---- v5.1 notes below ----
+
+On top of v5, rotation origins and interpenetration were checked (clip_check.json), and the following were fixed:
+- Joint axes: the faucet handle used to rotate about its own center; now temperature rotates about the valve-stem vertical axis and water output about the handle root;
+  the spout swings about the column axis (limited to 90°; turning further would hit the wall tile); the dish-soap pump head rotates about the bottle-mouth axis;
+  the bin push plate now moves with the bin lid (previously, when the lid opened, the push plate and the PUSH text stayed in place).
+- Interpenetration: the wall cabinet extended 2 cm into the north-wall protrusion and through the fridge side panel → shortened and cut off at the side panel; the spider-plant leaves passed through the
+  dish-soap bottle and the wall → changed to grow from the wall corner and stop on contact, and the flower pot was changed to an open pot (soil visible); the faucet base
+  sank 11 mm into the countertop → placed on top of the countertop; the rag was stuck into the wall post → hung in front of the bin; the dustpan brush head passed through the comb teeth → laid flat on
+  the dustpan bottom; the plug and socket plate overlapped and the drain pipe pressed into the bin rim → moved apart; the bin push plate hit the bin lid when flipping inward → a flip clearance for the push plate
+  was cut into the lid.
+- The cabinets and fridge used to be solid blocks, and opening a door showed a flat plate → changed to hollow cavities: the base cabinet has shelves and a middle divider, each wall-cabinet section has
+  a shelf, the fridge liner is white with two glass shelves, door liners, and the two drawers are drawer boxes that can be pulled out; 4 mm of press travel is left behind the base cabinet doors.
+
+Check results: all object origins are at the bottom center; the position and direction of all 28 joint axes are correct; there is no visible interpenetration, either static or in motion (what remains are intentional connections: grip sleeves on rods, bottle body and handle, the drain pipe coming out behind the unit, the rag draped on the bin rim);
+sim2real audit 0 failures.
+
+To open: open scene_v5.2.blend in Blender 5.x (single file, textures packed). To inspect joints: select a JOINT_xxx empty object and
+change the custom property open (0 closed ~ 1 open). To compare with the video: select CAM_src_Fxx, Ctrl+Numpad0, Numpad0.

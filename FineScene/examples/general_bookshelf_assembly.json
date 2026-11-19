@@ -1,0 +1,409 @@
+{
+  "schema": "finescene.general_plan.v1",
+  "intent": {
+    "scene_id": "editable_shelf",
+    "description": "One asset with shelves and rigid books",
+    "style": "prototype",
+    "quality_target": "prototype",
+    "extent": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "coordinate_frame": {
+      "up": "+Z",
+      "front": "-Y",
+      "right": "+X"
+    },
+    "lighting_expectations": "physically plausible key, fill and practical lights",
+    "camera_expectations": "overview, reverse, top and component close-ups"
+  },
+  "parameters": {
+    "gap": 0.32,
+    "t": 0.04
+  },
+  "components": [
+    {
+      "id": "shelf_unit",
+      "semantic": "two-bay bookshelf",
+      "category": "storage",
+      "quantity": 1,
+      "dimensions": [
+        1.2,
+        0.4,
+        "3*t+2*gap"
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "instance_positions": [],
+      "orientation_deg": [
+        0,
+        0,
+        0.0
+      ],
+      "parent": null,
+      "support": null,
+      "attachment": "free",
+      "grounded": false,
+      "support_footprint": null,
+      "collision_role": "solid",
+      "editable_parameters": {},
+      "rigidity": "parametric",
+      "decomposition_reason": "Keep one editable furniture asset with internal constraints.",
+      "required_features": [
+        "two bays",
+        "two rigid books"
+      ],
+      "material_requirements": [
+        "brown frame"
+      ],
+      "interface_notes": [],
+      "parts": [
+        {
+          "id": "base",
+          "primitive": "box",
+          "size": [
+            "w",
+            "d",
+            "t"
+          ],
+          "center": [
+            0.0,
+            0.0,
+            "t/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.3,
+            0.16,
+            0.08
+          ],
+          "semantic": "base",
+          "rigidity": "parametric",
+          "parent": null,
+          "mount": "origin",
+          "fit_between": []
+        },
+        {
+          "id": "left",
+          "primitive": "box",
+          "size": [
+            "t",
+            "d",
+            "h-2*t"
+          ],
+          "center": [
+            "-w/2+t/2",
+            0.0,
+            "h/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.3,
+            0.16,
+            0.08
+          ],
+          "semantic": "left",
+          "rigidity": "parametric",
+          "parent": null,
+          "mount": "origin",
+          "fit_between": [
+            {
+              "axis": "z",
+              "start": "base",
+              "start_face": "max",
+              "end": "top",
+              "end_face": "min",
+              "inset": 0.0
+            }
+          ]
+        },
+        {
+          "id": "right",
+          "primitive": "box",
+          "size": [
+            "t",
+            "d",
+            "h-2*t"
+          ],
+          "center": [
+            "w/2-t/2",
+            0.0,
+            "h/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.3,
+            0.16,
+            0.08
+          ],
+          "semantic": "right",
+          "rigidity": "parametric",
+          "parent": null,
+          "mount": "origin",
+          "fit_between": [
+            {
+              "axis": "z",
+              "start": "base",
+              "start_face": "max",
+              "end": "top",
+              "end_face": "min",
+              "inset": 0.0
+            }
+          ]
+        },
+        {
+          "id": "shelf",
+          "primitive": "box",
+          "size": [
+            "w-2*t",
+            "d",
+            "t"
+          ],
+          "center": [
+            0.0,
+            0.0,
+            "t+gap+t/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.3,
+            0.16,
+            0.08
+          ],
+          "semantic": "shelf",
+          "rigidity": "parametric",
+          "parent": null,
+          "mount": "origin",
+          "fit_between": [
+            {
+              "axis": "x",
+              "start": "left",
+              "start_face": "max",
+              "end": "right",
+              "end_face": "min",
+              "inset": 0.0
+            }
+          ]
+        },
+        {
+          "id": "top",
+          "primitive": "box",
+          "size": [
+            "w",
+            "d",
+            "t"
+          ],
+          "center": [
+            0.0,
+            0.0,
+            "h-t/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.3,
+            0.16,
+            0.08
+          ],
+          "semantic": "top",
+          "rigidity": "parametric",
+          "parent": null,
+          "mount": "origin",
+          "fit_between": []
+        },
+        {
+          "id": "book_low",
+          "primitive": "box",
+          "size": [
+            0.07,
+            0.2,
+            0.26
+          ],
+          "center": [
+            -0.3,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.15,
+            0.25,
+            0.55
+          ],
+          "semantic": "book_low",
+          "rigidity": "rigid",
+          "parent": "base",
+          "mount": "top",
+          "fit_between": []
+        },
+        {
+          "id": "book_high",
+          "primitive": "box",
+          "size": [
+            0.09,
+            0.22,
+            0.25
+          ],
+          "center": [
+            0.24,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.45,
+            0.12,
+            0.1
+          ],
+          "semantic": "book_high",
+          "rigidity": "rigid",
+          "parent": "shelf",
+          "mount": "top",
+          "fit_between": []
+        }
+      ],
+      "assembly": {
+        "roots": [
+          "base"
+        ],
+        "relations": [
+          {
+            "kind": "attached_to",
+            "part": "left",
+            "target": "base",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "attached_to",
+            "part": "right",
+            "target": "base",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "attached_to",
+            "part": "shelf",
+            "target": "left",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "attached_to",
+            "part": "shelf",
+            "target": "right",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "attached_to",
+            "part": "top",
+            "target": "left",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "attached_to",
+            "part": "top",
+            "target": "right",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "fastened board joint"
+          },
+          {
+            "kind": "supported_by",
+            "part": "book_low",
+            "target": "base",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "book rests on board"
+          },
+          {
+            "kind": "supported_by",
+            "part": "book_high",
+            "target": "shelf",
+            "minimum": 0.0,
+            "max_penetration": 0.002,
+            "reason": "book rests on board"
+          },
+          {
+            "kind": "clearance",
+            "part": "book_low",
+            "target": "shelf",
+            "minimum": 0.02,
+            "max_penetration": 0.002,
+            "reason": "headroom above rigid book"
+          },
+          {
+            "kind": "clearance",
+            "part": "book_high",
+            "target": "top",
+            "minimum": 0.02,
+            "max_penetration": 0.002,
+            "reason": "headroom above rigid book"
+          }
+        ]
+      },
+      "visual_importance": 3,
+      "source": {
+        "mode": "parametric",
+        "reason": "Editable board assembly with explicit internal interfaces.",
+        "retrieval_query": "",
+        "reference_query": "",
+        "reference_image": null,
+        "trellis_required": false,
+        "trellis_reason": "",
+        "quality_target": "prototype",
+        "generation_trigger": "not_applicable",
+        "reference_requirements": [],
+        "retrieval_evidence": []
+      }
+    }
+  ],
+  "relations": [],
+  "edit_plans": [],
+  "edit_checks": [
+    {
+      "parameter": "gap",
+      "delta": 0.1,
+      "intent": "increase clearance while keeping rigid books"
+    }
+  ],
+  "assumptions": []
+}

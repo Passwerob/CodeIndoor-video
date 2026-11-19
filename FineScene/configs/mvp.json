@@ -1,0 +1,20 @@
+{
+  "project": "FineScene",
+  "version": "0.1.0",
+  "workspace_root": "FineScene",
+  "asset_root": "assets",
+  "adsl_root": "aDSL",
+  "trellis_root": "research/TRELLIS.2",
+  "cache_root": "runtime/cache",
+  "disk_offload_root": "runtime/cache/disk_offload",
+  "agents": {
+    "planner": true,
+    "builder": true,
+    "refiner": false,
+    "judge": true,
+    "assembly": false
+  },
+  "refiner_backends": ["polyhaven_retrieval", "trellis2_optional"],
+  "gpu_policy": "stagewise_cpu_gpu_transfer",
+  "never_copy_large_weights_into_project": true
+}

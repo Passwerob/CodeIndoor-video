@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="910" viewBox="0 0 1440 910" role="img" aria-labelledby="title desc">
+  <title id="title">FineScene Agent System Flow</title>
+  <desc id="desc">A natural-language request goes through scene planning, single-object modeling, scene assembly and full verification; on failure, structured diagnostics send it back to the relevant stage for repair.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#376b91"/></marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#27835f"/></marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c64d4d"/></marker>
+    <style>
+      text { font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", Arial, sans-serif; fill: #243244; }
+      .title { font-size: 34px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #596879; }
+      .head { font-size: 20px; font-weight: 700; }
+      .label { font-size: 17px; font-weight: 600; }
+      .small { font-size: 14px; fill: #526171; }
+      .tiny { font-size: 12px; fill: #637182; }
+      .card { stroke-width: 1.7; rx: 18; }
+      .node { stroke: #607080; stroke-width: 1.35; rx: 12; }
+      .flow { fill: none; stroke: #376b91; stroke-width: 2.2; marker-end: url(#arrow-blue); }
+      .loop { fill: none; stroke: #c64d4d; stroke-width: 2.1; stroke-dasharray: 7 6; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+
+  <rect width="1440" height="910" fill="#ffffff"/>
+  <text x="720" y="54" text-anchor="middle" class="title">FineScene Agent System Flow</text>
+  <text x="720" y="82" text-anchor="middle" class="subtitle">From a natural-language request to an editable, verified 3D scene</text>
+
+  <!-- Main stages -->
+  <rect x="42" y="122" width="424" height="528" rx="18" fill="#f4f9ff" stroke="#80b6dc" class="card"/>
+  <rect x="508" y="122" width="424" height="528" rx="18" fill="#f4fbf7" stroke="#8dc9aa" class="card"/>
+  <rect x="974" y="122" width="424" height="528" rx="18" fill="#f3faf6" stroke="#82c5a2" class="card"/>
+
+  <circle cx="76" cy="160" r="18" fill="#dcebfa" stroke="#6ba4d1" stroke-width="1.4"/>
+  <text x="76" y="166" text-anchor="middle" class="label" fill="#315f82">1</text>
+  <text x="106" y="167" class="head">Scene Planning</text>
+
+  <rect x="78" y="194" width="352" height="58" rx="12" fill="#e8f2fc" class="node"/>
+  <text x="254" y="230" text-anchor="middle" class="label">User Request Contract</text>
+  <path d="M254 253 V272" class="flow"/>
+
+  <rect x="78" y="278" width="352" height="62" rx="12" fill="#e8f2fc" class="node"/>
+  <text x="254" y="316" text-anchor="middle" class="label">Scene Design & Source Feasibility</text>
+  <path d="M254 341 V360" class="flow"/>
+
+  <rect x="78" y="366" width="352" height="70" rx="12" fill="#e8f2fc" class="node"/>
+  <text x="254" y="396" text-anchor="middle" class="label">Object Decomposition</text>
+  <text x="254" y="420" text-anchor="middle" class="small">Functional binding & component bounds</text>
+  <path d="M254 437 V456" class="flow"/>
+
+  <rect x="78" y="462" width="352" height="70" rx="12" fill="#e8f2fc" class="node"/>
+  <text x="254" y="492" text-anchor="middle" class="label">Spatial Plan</text>
+  <text x="254" y="516" text-anchor="middle" class="small">Activity zones, furniture layout, circulation</text>
+  <text x="254" y="576" text-anchor="middle" class="small" fill="#376b91">Activity → Objects → Layout</text>
+
+  <circle cx="542" cy="160" r="18" fill="#e4f4ea" stroke="#78b890" stroke-width="1.4"/>
+  <text x="542" y="166" text-anchor="middle" class="label" fill="#397254">2</text>
+  <text x="572" y="167" class="head">Object Modeling & Asset Acquisition</text>
+
+  <rect x="546" y="205" width="348" height="60" rx="12" fill="#e9f5ee" class="node"/>
+  <text x="720" y="241" text-anchor="middle" class="label">Component Recipes</text>
+  <path d="M720 266 V286 H630 V306" class="flow"/>
+  <path d="M720 286 H810 V306" class="flow"/>
+
+  <rect x="536" y="312" width="188" height="154" rx="14" fill="#e8f3fd" stroke="#77acd2" stroke-width="1.4"/>
+  <text x="630" y="352" text-anchor="middle" class="label">Parametric Parts</text>
+  <path d="M568 370 H692" stroke="#9db6c9" stroke-width="1.2"/>
+  <text x="630" y="407" text-anchor="middle" class="label" fill="#376b91">aDSL modeling</text>
+  <text x="630" y="437" text-anchor="middle" class="small">Editable structure</text>
+
+  <rect x="716" y="312" width="188" height="154" rx="14" fill="#fff2df" stroke="#dfad69" stroke-width="1.4"/>
+  <text x="810" y="352" text-anchor="middle" class="label">Rigid Objects</text>
+  <path d="M748 370 H872" stroke="#c8ad88" stroke-width="1.2"/>
+  <text x="810" y="407" text-anchor="middle" class="label" fill="#9d6827">Asset retrieval</text>
+  <text x="810" y="437" text-anchor="middle" class="small">or reuse existing assets</text>
+
+  <path d="M630 467 V493 H720 V508" class="flow"/>
+  <path d="M810 467 V493 H720" fill="none" stroke="#376b91" stroke-width="2.2"/>
+  <rect x="566" y="514" width="308" height="68" rx="12" fill="#eef7f2" stroke="#80b697" stroke-width="1.3"/>
+  <text x="720" y="543" text-anchor="middle" class="label">Keep sizes & part interfaces</text>
+  <text x="720" y="565" text-anchor="middle" class="small">Support, mounting, parent-child</text>
+
+  <circle cx="1008" cy="160" r="18" fill="#e3f3e9" stroke="#73b48b" stroke-width="1.4"/>
+  <text x="1008" y="166" text-anchor="middle" class="label" fill="#397254">3</text>
+  <text x="1038" y="167" class="head">Assembly & Quality Review</text>
+
+  <rect x="1014" y="194" width="344" height="52" rx="12" fill="#e7f5ec" class="node"/>
+  <text x="1186" y="227" text-anchor="middle" class="label">Asset provenance review</text>
+  <path d="M1186 247 V262" class="flow"/>
+
+  <rect x="1014" y="268" width="344" height="58" rx="12" fill="#e7f5ec" class="node"/>
+  <text x="1186" y="303" text-anchor="middle" class="label">Scene assembly & param evaluation</text>
+  <path d="M1186 327 V342" class="flow"/>
+
+  <rect x="1014" y="348" width="344" height="58" rx="12" fill="#e7f5ec" class="node"/>
+  <text x="1186" y="383" text-anchor="middle" class="label">Blender geometry measurement</text>
+  <path d="M1186 407 V422" class="flow"/>
+
+  <rect x="1014" y="428" width="344" height="64" rx="12" fill="#e7f5ec" class="node"/>
+  <text x="1186" y="456" text-anchor="middle" class="label">Spatial review & visual Judge</text>
+  <text x="1186" y="478" text-anchor="middle" class="small">Circulation · Collision · Appearance</text>
+  <path d="M1186 493 V508" class="flow"/>
+
+  <rect x="1014" y="514" width="344" height="62" rx="12" fill="#e1f3e8" stroke="#65a981" stroke-width="1.5"/>
+  <text x="1186" y="541" text-anchor="middle" class="label" fill="#28764e">All checks passed?</text>
+  <text x="1186" y="562" text-anchor="middle" class="small" fill="#28764e">Geometry · Spatial · Visual</text>
+
+  <!-- Main forward arrows -->
+  <path d="M468 382 H500" class="flow"/>
+  <path d="M934 382 H966" class="flow"/>
+
+  <!-- Failure feedback -->
+  <rect x="42" y="725" width="872" height="140" rx="16" fill="#fff5f4" stroke="#db8c8c" stroke-width="1.5"/>
+  <text x="478" y="762" text-anchor="middle" class="head" fill="#a74444">Failed: structured diagnosis → targeted repair → bounded re-check</text>
+  <text x="478" y="789" text-anchor="middle" class="small">Keep verified results; return to scene planning or object modeling as the problem dictates</text>
+  <path d="M260 725 V659" class="loop"/>
+  <path d="M700 725 V659" class="loop"/>
+
+  <!-- Validation branches: pass or repair -->
+  <path d="M1186 578 V697" fill="none" stroke="#27835f" stroke-width="2.2"/>
+  <path d="M1186 697 H1186 V716" fill="none" stroke="#27835f" stroke-width="2.2" marker-end="url(#arrow-green)"/>
+  <path d="M1014 546 H954 V793 H920" class="loop"/>
+  <text x="965" y="681" text-anchor="end" class="small" fill="#b34b4b">Failed</text>
+
+  <!-- Accepted output -->
+  <rect x="974" y="725" width="424" height="140" rx="16" fill="#f0faf3" stroke="#78b990" stroke-width="1.5"/>
+  <text x="1186" y="758" text-anchor="middle" class="head" fill="#28764e">Accepted on pass</text>
+  <text x="1186" y="786" text-anchor="middle" class="label">Editable 3D scene</text>
+  <path d="M1012 801 H1360" stroke="#bdd9c7" stroke-width="1.2"/>
+  <text x="1186" y="829" text-anchor="middle" class="small">Blender scene　·　GLB / aDSL　·　Review report</text>
+
+  <!-- Inter-stage labels -->
+  <text x="484" y="366" text-anchor="middle" class="tiny" fill="#376b91">Plan</text>
+  <text x="950" y="366" text-anchor="middle" class="tiny" fill="#376b91">Components</text>
+</svg>

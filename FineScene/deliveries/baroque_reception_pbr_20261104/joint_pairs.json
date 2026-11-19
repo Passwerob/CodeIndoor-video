@@ -1,0 +1,452 @@
+[
+ [
+  "arm_0",
+  "bobeche_0",
+  "arm-to-bobeche 0"
+ ],
+ [
+  "arm_0",
+  "crystal_0_0",
+  "crystal hanger 0"
+ ],
+ [
+  "bobeche_0",
+  "candle_0_stick",
+  "bobeche-to-candle 0"
+ ],
+ [
+  "crystal_0_0",
+  "crystal_0_1",
+  "crystal chain 0/0"
+ ],
+ [
+  "crystal_0_1",
+  "crystal_0_2",
+  "crystal chain 0/1"
+ ],
+ [
+  "crystal_0_2",
+  "crystal_0_3",
+  "crystal chain 0/2"
+ ],
+ [
+  "arm_1.004",
+  "bobeche_1",
+  "arm-to-bobeche 1"
+ ],
+ [
+  "arm_1.004",
+  "crystal_1_0",
+  "crystal hanger 1"
+ ],
+ [
+  "bobeche_1",
+  "candle_1_stick",
+  "bobeche-to-candle 1"
+ ],
+ [
+  "crystal_1_0",
+  "crystal_1_1",
+  "crystal chain 1/0"
+ ],
+ [
+  "crystal_1_1",
+  "crystal_1_2",
+  "crystal chain 1/1"
+ ],
+ [
+  "crystal_1_2",
+  "crystal_1_3",
+  "crystal chain 1/2"
+ ],
+ [
+  "arm_2",
+  "bobeche_2",
+  "arm-to-bobeche 2"
+ ],
+ [
+  "arm_2",
+  "crystal_2_0",
+  "crystal hanger 2"
+ ],
+ [
+  "bobeche_2",
+  "candle_2_stick",
+  "bobeche-to-candle 2"
+ ],
+ [
+  "crystal_2_0",
+  "crystal_2_1",
+  "crystal chain 2/0"
+ ],
+ [
+  "crystal_2_1",
+  "crystal_2_2",
+  "crystal chain 2/1"
+ ],
+ [
+  "crystal_2_2",
+  "crystal_2_3",
+  "crystal chain 2/2"
+ ],
+ [
+  "arm_3",
+  "bobeche_3",
+  "arm-to-bobeche 3"
+ ],
+ [
+  "arm_3",
+  "crystal_3_0",
+  "crystal hanger 3"
+ ],
+ [
+  "bobeche_3",
+  "candle_3_stick",
+  "bobeche-to-candle 3"
+ ],
+ [
+  "crystal_3_0",
+  "crystal_3_1",
+  "crystal chain 3/0"
+ ],
+ [
+  "crystal_3_1",
+  "crystal_3_2",
+  "crystal chain 3/1"
+ ],
+ [
+  "crystal_3_2",
+  "crystal_3_3",
+  "crystal chain 3/2"
+ ],
+ [
+  "arm_4",
+  "bobeche_4",
+  "arm-to-bobeche 4"
+ ],
+ [
+  "arm_4",
+  "crystal_4_0",
+  "crystal hanger 4"
+ ],
+ [
+  "bobeche_4",
+  "candle_4_stick",
+  "bobeche-to-candle 4"
+ ],
+ [
+  "crystal_4_0",
+  "crystal_4_1",
+  "crystal chain 4/0"
+ ],
+ [
+  "crystal_4_1",
+  "crystal_4_2",
+  "crystal chain 4/1"
+ ],
+ [
+  "crystal_4_2",
+  "crystal_4_3",
+  "crystal chain 4/2"
+ ],
+ [
+  "arm_5",
+  "bobeche_5",
+  "arm-to-bobeche 5"
+ ],
+ [
+  "arm_5",
+  "crystal_5_0",
+  "crystal hanger 5"
+ ],
+ [
+  "bobeche_5",
+  "candle_5_stick",
+  "bobeche-to-candle 5"
+ ],
+ [
+  "crystal_5_0",
+  "crystal_5_1",
+  "crystal chain 5/0"
+ ],
+ [
+  "crystal_5_1",
+  "crystal_5_2",
+  "crystal chain 5/1"
+ ],
+ [
+  "crystal_5_2",
+  "crystal_5_3",
+  "crystal chain 5/2"
+ ],
+ [
+  "festoon_0",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_1",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_2",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_3",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_4",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_5",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_6",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_7",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_8",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "festoon_9",
+  "chandelier_bowl",
+  "festoon anchor"
+ ],
+ [
+  "sconce_-1_-2.55_arm_-1",
+  "sconce_-1_-2.55_candle_-1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_-1_-2.55_arm_-1",
+  "sconce_-1_-2.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_-1_-2.55_arm_1",
+  "sconce_-1_-2.55_candle_1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_-1_-2.55_arm_1",
+  "sconce_-1_-2.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_-1_1.55_arm_-1",
+  "sconce_-1_1.55_candle_-1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_-1_1.55_arm_-1",
+  "sconce_-1_1.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_-1_1.55_arm_1",
+  "sconce_-1_1.55_candle_1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_-1_1.55_arm_1",
+  "sconce_-1_1.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_1_-2.55_arm_-1",
+  "sconce_1_-2.55_candle_-1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_1_-2.55_arm_-1",
+  "sconce_1_-2.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_1_-2.55_arm_1",
+  "sconce_1_-2.55_candle_1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_1_-2.55_arm_1",
+  "sconce_1_-2.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_1_1.55_arm_-1",
+  "sconce_1_1.55_candle_-1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_1_1.55_arm_-1",
+  "sconce_1_1.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "sconce_1_1.55_arm_1",
+  "sconce_1_1.55_candle_1_stick",
+  "sconce arm to candle"
+ ],
+ [
+  "sconce_1_1.55_arm_1",
+  "sconce_1_1.55_plate",
+  "sconce arm root"
+ ],
+ [
+  "candelabrum_-1_branch_0",
+  "candelabrum_-1_candle_0_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_-1_branch_0",
+  "candelabrum_-1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_-1_branch_1",
+  "candelabrum_-1_candle_1_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_-1_branch_1",
+  "candelabrum_-1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_-1_branch_2",
+  "candelabrum_-1_candle_2_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_-1_branch_2",
+  "candelabrum_-1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_-1_branch_3",
+  "candelabrum_-1_candle_3_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_-1_branch_3",
+  "candelabrum_-1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_-1_branch_4",
+  "candelabrum_-1_candle_4_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_-1_branch_4",
+  "candelabrum_-1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_1_branch_0",
+  "candelabrum_1_candle_0_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_1_branch_0",
+  "candelabrum_1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_1_branch_1",
+  "candelabrum_1_candle_1_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_1_branch_1",
+  "candelabrum_1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_1_branch_2",
+  "candelabrum_1_candle_2_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_1_branch_2",
+  "candelabrum_1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_1_branch_3",
+  "candelabrum_1_candle_3_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_1_branch_3",
+  "candelabrum_1_stem",
+  "branch root"
+ ],
+ [
+  "candelabrum_1_branch_4",
+  "candelabrum_1_candle_4_stick",
+  "branch to candle"
+ ],
+ [
+  "candelabrum_1_branch_4",
+  "candelabrum_1_stem",
+  "branch root"
+ ],
+ [
+  "top",
+  "finial",
+  "gueridon_west top-to-finial"
+ ],
+ [
+  "top",
+  "leg_0",
+  "gueridon_west top-to-leg"
+ ],
+ [
+  "top",
+  "leg_1",
+  "gueridon_west top-to-leg"
+ ],
+ [
+  "top",
+  "leg_2",
+  "gueridon_west top-to-leg"
+ ],
+ [
+  "top.001",
+  "finial.001",
+  "gueridon_east top-to-finial"
+ ],
+ [
+  "top.001",
+  "leg_0.001",
+  "gueridon_east top-to-leg"
+ ],
+ [
+  "top.001",
+  "leg_1.001",
+  "gueridon_east top-to-leg"
+ ],
+ [
+  "top.001",
+  "leg_2.001",
+  "gueridon_east top-to-leg"
+ ]
+]

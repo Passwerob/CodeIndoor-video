@@ -1,0 +1,32 @@
+# One virtual environment for the whole repository (.venv at the repo root).
+#
+#   python env/setup_env.py            # creates .venv, installs this file, checks Blender
+#   # or by hand:
+#   python -m venv .venv && .venv/Scripts/pip install -r requirements.txt   (Windows)
+#   python -m venv .venv && .venv/bin/pip install -r requirements.txt       (Linux/macOS)
+#
+# Python 3.10+ (3.11-3.13 tested). Blender scripts do NOT use this venv: they run
+# in Blender's bundled Python and put aDSL/adsl-core on sys.path themselves.
+# Not included on purpose:
+#   * sources/ (SceneCode snapshot): pins py3.11 + torch + bpy 4.5, see env/prepare_local.py
+#   * TRELLIS / SAM3 / Any4D (geometry/, FineScene TRELLIS stage): separate GPU venvs,
+#     located through TRELLIS_PYTHON / RESEARCH_ROOT in runtime/.env
+
+# --- aDSL, installed from this checkout (editable) ---
+-e ./aDSL/adsl-core[mesh]       # package adsl.core (+ trimesh, scikit-image, yourdfpy)
+-e ./aDSL                       # package adsl.agents / adsl.chat (openai, openai-agents, pydantic, PyYAML, httpx)
+
+# --- adsl_adapter: video pipeline, layout, forge ---
+-r requirements-video.txt       # opencv-python, numpy
+Pillow>=10
+scipy>=1.11
+imageio-ffmpeg>=0.5
+
+# --- FineScene ---
+pydantic>=2.10,<3
+httpx>=0.27
+trimesh>=4
+-r FineScene/requirements-layout.txt   # z3-solver (optional numeric backend of the layout solver)
+
+# --- tests ---
+pytest>=8

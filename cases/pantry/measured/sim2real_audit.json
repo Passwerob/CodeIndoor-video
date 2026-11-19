@@ -1,0 +1,258 @@
+{
+ "failures": 0,
+ "objects": {
+  "base_cabinet_run": {
+   "front": "west",
+   "front_from_parts": "west",
+   "front_clear_m": 1.5,
+   "joints": [
+    {
+     "id": "joint_door_4",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "door_4_push_latch",
+     "type": "press",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_3",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "door_3_push_latch",
+     "type": "press",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_2",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "door_2_push_latch",
+     "type": "press",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_1",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "door_1_push_latch",
+     "type": "press",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "detergent_bottle": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 1.45,
+   "joints": [
+    {
+     "id": "pump_collar_joint",
+     "type": "continuous",
+     "env_limit": 1.0
+    },
+    {
+     "id": "pump_press_joint",
+     "type": "press",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "dustpan_and_brush": {
+   "front": "east",
+   "front_from_parts": null,
+   "front_clear_m": 1.27,
+   "joints": [],
+   "failures": []
+  },
+  "faucet": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 1.8,
+   "joints": [
+    {
+     "id": "spout_swivel",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "lever_temperature",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "lever_flow",
+     "type": "revolute",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "fridge": {
+   "front": "west",
+   "front_from_parts": "west",
+   "front_clear_m": 1.42,
+   "joints": [
+    {
+     "id": "j_upper_right_door",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "j_upper_left_door",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "j_lower_drawer_2",
+     "type": "prismatic",
+     "env_limit": 1.0
+    },
+    {
+     "id": "j_lower_drawer_1",
+     "type": "prismatic",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "fridge_housing": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 1.41,
+   "joints": [],
+   "failures": []
+  },
+  "microwave": {
+   "front": "west",
+   "front_from_parts": "west",
+   "front_clear_m": 1.58,
+   "joints": [
+    {
+     "id": "turntable_joint",
+     "type": "continuous",
+     "env_limit": 1.0
+    },
+    {
+     "id": "door_hinge",
+     "type": "revolute",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "pink_bucket": {
+   "front": "south",
+   "front_from_parts": null,
+   "front_clear_m": 4.21,
+   "joints": [],
+   "failures": []
+  },
+  "plant_1": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 0.0,
+   "joints": [],
+   "failures": []
+  },
+  "plant_2": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 1.06,
+   "joints": [],
+   "failures": []
+  },
+  "sink": {
+   "front": "west",
+   "front_from_parts": null,
+   "front_clear_m": 1.09,
+   "joints": [
+    {
+     "id": "strainer_lift_joint",
+     "type": "prismatic",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "trash_bin_1": {
+   "front": "east",
+   "front_from_parts": null,
+   "front_clear_m": 1.08,
+   "joints": [
+    {
+     "id": "lid_hinge",
+     "type": "revolute",
+     "env_limit": 0.9
+    },
+    {
+     "id": "flap_hinge",
+     "type": "revolute",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "wall_cabinet_run": {
+   "front": "west",
+   "front_from_parts": "west",
+   "front_clear_m": 1.55,
+   "joints": [
+    {
+     "id": "joint_door_6",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_5",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_4",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_3",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_2",
+     "type": "revolute",
+     "env_limit": 1.0
+    },
+    {
+     "id": "joint_door_1",
+     "type": "revolute",
+     "env_limit": 1.0
+    }
+   ],
+   "failures": []
+  },
+  "water_dispenser": {
+   "front": "south",
+   "front_from_parts": "south",
+   "front_clear_m": 3.65,
+   "joints": [],
+   "failures": []
+  },
+  "wet_floor_sign": {
+   "front": "south",
+   "front_from_parts": null,
+   "front_clear_m": 1.39,
+   "joints": [],
+   "failures": []
+  }
+ }
+}

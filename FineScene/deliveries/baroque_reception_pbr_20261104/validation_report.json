@@ -1,0 +1,114 @@
+{
+  "blend": "baroque_reception.blend",
+  "checks": {
+    "collection_has_root": {
+      "passed": true,
+      "missing": []
+    },
+    "unique_datablocks": {
+      "passed": true,
+      "shared": []
+    },
+    "adsl_custom_properties": {
+      "passed": true,
+      "missing": []
+    },
+    "pbr_node_chains": {
+      "passed": true,
+      "materials": {
+        "PBR_boiserie_dark": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_boiserie_walnut": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_damask_crimson": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 4
+        },
+        "PBR_floor_parquet": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_furniture_rosewood": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_gilded_bronze": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_marble_cream": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_relief_plaster": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_stucco_white": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        },
+        "PBR_velvet_crimson": {
+          "passed": true,
+          "base_color_linked": true,
+          "roughness_linked": true,
+          "normal_linked": true,
+          "texture_nodes": 5
+        }
+      }
+    },
+    "single_part_edit_isolation": {
+      "passed": true,
+      "part": "arm_-1",
+      "self_shift_m": 0.3,
+      "max_other_shift_m": 0.0
+    },
+    "whole_object_edit_isolation": {
+      "passed": true,
+      "own_parts": 35,
+      "min_own_shift_m": 0.4,
+      "max_other_shift_m": 0.0
+    }
+  },
+  "counts": {
+    "editable_objects": 19,
+    "empty_roots": 19,
+    "independent_parts": 1170,
+    "materials": 18,
+    "packed_images": 50,
+    "file_images": 50
+  },
+  "all_passed": true,
+  "provenance": "direct parametric aDSL + real Poly Haven CC0 PBR; NO TRELLIS; NOT a FineScene Agent run"
+}

@@ -1,0 +1,1329 @@
+{
+ "origins": [
+  {
+   "object": "base_cabinet_run",
+   "origin": [
+    0.757,
+    1.05,
+    0.0
+   ],
+   "footprint_centre": [
+    0.778,
+    1.05
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.021,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "detergent_bottle",
+   "origin": [
+    0.975,
+    1.62,
+    0.891
+   ],
+   "footprint_centre": [
+    0.975,
+    1.62
+   ],
+   "bottom_z": 0.891,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "dustpan_and_brush",
+   "origin": [
+    -0.934,
+    0.398,
+    0.0
+   ],
+   "footprint_centre": [
+    -0.919,
+    0.398
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.016,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "faucet",
+   "origin": [
+    0.955,
+    1.35,
+    0.891
+   ],
+   "footprint_centre": [
+    0.955,
+    1.35
+   ],
+   "bottom_z": 0.891,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "fridge",
+   "origin": [
+    0.687,
+    -0.37,
+    0.0
+   ],
+   "footprint_centre": [
+    0.714,
+    -0.369
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.027,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "fridge_housing",
+   "origin": [
+    0.704,
+    -0.377,
+    0.0
+   ],
+   "footprint_centre": [
+    0.704,
+    -0.377
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "microwave",
+   "origin": [
+    0.763,
+    0.324,
+    0.891
+   ],
+   "footprint_centre": [
+    0.764,
+    0.324
+   ],
+   "bottom_z": 0.891,
+   "off_centre_m": 0.001,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "pink_bucket",
+   "origin": [
+    -0.43,
+    2.12,
+    0.0
+   ],
+   "footprint_centre": [
+    -0.43,
+    2.12
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "plant_1",
+   "origin": [
+    0.955,
+    1.975,
+    0.891
+   ],
+   "footprint_centre": [
+    0.955,
+    1.975
+   ],
+   "bottom_z": 0.891,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "plant_2",
+   "origin": [
+    0.654,
+    1.873,
+    0.891
+   ],
+   "footprint_centre": [
+    0.657,
+    1.878
+   ],
+   "bottom_z": 0.891,
+   "off_centre_m": 0.006,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "sink",
+   "origin": [
+    0.72,
+    1.42,
+    0.605
+   ],
+   "footprint_centre": [
+    0.72,
+    1.42
+   ],
+   "bottom_z": 0.605,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "trash_bin_1",
+   "origin": [
+    -0.885,
+    -0.103,
+    0.0
+   ],
+   "footprint_centre": [
+    -0.885,
+    -0.103
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "wall_cabinet_run",
+   "origin": [
+    0.78,
+    0.667,
+    1.64
+   ],
+   "footprint_centre": [
+    0.78,
+    0.667
+   ],
+   "bottom_z": 1.64,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "water_dispenser",
+   "origin": [
+    -0.721,
+    1.587,
+    0.0
+   ],
+   "footprint_centre": [
+    -0.721,
+    1.587
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  },
+  {
+   "object": "wet_floor_sign",
+   "origin": [
+    -0.274,
+    -0.813,
+    0.0
+   ],
+   "footprint_centre": [
+    -0.274,
+    -0.813
+   ],
+   "bottom_z": 0.0,
+   "off_centre_m": 0.0,
+   "origin_above_bottom_m": 0.0,
+   "ok": true
+  }
+ ],
+ "pivots": [
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_1_push_latch",
+   "type": "press",
+   "pivot": [
+    0.484,
+    1.822,
+    0.444
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.001,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_2_push_latch",
+   "type": "press",
+   "pivot": [
+    0.484,
+    1.307,
+    0.444
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.001,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_3_push_latch",
+   "type": "press",
+   "pivot": [
+    0.484,
+    0.793,
+    0.444
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.001,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_4_push_latch",
+   "type": "press",
+   "pivot": [
+    0.483,
+    0.278,
+    0.444
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.001,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "microwave",
+   "joint": "door_hinge",
+   "type": "revolute",
+   "pivot": [
+    0.527,
+    0.616,
+    1.021
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.103,
+    0.001,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "trash_bin_1",
+   "joint": "flap_hinge",
+   "type": "revolute",
+   "pivot": [
+    -0.734,
+    -0.103,
+    0.722
+   ],
+   "axis_world": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "max",
+    "y": "centre",
+    "z": "max"
+   },
+   "hinge_edge": "top",
+   "open_move_m": [
+    -0.011,
+    0.0,
+    0.006
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "fridge",
+   "joint": "j_lower_drawer_1",
+   "type": "prismatic",
+   "pivot": [
+    0.657,
+    -0.37,
+    0.4
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    -0.149,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "fridge",
+   "joint": "j_lower_drawer_2",
+   "type": "prismatic",
+   "pivot": [
+    0.657,
+    -0.37,
+    0.147
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    -0.149,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "fridge",
+   "joint": "j_upper_left_door",
+   "type": "revolute",
+   "pivot": [
+    0.372,
+    -0.02,
+    0.95
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.104,
+    0.013,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "fridge",
+   "joint": "j_upper_right_door",
+   "type": "revolute",
+   "pivot": [
+    0.372,
+    -0.72,
+    0.95
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.104,
+    -0.013,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_1",
+   "type": "revolute",
+   "pivot": [
+    0.475,
+    2.078,
+    0.444
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.129,
+    0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_1",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    -0.746,
+    2.169
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.093,
+    -0.02,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_2",
+   "type": "revolute",
+   "pivot": [
+    0.475,
+    1.051,
+    0.444
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.129,
+    -0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_2",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    -0.007,
+    2.169
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.093,
+    0.02,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_3",
+   "type": "revolute",
+   "pivot": [
+    0.475,
+    1.048,
+    0.444
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.129,
+    0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_3",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    0.022,
+    2.099
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.129,
+    -0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_4",
+   "type": "revolute",
+   "pivot": [
+    0.474,
+    0.022,
+    0.444
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.129,
+    -0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_4",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    1.05,
+    2.099
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.129,
+    0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_5",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    1.053,
+    2.099
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "min",
+    "z": "centre"
+   },
+   "hinge_edge": "right",
+   "open_move_m": [
+    -0.129,
+    -0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_6",
+   "type": "revolute",
+   "pivot": [
+    0.5,
+    2.08,
+    2.099
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "max",
+    "z": "centre"
+   },
+   "hinge_edge": "left",
+   "open_move_m": [
+    -0.129,
+    0.03,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "faucet",
+   "joint": "lever_flow",
+   "type": "revolute",
+   "pivot": [
+    0.955,
+    1.375,
+    0.979
+   ],
+   "axis_world": [
+    -0.0,
+    -1.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "max",
+    "y": "0.30",
+    "z": "0.82"
+   },
+   "hinge_edge": "back",
+   "open_move_m": [
+    -0.001,
+    0.0,
+    0.01
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "faucet",
+   "joint": "lever_temperature",
+   "type": "revolute",
+   "pivot": [
+    0.955,
+    1.35,
+    0.976
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "max",
+    "y": "min",
+    "z": "0.75"
+   },
+   "hinge_edge": "center",
+   "open_move_m": [
+    -0.007,
+    -0.011,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "trash_bin_1",
+   "joint": "lid_hinge",
+   "type": "revolute",
+   "pivot": [
+    -1.049,
+    -0.103,
+    0.756
+   ],
+   "axis_world": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "pivot_on_box": {
+    "x": "min",
+    "y": "centre",
+    "z": "max"
+   },
+   "hinge_edge": "back",
+   "open_move_m": [
+    0.055,
+    0.0,
+    0.071
+   ],
+   "env_fraction": 0.9,
+   "verdict": "ok"
+  },
+  {
+   "object": "detergent_bottle",
+   "joint": "pump_collar_joint",
+   "type": "continuous",
+   "pivot": [
+    0.963,
+    1.64,
+    1.136
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "0.79",
+    "y": "centre",
+    "z": "min"
+   },
+   "hinge_edge": "center",
+   "open_move_m": [
+    0.028,
+    -0.023,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "detergent_bottle",
+   "joint": "pump_press_joint",
+   "type": "press",
+   "pivot": [
+    0.938,
+    1.64,
+    1.183
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.0,
+    0.0,
+    -0.006
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "faucet",
+   "joint": "spout_swivel",
+   "type": "revolute",
+   "pivot": [
+    0.955,
+    1.35,
+    1.021
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "max",
+    "y": "centre",
+    "z": "min"
+   },
+   "hinge_edge": "center",
+   "open_move_m": [
+    0.01,
+    -0.044,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "sink",
+   "joint": "strainer_lift_joint",
+   "type": "prismatic",
+   "pivot": [
+    0.72,
+    1.42,
+    0.625
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": null,
+   "open_move_m": [
+    0.0,
+    0.0,
+    0.015
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  },
+  {
+   "object": "microwave",
+   "joint": "turntable_joint",
+   "type": "continuous",
+   "pivot": [
+    0.731,
+    0.387,
+    0.948
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pivot_on_box": {
+    "x": "centre",
+    "y": "centre",
+    "z": "centre"
+   },
+   "hinge_edge": "center",
+   "open_move_m": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "env_fraction": 1.0,
+   "verdict": "ok"
+  }
+ ],
+ "static": [
+  {
+   "a": "bottle_body",
+   "a_obj": "detergent_bottle",
+   "b": "carry_handle",
+   "b_obj": "detergent_bottle",
+   "depth_m": 0.0121,
+   "points": 14,
+   "same_object": true
+  },
+  {
+   "a": "brush_grip",
+   "a_obj": "dustpan_and_brush",
+   "b": "brush_grip_flag",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0094,
+   "points": 2,
+   "same_object": true
+  },
+  {
+   "a": "brush_grip",
+   "a_obj": "dustpan_and_brush",
+   "b": "brush_handle_shaft",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0056,
+   "points": 2,
+   "same_object": true
+  },
+  {
+   "a": "brush_grip_flag",
+   "a_obj": "dustpan_and_brush",
+   "b": "brush_handle_shaft",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0063,
+   "points": 3,
+   "same_object": true
+  },
+  {
+   "a": "brush_rest_clip",
+   "a_obj": "dustpan_and_brush",
+   "b": "pan_handle_shaft",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0059,
+   "points": 5,
+   "same_object": true
+  },
+  {
+   "a": "cloth",
+   "a_obj": "pink_bucket",
+   "b": "rim_roll",
+   "b_obj": "pink_bucket",
+   "depth_m": 0.0054,
+   "points": 22,
+   "same_object": true
+  },
+  {
+   "a": "drain_hose",
+   "a_obj": "water_dispenser",
+   "b": "front_lower_panel",
+   "b_obj": "water_dispenser",
+   "depth_m": 0.0063,
+   "points": 3,
+   "same_object": true
+  },
+  {
+   "a": "lever_handle",
+   "a_obj": "faucet",
+   "b": "lever_stem",
+   "b_obj": "faucet",
+   "depth_m": 0.0056,
+   "points": 2,
+   "same_object": true
+  },
+  {
+   "a": "pan_body_hood",
+   "a_obj": "dustpan_and_brush",
+   "b": "pan_handle_shaft",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0088,
+   "points": 11,
+   "same_object": true
+  },
+  {
+   "a": "pan_grip",
+   "a_obj": "dustpan_and_brush",
+   "b": "pan_handle_shaft",
+   "b_obj": "dustpan_and_brush",
+   "depth_m": 0.0125,
+   "points": 2,
+   "same_object": true
+  },
+  {
+   "a": "pump_head",
+   "a_obj": "detergent_bottle",
+   "b": "pump_head_spout",
+   "b_obj": "detergent_bottle",
+   "depth_m": 0.007,
+   "points": 5,
+   "same_object": true
+  }
+ ],
+ "motion": [
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_1_push_latch",
+   "type": "press",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_2_push_latch",
+   "type": "press",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_3_push_latch",
+   "type": "press",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "door_4_push_latch",
+   "type": "press",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "microwave",
+   "joint": "door_hinge",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "trash_bin_1",
+   "joint": "flap_hinge",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "fridge",
+   "joint": "j_lower_drawer_1",
+   "type": "prismatic",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "fridge",
+   "joint": "j_lower_drawer_2",
+   "type": "prismatic",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "fridge",
+   "joint": "j_upper_left_door",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "fridge",
+   "joint": "j_upper_right_door",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_1",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_1",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_2",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_2",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_3",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_3",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "base_cabinet_run",
+   "joint": "joint_door_4",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_4",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_5",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "wall_cabinet_run",
+   "joint": "joint_door_6",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "faucet",
+   "joint": "lever_flow",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "faucet",
+   "joint": "lever_temperature",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "trash_bin_1",
+   "joint": "lid_hinge",
+   "type": "revolute",
+   "env_fraction": 0.9,
+   "collisions": []
+  },
+  {
+   "object": "detergent_bottle",
+   "joint": "pump_collar_joint",
+   "type": "continuous",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "detergent_bottle",
+   "joint": "pump_press_joint",
+   "type": "press",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "faucet",
+   "joint": "spout_swivel",
+   "type": "revolute",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "sink",
+   "joint": "strainer_lift_joint",
+   "type": "prismatic",
+   "env_fraction": 1.0,
+   "collisions": []
+  },
+  {
+   "object": "microwave",
+   "joint": "turntable_joint",
+   "type": "continuous",
+   "env_fraction": 1.0,
+   "collisions": []
+  }
+ ]
+}

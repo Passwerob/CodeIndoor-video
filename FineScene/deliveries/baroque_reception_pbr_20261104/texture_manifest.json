@@ -1,0 +1,206 @@
+{
+  "source": "Poly Haven (https://polyhaven.com)",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://polyhaven.com/license",
+  "trellis_used": false,
+  "note": "Real scanned/photographed PBR texture sets. gilded_bronze uses metal_plate's real normal/roughness/AO maps with a gold metallic tint in the shader; no generated geometry and no TRELLIS.",
+  "materials": {
+    "floor_parquet": {
+      "asset_id": "herringbone_parquet",
+      "source_url": "https://polyhaven.com/a/herringbone_parquet",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/floor_parquet_diff.jpg",
+        "nor": "textures/floor_parquet_nor.jpg",
+        "rough": "textures/floor_parquet_rough.jpg",
+        "disp": "textures/floor_parquet_disp.jpg",
+        "ao": "textures/floor_parquet_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/herringbone_parquet/herringbone_parquet_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/herringbone_parquet/herringbone_parquet_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/herringbone_parquet/herringbone_parquet_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/herringbone_parquet/herringbone_parquet_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/herringbone_parquet/herringbone_parquet_ao_2k.jpg"
+      }
+    },
+    "boiserie_dark": {
+      "asset_id": "dark_wood",
+      "source_url": "https://polyhaven.com/a/dark_wood",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/boiserie_dark_diff.jpg",
+        "nor": "textures/boiserie_dark_nor.jpg",
+        "rough": "textures/boiserie_dark_rough.jpg",
+        "disp": "textures/boiserie_dark_disp.jpg",
+        "ao": "textures/boiserie_dark_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_wood/dark_wood_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_wood/dark_wood_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_wood/dark_wood_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_wood/dark_wood_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_wood/dark_wood_ao_2k.jpg"
+      }
+    },
+    "boiserie_walnut": {
+      "asset_id": "black_walnut_veneer_02",
+      "source_url": "https://polyhaven.com/a/black_walnut_veneer_02",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/boiserie_walnut_diff.jpg",
+        "nor": "textures/boiserie_walnut_nor.jpg",
+        "rough": "textures/boiserie_walnut_rough.jpg",
+        "disp": "textures/boiserie_walnut_disp.jpg",
+        "ao": "textures/boiserie_walnut_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/black_walnut_veneer_02/black_walnut_veneer_02_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/black_walnut_veneer_02/black_walnut_veneer_02_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/black_walnut_veneer_02/black_walnut_veneer_02_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/black_walnut_veneer_02/black_walnut_veneer_02_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/black_walnut_veneer_02/black_walnut_veneer_02_ao_2k.jpg"
+      }
+    },
+    "furniture_rosewood": {
+      "asset_id": "rosewood_veneer1",
+      "source_url": "https://polyhaven.com/a/rosewood_veneer1",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/furniture_rosewood_diff.jpg",
+        "nor": "textures/furniture_rosewood_nor.jpg",
+        "rough": "textures/furniture_rosewood_rough.jpg",
+        "disp": "textures/furniture_rosewood_disp.jpg",
+        "ao": "textures/furniture_rosewood_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rosewood_veneer1/rosewood_veneer1_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rosewood_veneer1/rosewood_veneer1_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rosewood_veneer1/rosewood_veneer1_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rosewood_veneer1/rosewood_veneer1_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rosewood_veneer1/rosewood_veneer1_ao_2k.jpg"
+      }
+    },
+    "marble_cream": {
+      "asset_id": "marble_01",
+      "source_url": "https://polyhaven.com/a/marble_01",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/marble_cream_diff.jpg",
+        "nor": "textures/marble_cream_nor.jpg",
+        "rough": "textures/marble_cream_rough.jpg",
+        "disp": "textures/marble_cream_disp.jpg",
+        "ao": "textures/marble_cream_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_ao_2k.jpg"
+      }
+    },
+    "velvet_crimson": {
+      "asset_id": "velour_velvet",
+      "source_url": "https://polyhaven.com/a/velour_velvet",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/velvet_crimson_diff.jpg",
+        "nor": "textures/velvet_crimson_nor.jpg",
+        "rough": "textures/velvet_crimson_rough.jpg",
+        "disp": "textures/velvet_crimson_disp.jpg",
+        "ao": "textures/velvet_crimson_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/velour_velvet/velour_velvet_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/velour_velvet/velour_velvet_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/velour_velvet/velour_velvet_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/velour_velvet/velour_velvet_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/velour_velvet/velour_velvet_ao_2k.jpg"
+      }
+    },
+    "damask_crimson": {
+      "asset_id": "quatrefoil_jacquard_fabric",
+      "source_url": "https://polyhaven.com/a/quatrefoil_jacquard_fabric",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/damask_crimson_diff.jpg",
+        "nor": "textures/damask_crimson_nor.jpg",
+        "rough": "textures/damask_crimson_rough.jpg",
+        "disp": "textures/damask_crimson_disp.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/quatrefoil_jacquard_fabric/quatrefoil_jacquard_fabric_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/quatrefoil_jacquard_fabric/quatrefoil_jacquard_fabric_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/quatrefoil_jacquard_fabric/quatrefoil_jacquard_fabric_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/quatrefoil_jacquard_fabric/quatrefoil_jacquard_fabric_disp_2k.jpg"
+      }
+    },
+    "stucco_white": {
+      "asset_id": "white_stucco",
+      "source_url": "https://polyhaven.com/a/white_stucco",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/stucco_white_diff.jpg",
+        "nor": "textures/stucco_white_nor.jpg",
+        "rough": "textures/stucco_white_rough.jpg",
+        "disp": "textures/stucco_white_disp.jpg",
+        "ao": "textures/stucco_white_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco/white_stucco_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco/white_stucco_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco/white_stucco_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco/white_stucco_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_stucco/white_stucco_ao_2k.jpg"
+      }
+    },
+    "gilded_bronze": {
+      "asset_id": "metal_plate",
+      "source_url": "https://polyhaven.com/a/metal_plate",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/gilded_bronze_diff.jpg",
+        "nor": "textures/gilded_bronze_nor.jpg",
+        "rough": "textures/gilded_bronze_rough.jpg",
+        "disp": "textures/gilded_bronze_disp.jpg",
+        "ao": "textures/gilded_bronze_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_ao_2k.jpg"
+      }
+    },
+    "relief_plaster": {
+      "asset_id": "patterned_clay_plaster",
+      "source_url": "https://polyhaven.com/a/patterned_clay_plaster",
+      "resolution": "2k",
+      "channels": {
+        "diff": "textures/relief_plaster_diff.jpg",
+        "nor": "textures/relief_plaster_nor.jpg",
+        "rough": "textures/relief_plaster_rough.jpg",
+        "disp": "textures/relief_plaster_disp.jpg",
+        "ao": "textures/relief_plaster_ao.jpg"
+      },
+      "source_urls": {
+        "diff": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/patterned_clay_plaster/patterned_clay_plaster_diff_2k.jpg",
+        "nor": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/patterned_clay_plaster/patterned_clay_plaster_nor_gl_2k.jpg",
+        "rough": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/patterned_clay_plaster/patterned_clay_plaster_rough_2k.jpg",
+        "disp": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/patterned_clay_plaster/patterned_clay_plaster_disp_2k.jpg",
+        "ao": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/patterned_clay_plaster/patterned_clay_plaster_ao_2k.jpg"
+      }
+    }
+  },
+  "environment": {
+    "asset_id": "ballroom",
+    "source_url": "https://polyhaven.com/a/ballroom",
+    "file": "textures/ballroom_1k.hdr",
+    "resolution": "1k",
+    "format": "HDR",
+    "license": "CC0 1.0 Universal",
+    "usage": "world environment / metal reflections"
+  }
+}

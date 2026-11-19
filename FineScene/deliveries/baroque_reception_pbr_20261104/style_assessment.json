@@ -1,0 +1,91 @@
+{
+  "scope": "self-assessment against the same visual criteria FineScene's Judge used on the 2026-10-23 Baroque runs",
+  "note": "This is an honest inventory, NOT a passed system visual Judge. No FineScene Agent run, no run_report.json, no accepted=true claim.",
+  "items": [
+    {
+      "requirement": "蛇形/S 形轮廓与弯腿",
+      "status": "achieved",
+      "evidence": "cabriole_leg(): 22-point swept tube with varying radius on sofas, chairs, table and gueridons"
+    },
+    {
+      "requirement": "涡卷 volute / C 形涡卷",
+      "status": "achieved",
+      "evidence": "Archimedean volute() on mirror corners, fireplace trusses, door pediment, arms, capitals, tapestry crests"
+    },
+    {
+      "requirement": "茛苕叶与叶饰浮雕",
+      "status": "partial",
+      "evidence": "acanthus_leaf(): real serrated extruded leaf meshes on capitals, crests and carpet; stylised, not dense sculpted relief"
+    },
+    {
+      "requirement": "科林斯凹槽柱与柱头",
+      "status": "achieved",
+      "evidence": "fluted_column(): radial cosine grooves + corinthian_capital(): two leaf rings, four volutes, abacus"
+    },
+    {
+      "requirement": "多层檐口与齿饰",
+      "status": "achieved",
+      "evidence": "three-step cornice + dentil_row() gilt dentils + gilt chair rail"
+    },
+    {
+      "requirement": "鎏金线脚与镀金高光",
+      "status": "achieved",
+      "evidence": "constant gold-leaf base with real metal normal/roughness/AO/height maps; warm candle points"
+    },
+    {
+      "requirement": "深红天鹅绒与织锦软包",
+      "status": "achieved",
+      "evidence": "velour_velvet + quatrefoil_jacquard_fabric CC0 PBR: diffuse/normal/roughness/height/AO, sheen tinted crimson"
+    },
+    {
+      "requirement": "人字拼地板与大理石",
+      "status": "achieved",
+      "evidence": "herringbone_parquet + marble_cream CC0 PBR with box projection and metre-scale tiling"
+    },
+    {
+      "requirement": "暗银镜与壁炉火光",
+      "status": "achieved",
+      "evidence": "aged silver mirror + dark firebox + emissive embers/flames + warm glow"
+    },
+    {
+      "requirement": "厚重窗帘与水晶吊灯",
+      "status": "achieved",
+      "evidence": "six-arm gilt chandelier with a real chained crystal string; ONE real Blender CLOTH-simulated drape per window side (pinned top edge, gravity, structural/shear/bending stiffness, air damping, 60 frames) baked into an independent aDSL part with a hidden pinned source for deterministic re-simulation. See E:/3DUse/DirectAgent/src/cloth_drape.py and cloth_simulation.json."
+    },
+    {
+      "requirement": "写实油画 / 高密度手工雕刻",
+      "status": "out_of_scope",
+      "evidence": "no TRELLIS and no retrieved sculpted meshes by request; tapestry panels carry damask, not oil paintings"
+    },
+    {
+      "requirement": "PBR 表面与真实环境反射",
+      "status": "achieved",
+      "evidence": "49 real 2K maps + ballroom 1K HDRI; every surface has diffuse/normal/roughness/height and AO where available"
+    }
+  ],
+  "summary": {
+    "achieved": 10,
+    "partial": 1,
+    "out_of_scope": 1
+  },
+  "geometric_integrity_20261104": {
+    "checker": "FineScene/src/part_integrity.py",
+    "source": "real world AABBs of every part (MESH + evaluated CURVE)",
+    "parts": 1170,
+    "declared_joints": 90,
+    "before_repair": {
+      "floating": 7,
+      "joint_gaps": 34,
+      "intersections": 33,
+      "blocking": 41
+    },
+    "after_repair": {
+      "floating": 0,
+      "joint_gaps": 0,
+      "intersections": 0,
+      "coplanar": 0,
+      "blocking": 0
+    },
+    "note": "before_repair was measured on the 1188-part build; the after_repair build has 1170 parts because five box drapes per side became one parametric mesh. See docs/composition_teaching_20261104.md"
+  }
+}

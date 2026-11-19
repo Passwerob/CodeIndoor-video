@@ -1,0 +1,6783 @@
+{
+  "schema": "adsl.relations.v1",
+  "parameters": {
+    "shelf_thickness": 0.032,
+    "bottom_shelf_top": 0.19,
+    "carcass_bottom": 0.16,
+    "bay_1_clearance": 0.368,
+    "bay_2_clearance": 0.368,
+    "bay_3_clearance": 0.368,
+    "bay_4_clearance": 0.4
+  },
+  "datums": {
+    "shelf_thickness": 0.032,
+    "bottom_shelf_top": 0.19,
+    "carcass_bottom": 0.16,
+    "bay_1_clearance": 0.368,
+    "bay_2_clearance": 0.368,
+    "bay_3_clearance": 0.368,
+    "bay_4_clearance": 0.4,
+    "shelf_1_top": 0.19,
+    "shelf_2_top": 0.5900000000000001,
+    "shelf_3_top": 0.9900000000000001,
+    "shelf_4_top": 1.3900000000000001,
+    "crown_seat": 1.79,
+    "overall_top": 1.847
+  },
+  "recipes": {
+    "walnut_carcass/side_left": {
+      "kind": "box",
+      "size": [
+        0.05,
+        0.35,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "carcass_bottom"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.58,
+        0.01,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/front_pilaster_left": {
+      "kind": "box",
+      "size": [
+        0.065,
+        0.065,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "carcass_bottom"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.583,
+        -0.168,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_bead_left-0.022": {
+      "kind": "box",
+      "size": [
+        0.007,
+        0.009,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "sub",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.605,
+        -0.204,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "carcass_bottom"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "sub",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "crown_seat"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_bead_left0.022": {
+      "kind": "box",
+      "size": [
+        0.007,
+        0.009,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "sub",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.5609999999999999,
+        -0.204,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "carcass_bottom"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "sub",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "crown_seat"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_foot_left": {
+      "kind": "box",
+      "size": [
+        0.085,
+        0.079,
+        0.075
+      ],
+      "center": [
+        -0.583,
+        -0.169,
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.0175
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "walnut_carcass/pilaster_capital_left": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "walnut_carcass/front_pilaster_left",
+      "anchor": "top",
+      "target_anchor": "top",
+      "offset": [
+        0,
+        -0.001,
+        -0.0025
+      ]
+    },
+    "walnut_carcass/side_right": {
+      "kind": "box",
+      "size": [
+        0.05,
+        0.35,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "carcass_bottom"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.58,
+        0.01,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/front_pilaster_right": {
+      "kind": "box",
+      "size": [
+        0.065,
+        0.065,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "carcass_bottom"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.583,
+        -0.168,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_bead_right-0.022": {
+      "kind": "box",
+      "size": [
+        0.007,
+        0.009,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "sub",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.5609999999999999,
+        -0.204,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "carcass_bottom"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "sub",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "crown_seat"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_bead_right0.022": {
+      "kind": "box",
+      "size": [
+        0.007,
+        0.009,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "sub",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "carcass_bottom"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    0.025
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.605,
+        -0.204,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "carcass_bottom"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "sub",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "args": [
+                        "crown_seat"
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "args": [
+                        0.025
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "walnut_carcass/pilaster_foot_right": {
+      "kind": "box",
+      "size": [
+        0.085,
+        0.079,
+        0.075
+      ],
+      "center": [
+        0.583,
+        -0.169,
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.0175
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "walnut_carcass/pilaster_capital_right": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "walnut_carcass/front_pilaster_right",
+      "anchor": "top",
+      "target_anchor": "top",
+      "offset": [
+        0,
+        -0.001,
+        -0.0025
+      ]
+    },
+    "paneled_back/back_board_0": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.4625,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "paneled_back/back_board_1": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.2775,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "paneled_back/back_board_2": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        -0.09249999999999997,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "paneled_back/back_board_3": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.09250000000000003,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "paneled_back/back_board_4": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.27749999999999997,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "paneled_back/back_board_5": {
+      "kind": "box",
+      "size": [
+        0.18300000000000002,
+        0.021,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "bottom_shelf_top"
+              ]
+            }
+          ]
+        }
+      ],
+      "center": [
+        0.4625,
+        0.178,
+        {
+          "op": "div",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "bottom_shelf_top"
+                  ]
+                },
+                {
+                  "op": "ref",
+                  "args": [
+                    "crown_seat"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                2.0
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ],
+      "relation": "span_between"
+    },
+    "plinth_and_feet/plinth_molding_0": {
+      "kind": "box",
+      "size": [
+        1.25,
+        0.405,
+        0.035
+      ],
+      "center": [
+        0,
+        -0.004,
+        0.0775
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/plinth_molding_1": {
+      "kind": "box",
+      "size": [
+        1.225,
+        0.39,
+        0.025
+      ],
+      "center": [
+        0,
+        -0.004,
+        0.1075
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/plinth_molding_2": {
+      "kind": "box",
+      "size": [
+        1.19,
+        0.37,
+        0.055
+      ],
+      "center": [
+        0,
+        -0.004,
+        0.1475
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/bracket_foot_-0.53_-0.135": {
+      "kind": "box",
+      "size": [
+        0.125,
+        0.105,
+        0.065
+      ],
+      "center": [
+        -0.53,
+        -0.135,
+        0.0325
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/foot_pad_-0.53_-0.135": {
+      "kind": "box",
+      "size": [
+        0.135,
+        0.115,
+        0.013
+      ],
+      "center": [
+        -0.53,
+        -0.135,
+        0.0065
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/bracket_foot_-0.53_0.135": {
+      "kind": "box",
+      "size": [
+        0.125,
+        0.105,
+        0.065
+      ],
+      "center": [
+        -0.53,
+        0.135,
+        0.0325
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/foot_pad_-0.53_0.135": {
+      "kind": "box",
+      "size": [
+        0.135,
+        0.115,
+        0.013
+      ],
+      "center": [
+        -0.53,
+        0.135,
+        0.0065
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/bracket_foot_0.53_-0.135": {
+      "kind": "box",
+      "size": [
+        0.125,
+        0.105,
+        0.065
+      ],
+      "center": [
+        0.53,
+        -0.135,
+        0.0325
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/foot_pad_0.53_-0.135": {
+      "kind": "box",
+      "size": [
+        0.135,
+        0.115,
+        0.013
+      ],
+      "center": [
+        0.53,
+        -0.135,
+        0.0065
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/bracket_foot_0.53_0.135": {
+      "kind": "box",
+      "size": [
+        0.125,
+        0.105,
+        0.065
+      ],
+      "center": [
+        0.53,
+        0.135,
+        0.0325
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "plinth_and_feet/foot_pad_0.53_0.135": {
+      "kind": "box",
+      "size": [
+        0.135,
+        0.115,
+        0.013
+      ],
+      "center": [
+        0.53,
+        0.135,
+        0.0065
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "crown/cornice_step_0": {
+      "kind": "box",
+      "size": [
+        1.19,
+        0.36,
+        0.028
+      ],
+      "center": [
+        0,
+        0,
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.007
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "crown/cornice_step_1": {
+      "kind": "box",
+      "size": [
+        1.215,
+        0.385,
+        0.022
+      ],
+      "center": [
+        0,
+        0,
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.032
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "crown/cornice_step_2": {
+      "kind": "box",
+      "size": [
+        1.25,
+        0.41,
+        0.014
+      ],
+      "center": [
+        0,
+        0,
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.05
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "crown/frieze": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.045,
+        0.048
+      ],
+      "center": [
+        0,
+        -0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.026
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "crown/frieze_bead": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.009,
+        0.007
+      ],
+      "center": [
+        0,
+        -0.193,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "crown_seat"
+              ]
+            },
+            {
+              "op": "constant",
+              "args": [
+                0.038
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "four_shelves/level_1/shelf_board": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.353,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_thickness"
+          ]
+        }
+      ],
+      "center": [
+        0,
+        -0.005,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_1_top"
+              ]
+            },
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "shelf_thickness"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    2.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "four_shelves/level_1/front_nosing": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "anchor": "top",
+      "target_anchor": "front_top",
+      "offset": [
+        0,
+        0.0025,
+        0
+      ]
+    },
+    "four_shelves/level_1/nosing_bead": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/front_nosing",
+      "anchor": "bottom",
+      "target_anchor": "front_bottom",
+      "offset": [
+        0,
+        -0.002,
+        0.007
+      ]
+    },
+    "four_shelves/level_1/brass_shelf_pin_-1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_1/brass_shelf_pin_-1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_1/brass_shelf_pin_1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_1/brass_shelf_pin_1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_2/shelf_board": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.353,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_thickness"
+          ]
+        }
+      ],
+      "center": [
+        0,
+        -0.005,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "shelf_thickness"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    2.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "four_shelves/level_2/front_nosing": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "anchor": "top",
+      "target_anchor": "front_top",
+      "offset": [
+        0,
+        0.0025,
+        0
+      ]
+    },
+    "four_shelves/level_2/nosing_bead": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/front_nosing",
+      "anchor": "bottom",
+      "target_anchor": "front_bottom",
+      "offset": [
+        0,
+        -0.002,
+        0.007
+      ]
+    },
+    "four_shelves/level_2/brass_shelf_pin_-1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_2/brass_shelf_pin_-1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_2/brass_shelf_pin_1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_2/brass_shelf_pin_1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_3/shelf_board": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.353,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_thickness"
+          ]
+        }
+      ],
+      "center": [
+        0,
+        -0.005,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "shelf_thickness"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    2.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "four_shelves/level_3/front_nosing": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "anchor": "top",
+      "target_anchor": "front_top",
+      "offset": [
+        0,
+        0.0025,
+        0
+      ]
+    },
+    "four_shelves/level_3/nosing_bead": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/front_nosing",
+      "anchor": "bottom",
+      "target_anchor": "front_bottom",
+      "offset": [
+        0,
+        -0.002,
+        0.007
+      ]
+    },
+    "four_shelves/level_3/brass_shelf_pin_-1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_3/brass_shelf_pin_-1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_3/brass_shelf_pin_1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_3/brass_shelf_pin_1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_4/shelf_board": {
+      "kind": "box",
+      "size": [
+        1.11,
+        0.353,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_thickness"
+          ]
+        }
+      ],
+      "center": [
+        0,
+        -0.005,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "div",
+              "args": [
+                {
+                  "op": "ref",
+                  "args": [
+                    "shelf_thickness"
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "args": [
+                    2.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "color": [
+        0.17,
+        0.075,
+        0.029
+      ]
+    },
+    "four_shelves/level_4/front_nosing": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "anchor": "top",
+      "target_anchor": "front_top",
+      "offset": [
+        0,
+        0.0025,
+        0
+      ]
+    },
+    "four_shelves/level_4/nosing_bead": {
+      "kind": "attached",
+      "shape": {
+        "label": "Cube",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/front_nosing",
+      "anchor": "bottom",
+      "target_anchor": "front_bottom",
+      "offset": [
+        0,
+        -0.002,
+        0.007
+      ]
+    },
+    "four_shelves/level_4/brass_shelf_pin_-1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_4/brass_shelf_pin_-1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_4/brass_shelf_pin_1_-0.115": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ]
+    },
+    "four_shelves/level_4/brass_shelf_pin_1_0.11": {
+      "kind": "rigid",
+      "shape": {
+        "label": "Cylinder",
+        "primitive_count": 1,
+        "primitive_types": [
+          "cylinder"
+        ],
+        "external_meshes": []
+      },
+      "translation": [
+        0,
+        0,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ]
+    },
+    "books/level_1_volume_00_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_00",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_01_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_01",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_02_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_02",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_03_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_03",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_04_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_04",
+        "primitive_count": 11,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_05_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_05",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_06_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_06",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_07_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_07",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_08_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_08",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_1_volume_07_stack",
+      "gap": 0
+    },
+    "books/level_1_volume_09_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_09",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_1_volume_08_stack",
+      "gap": 0
+    },
+    "books/level_1_volume_10_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_10",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_11_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_11",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_12_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_12",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_13_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_13",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_14_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_14",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_1_volume_15_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_15",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_16_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_16",
+        "primitive_count": 11,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_17_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_17",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_2_volume_16_stack",
+      "gap": 0
+    },
+    "books/level_2_volume_18_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_18",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_2_volume_17_stack",
+      "gap": 0
+    },
+    "books/level_2_volume_19_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_19",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_2_volume_18_stack",
+      "gap": 0
+    },
+    "books/level_2_volume_20_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_20",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_21_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_21",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_22_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_22",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_23_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_23",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_24_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_24",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_25_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_25",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_26_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_26",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_27_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_27",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_28_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_28",
+        "primitive_count": 11,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_29_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_29",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_30_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_30",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_2_volume_31_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_31",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_32_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_32",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_33_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_33",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_34_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_34",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_35_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_35",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_36_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_36",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_37_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_37",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_38_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_38",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_39_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_39",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_3_volume_38_stack",
+      "gap": 0
+    },
+    "books/level_3_volume_40_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_40",
+        "primitive_count": 11,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_3_volume_39_stack",
+      "gap": 0
+    },
+    "books/level_3_volume_41_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_41",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_42_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_42",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_43_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_43",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_44_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_44",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_45_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_45",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_46_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_46",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_3_volume_47_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_47",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_48_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_48",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_49_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_49",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_50_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_50",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_51_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_51",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_52_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_52",
+        "primitive_count": 11,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_53_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_53",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_4_volume_52_stack",
+      "gap": 0
+    },
+    "books/level_4_volume_54_stack": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_54",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "books/level_4_volume_53_stack",
+      "gap": 0
+    },
+    "books/level_4_volume_55_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_55",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_56_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_56",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_57_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_57",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_58_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_58",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_59_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_59",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_60_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_60",
+        "primitive_count": 15,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_61_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_61",
+        "primitive_count": 14,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_62_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_62",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    },
+    "books/level_4_volume_63_upright": {
+      "kind": "supported",
+      "shape": {
+        "label": "Volume_63",
+        "primitive_count": 18,
+        "primitive_types": [
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube",
+          "cube"
+        ],
+        "external_meshes": []
+      },
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0
+    }
+  },
+  "rules": [
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_00_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_01_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_02_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_03_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_04_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_05_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_06_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_07_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_08_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_09_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_10_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_11_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_12_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_13_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_14_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_15_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_1_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_2_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_16_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_17_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_18_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_19_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_20_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_21_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_22_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_23_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_24_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_25_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_26_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_27_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_28_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_29_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_30_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_31_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_2_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_3_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_32_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_33_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_34_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_35_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_36_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_37_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_38_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_39_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_40_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_41_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_42_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_43_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_44_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_45_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_46_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_47_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_3_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "sub",
+          "args": [
+            {
+              "op": "ref",
+              "args": [
+                "shelf_4_top"
+              ]
+            },
+            {
+              "op": "ref",
+              "args": [
+                "shelf_thickness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_48_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_49_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_50_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_51_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_52_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_53_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_54_stack",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_55_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_56_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_57_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_58_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_59_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_60_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_61_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_62_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_63_upright",
+      "lower": [
+        -0.555,
+        -0.181,
+        {
+          "op": "ref",
+          "args": [
+            "shelf_4_top"
+          ]
+        }
+      ],
+      "upper": [
+        0.555,
+        0.166,
+        {
+          "op": "ref",
+          "args": [
+            "crown_seat"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "kind": "attached",
+      "part": "walnut_carcass/pilaster_capital_left",
+      "target": "walnut_carcass/front_pilaster_left"
+    },
+    {
+      "kind": "attached",
+      "part": "walnut_carcass/pilaster_capital_right",
+      "target": "walnut_carcass/front_pilaster_right"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_1/front_nosing",
+      "target": "four_shelves/level_1/shelf_board"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_1/nosing_bead",
+      "target": "four_shelves/level_1/front_nosing"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_2/front_nosing",
+      "target": "four_shelves/level_2/shelf_board"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_2/nosing_bead",
+      "target": "four_shelves/level_2/front_nosing"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_3/front_nosing",
+      "target": "four_shelves/level_3/shelf_board"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_3/nosing_bead",
+      "target": "four_shelves/level_3/front_nosing"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_4/front_nosing",
+      "target": "four_shelves/level_4/shelf_board"
+    },
+    {
+      "kind": "attached",
+      "part": "four_shelves/level_4/nosing_bead",
+      "target": "four_shelves/level_4/front_nosing"
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_00_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_01_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_02_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_03_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_04_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_05_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_06_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_07_stack",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_08_stack",
+      "target": "books/level_1_volume_07_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_09_stack",
+      "target": "books/level_1_volume_08_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_10_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_11_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_12_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_13_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_14_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_1_volume_15_upright",
+      "target": "four_shelves/level_1/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_16_stack",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_17_stack",
+      "target": "books/level_2_volume_16_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_18_stack",
+      "target": "books/level_2_volume_17_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_19_stack",
+      "target": "books/level_2_volume_18_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_20_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_21_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_22_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_23_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_24_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_25_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_26_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_27_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_28_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_29_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_30_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_2_volume_31_upright",
+      "target": "four_shelves/level_2/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_32_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_33_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_34_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_35_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_36_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_37_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_38_stack",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_39_stack",
+      "target": "books/level_3_volume_38_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_40_stack",
+      "target": "books/level_3_volume_39_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_41_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_42_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_43_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_44_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_45_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_46_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_3_volume_47_upright",
+      "target": "four_shelves/level_3/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_48_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_49_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_50_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_51_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_52_stack",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_53_stack",
+      "target": "books/level_4_volume_52_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_54_stack",
+      "target": "books/level_4_volume_53_stack",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_55_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_56_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_57_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_58_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_59_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_60_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_61_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_62_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "supported",
+      "part": "books/level_4_volume_63_upright",
+      "target": "four_shelves/level_4/shelf_board",
+      "gap": 0.0
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_00_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_01_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_02_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_03_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_04_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_05_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_06_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_07_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_08_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_09_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_10_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_11_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_12_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_13_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_14_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_1_volume_15_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_16_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_17_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_18_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_19_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_20_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_21_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_22_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_23_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_24_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_25_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_26_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_27_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_28_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_29_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_30_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_2_volume_31_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_32_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_33_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_34_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_35_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_36_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_37_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_38_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_39_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_40_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_41_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_42_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_43_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_44_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_45_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_46_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_3_volume_47_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_48_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_49_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_50_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_51_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_52_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_53_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_54_stack"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_55_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_56_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_57_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_58_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_59_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_60_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_61_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_62_upright"
+    },
+    {
+      "kind": "within",
+      "part": "books/level_4_volume_63_upright"
+    }
+  ],
+  "evaluation": "rebuild on compile; no automatic Blender edit-time solving",
+  "scope": "Z-up AABB support, explicit attachment, span and containment; no gravity/stress solver"
+}

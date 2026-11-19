@@ -1,0 +1,12 @@
+provider: openai
+api: responses
+credential:
+  env: DEEPSEEK_API_KEY
+params:
+  base_url: https://api.deepseek.com/v1
+  model: deepseek-chat
+  timeout: 300
+  max_retries: 2
+  max_tokens: 8192
+  parallel_tool_calls: false
+  include_usage: true

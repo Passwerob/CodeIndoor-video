@@ -1,0 +1,14 @@
+# Desktop Blender backend: scripts/local_3d.py agent --model-config <this file> ...
+# Keep API selection separate from the Blender execution backend.
+provider: openai
+api: chat_completions
+credential:
+  env: DEEPSEEK_API_KEY
+params:
+  base_url: https://api.deepseek.com/v1
+  model: deepseek-chat
+  timeout: 300
+  max_retries: 0
+  max_tokens: 8192
+  parallel_tool_calls: false
+  include_usage: true

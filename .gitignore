@@ -1,0 +1,78 @@
+# ===== Secrets (NEVER commit) =====
+.env
+*.env
+*_key.txt
+**/configs/keys/*
+!**/configs/keys/README.md
+
+# ===== Heavy / generated runtime artifacts (incl. runtime/.env secret) =====
+runtime/
+cache_tmp/
+.workbuddy/
+
+# ===== Build / render outputs =====
+*.blend
+*.blend1
+*.png
+*.jpg
+*.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# ===== Local env setup dir (keep the helper script) =====
+env/*
+!env/prepare_local.py
+!env/setup_env.py
+
+# ===== Root-level probe / sample JSON outputs (regenerable, noisy) =====
+/*.json
+/_fetch_list.txt
+/_tree.json
+
+# ===== 3D assets / meshes (fetch or regenerate locally) =====
+*.glb
+*.gltf
+*.obj
+*.ply
+*.fbx
+*.urdf
+*.mp4
+*.hdr
+*.bak_*
+*.backup
+
+# README figures shipped with upstream aDSL
+!aDSL/asset/*.png
+
+# ===== aDSL / FineScene: keep code, drop generated outputs & local envs =====
+venv/
+/.venv/
+# Downloaded asset packs / TRELLIS checkouts (see ASSETS_ROOT, RESEARCH_ROOT in .env.example)
+/assets/
+/research/
+/aDSL/outputs/
+/aDSL/research/**/*.txt
+/aDSL/research/**/*.json
+/aDSL/research/**/*.pdf
+# Deliveries are renders/.blend files, except the baroque one: forge_runner imports
+# its baroque_lib.py and texture_manifest.json. Keep its code + JSON manifests;
+# textures/ are re-downloaded with its fetch_textures.py (Poly Haven, CC0).
+/FineScene/deliveries/*
+!/FineScene/deliveries/baroque_reception_pbr_20261104/
+/FineScene/deliveries/baroque_reception_pbr_20261104/*
+!/FineScene/deliveries/baroque_reception_pbr_20261104/*.py
+!/FineScene/deliveries/baroque_reception_pbr_20261104/*.json
+!/FineScene/deliveries/baroque_reception_pbr_20261104/_research/
+/FineScene/deliveries/baroque_reception_pbr_20261104/_research/*
+!/FineScene/deliveries/baroque_reception_pbr_20261104/_research/*.json
+/FineScene/output/
+/FineScene/runs/
+# "CON" is a reserved device name on Windows -- never commit a file called that
+CON
+
+# Saved third-party paper pages (link to arXiv instead)
+/FineScene/docs/evidence/*.html

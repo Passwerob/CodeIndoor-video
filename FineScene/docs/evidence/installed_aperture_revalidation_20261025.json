@@ -1,0 +1,1638 @@
+{
+  "source_failure": "runs\\refined_reading_lounge_20261025_48\\agent_runtime\\layout_interfaces_2_failure_4.json",
+  "candidate_modified": false,
+  "report": {
+    "stage": "layout",
+    "status": "needs_revision",
+    "issues": [
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('door_leaf', 'leg_right_back'), ('door_leaf', 'console_top'), ('casing_right', 'console_top'), ('casing_right', 'apron_case'), ('casing_right', 'stretcher_back')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "baseline",
+        "measured": {},
+        "id": "edc2ad274d063342",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('casing_right', 'frame_bottom'), ('casing_header', 'frame_left')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "arched_mirror"
+        ],
+        "scenario": "baseline",
+        "measured": {},
+        "id": "fe5f13206dc4f401",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('plinth', None), ('side_panel_right', None), ('cupboard_door_right', None), ('shelf_1', None), ('shelf_2', None), ('right_pilaster', None)]",
+        "paths": [
+          "/placements/5/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "bookcase",
+          "desk_chair"
+        ],
+        "scenario": "baseline",
+        "measured": {},
+        "id": "ea97205d13b38697",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[(None, 'frame_bottom')]",
+        "paths": [
+          "/placements/23/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "oil_lamp",
+          "arched_mirror"
+        ],
+        "scenario": "baseline",
+        "measured": {},
+        "id": "aab2e090b152b518",
+        "upstream_paths": [
+          "/components/23/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "baseline",
+        "measured": {},
+        "id": "879e5e0ef9a1fcaa",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by architectural parts ['wall_west', 'wainscot_west', 'chair_rail_west', 'skirting_west']; revise the approach or its owner placement to remain inside the actual room.",
+        "paths": [
+          "/placements/0/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "room_shell"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "82d9878aca1f24a0",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by ['desk_lamp', 'binder_notebook']",
+        "paths": [
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "desk_lamp",
+          "binder_notebook"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "7722feb45aaa3da6",
+        "upstream_paths": [
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by occupied parts ['secretaire_desk/desktop', 'secretaire_desk/apron', 'secretaire_desk/leg_front_left', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2']",
+        "paths": [
+          "/placements/14/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "secretaire_desk"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "c5d015237fea5ffe",
+        "upstream_paths": [
+          "/components/14/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Mounted part entrance_door/door_leaf blocks reserved area entrance_main throughout the conservative feasible translation domain. Its horizontal opposing faces fix yaw; position repair cannot clear it. Review the inferred component geometry/envelope while preserving the original request and a usable aperture.",
+        "paths": [
+          "/placements/2/position"
+        ],
+        "component_ids": [
+          "entrance_door"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "decomposition",
+          "part_ids": [
+            "door_leaf"
+          ],
+          "constraint_id": "entrance_main"
+        },
+        "id": "8cff2f70ffcf1ac4",
+        "upstream_paths": [
+          "/components/2/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area design_empty_open_entry_axis is blocked by occupied parts ['console_table/leg_right_front', 'console_table/console_top', 'console_table/apron_case', 'console_table/drawer_front', 'console_table/stretcher', 'console_table/stretcher_right']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "design_empty_open_entry_axis"
+        },
+        "id": "0260ab9da907add3",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_secretaire_desk requires 0.750m width; blocked by ['secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/leg_front_right']",
+        "paths": [
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/leg_front_right"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_secretaire_desk"
+        },
+        "id": "c2ffedc1d9334a2d",
+        "upstream_paths": [
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_desk_chair requires 0.600m width; blocked by ['binder_notebook', 'desk_chair', 'desk_lamp', 'room_shell/chair_rail_west', 'room_shell/skirting_west', 'room_shell/wainscot_west', 'room_shell/wall_west', 'secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2', 'secretaire_desk/leg_front_left']",
+        "paths": [
+          "/placements/0/position",
+          "/placements/14/position",
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "binder_notebook",
+          "desk_lamp",
+          "room_shell",
+          "secretaire_desk",
+          "room_shell/chair_rail_west",
+          "room_shell/skirting_west",
+          "room_shell/wainscot_west",
+          "room_shell/wall_west",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/drawer_front_1",
+          "secretaire_desk/drawer_front_2",
+          "secretaire_desk/leg_front_left"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_desk_chair"
+        },
+        "id": "3688dc61daba3d1f",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/14/position",
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_console_table requires 0.550m width; blocked by ['console_table/apron_case', 'console_table/console_top', 'console_table/drawer_front', 'console_table/stretcher']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table",
+          "console_table/apron_case",
+          "console_table/console_top",
+          "console_table/drawer_front",
+          "console_table/stretcher"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_console_table"
+        },
+        "id": "b89dbd8ec677c301",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_entrance_door_console (distance) failed: footprint distance=0.000m, expected 0.3..Nonem",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_entrance_door_console"
+        },
+        "id": "d9024980cd4ac8b1",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('door_leaf', 'leg_right_back'), ('door_leaf', 'console_top'), ('casing_right', 'console_top'), ('casing_right', 'apron_case'), ('casing_right', 'stretcher_back')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {},
+        "id": "531cb65801cefe48",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('casing_right', 'frame_bottom'), ('casing_header', 'frame_left')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "arched_mirror"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {},
+        "id": "fabfcce19bebeae9",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('plinth', None), ('side_panel_right', None), ('cupboard_door_right', None), ('shelf_1', None), ('shelf_2', None), ('right_pilaster', None)]",
+        "paths": [
+          "/placements/5/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "bookcase",
+          "desk_chair"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {},
+        "id": "2b031d353d88fb31",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[(None, 'frame_bottom')]",
+        "paths": [
+          "/placements/23/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "oil_lamp",
+          "arched_mirror"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {},
+        "id": "06a1e627e8a82dc5",
+        "upstream_paths": [
+          "/components/23/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {},
+        "id": "9f39014a0c49fa17",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by architectural parts ['wall_west', 'wainscot_west', 'chair_rail_west', 'skirting_west']; revise the approach or its owner placement to remain inside the actual room.",
+        "paths": [
+          "/placements/0/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "room_shell"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "4a763125be567b67",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by ['desk_lamp', 'binder_notebook']",
+        "paths": [
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "desk_lamp",
+          "binder_notebook"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "e4d4a0b4c7ea0ffe",
+        "upstream_paths": [
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by occupied parts ['secretaire_desk/desktop', 'secretaire_desk/apron', 'secretaire_desk/leg_front_left', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2']",
+        "paths": [
+          "/placements/14/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "secretaire_desk"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "968d34af8613bb3b",
+        "upstream_paths": [
+          "/components/14/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Mounted part entrance_door/door_leaf blocks reserved area entrance_main throughout the conservative feasible translation domain. Its horizontal opposing faces fix yaw; position repair cannot clear it. Review the inferred component geometry/envelope while preserving the original request and a usable aperture.",
+        "paths": [
+          "/placements/2/position"
+        ],
+        "component_ids": [
+          "entrance_door"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "decomposition",
+          "part_ids": [
+            "door_leaf"
+          ],
+          "constraint_id": "entrance_main"
+        },
+        "id": "e95e8c4afc058a3d",
+        "upstream_paths": [
+          "/components/2/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area design_empty_open_entry_axis is blocked by occupied parts ['console_table/leg_right_front', 'console_table/console_top', 'console_table/apron_case', 'console_table/drawer_front', 'console_table/stretcher', 'console_table/stretcher_right']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "design_empty_open_entry_axis"
+        },
+        "id": "e5b425836e5e5cb3",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_secretaire_desk requires 0.750m width; blocked by ['secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/leg_front_right']",
+        "paths": [
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/leg_front_right"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_secretaire_desk"
+        },
+        "id": "1a917755df7c9dc6",
+        "upstream_paths": [
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_desk_chair requires 0.600m width; blocked by ['binder_notebook', 'desk_chair', 'desk_lamp', 'room_shell/chair_rail_west', 'room_shell/skirting_west', 'room_shell/wainscot_west', 'room_shell/wall_west', 'secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2', 'secretaire_desk/leg_front_left']",
+        "paths": [
+          "/placements/0/position",
+          "/placements/14/position",
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "binder_notebook",
+          "desk_lamp",
+          "room_shell",
+          "secretaire_desk",
+          "room_shell/chair_rail_west",
+          "room_shell/skirting_west",
+          "room_shell/wainscot_west",
+          "room_shell/wall_west",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/drawer_front_1",
+          "secretaire_desk/drawer_front_2",
+          "secretaire_desk/leg_front_left"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_desk_chair"
+        },
+        "id": "91096507954a3888",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/14/position",
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_console_table requires 0.550m width; blocked by ['console_table/apron_case', 'console_table/console_top', 'console_table/drawer_front', 'console_table/stretcher']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table",
+          "console_table/apron_case",
+          "console_table/console_top",
+          "console_table/drawer_front",
+          "console_table/stretcher"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_console_table"
+        },
+        "id": "ea1e7eddec58f111",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_entrance_door_console (distance) failed: footprint distance=0.000m, expected 0.3..Nonem",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_entrance_door_console"
+        },
+        "id": "923412c23875e96f",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('door_leaf', 'leg_right_back'), ('door_leaf', 'console_top'), ('casing_right', 'console_top'), ('casing_right', 'apron_case'), ('casing_right', 'stretcher_back')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "61dc0312d3c68e3c",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('casing_right', 'frame_bottom'), ('casing_header', 'frame_left')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "arched_mirror"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "960117f7a0b249cc",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('plinth', None), ('side_panel_right', None), ('cupboard_door_right', None), ('shelf_1', None), ('shelf_2', None), ('right_pilaster', None)]",
+        "paths": [
+          "/placements/5/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "bookcase",
+          "desk_chair"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "dd0be023ab947f29",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[(None, 'frame_bottom')]",
+        "paths": [
+          "/placements/23/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "oil_lamp",
+          "arched_mirror"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "ede2dfa98b12a966",
+        "upstream_paths": [
+          "/components/23/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "052bd52d931789ea",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/5/position",
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "bookcase"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {},
+        "id": "99f13caec8ecc71d",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by architectural parts ['wall_west', 'wainscot_west', 'chair_rail_west', 'skirting_west']; revise the approach or its owner placement to remain inside the actual room.",
+        "paths": [
+          "/placements/0/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "room_shell"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "9456676396c2131a",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by ['desk_lamp', 'binder_notebook']",
+        "paths": [
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "desk_lamp",
+          "binder_notebook"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "5c25e02b9c2b003b",
+        "upstream_paths": [
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by occupied parts ['secretaire_desk/desktop', 'secretaire_desk/apron', 'secretaire_desk/leg_front_left', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2']",
+        "paths": [
+          "/placements/14/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "secretaire_desk"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "82735bfa9412307a",
+        "upstream_paths": [
+          "/components/14/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Mounted part entrance_door/door_leaf blocks reserved area entrance_main throughout the conservative feasible translation domain. Its horizontal opposing faces fix yaw; position repair cannot clear it. Review the inferred component geometry/envelope while preserving the original request and a usable aperture.",
+        "paths": [
+          "/placements/2/position"
+        ],
+        "component_ids": [
+          "entrance_door"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "decomposition",
+          "part_ids": [
+            "door_leaf"
+          ],
+          "constraint_id": "entrance_main"
+        },
+        "id": "1e08db9937057c22",
+        "upstream_paths": [
+          "/components/2/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area design_empty_open_entry_axis is blocked by occupied parts ['console_table/leg_right_front', 'console_table/console_top', 'console_table/apron_case', 'console_table/drawer_front', 'console_table/stretcher', 'console_table/stretcher_right']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "design_empty_open_entry_axis"
+        },
+        "id": "e622a0a99acec5f0",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_secretaire_desk requires 0.750m width; blocked by ['secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/leg_front_right']",
+        "paths": [
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/leg_front_right"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_secretaire_desk"
+        },
+        "id": "cd4704f4780cdeea",
+        "upstream_paths": [
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_desk_chair requires 0.600m width; blocked by ['binder_notebook', 'desk_chair', 'desk_lamp', 'room_shell/chair_rail_west', 'room_shell/skirting_west', 'room_shell/wainscot_west', 'room_shell/wall_west', 'secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2', 'secretaire_desk/leg_front_left']",
+        "paths": [
+          "/placements/0/position",
+          "/placements/14/position",
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "binder_notebook",
+          "desk_lamp",
+          "room_shell",
+          "secretaire_desk",
+          "room_shell/chair_rail_west",
+          "room_shell/skirting_west",
+          "room_shell/wainscot_west",
+          "room_shell/wall_west",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/drawer_front_1",
+          "secretaire_desk/drawer_front_2",
+          "secretaire_desk/leg_front_left"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_desk_chair"
+        },
+        "id": "ee8db8ad3b64b38d",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/14/position",
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_console_table requires 0.550m width; blocked by ['console_table/apron_case', 'console_table/console_top', 'console_table/drawer_front', 'console_table/stretcher']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table",
+          "console_table/apron_case",
+          "console_table/console_top",
+          "console_table/drawer_front",
+          "console_table/stretcher"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_console_table"
+        },
+        "id": "cf9ed8536a3fd5af",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_desk_bookcase (distance) failed: footprint distance=0.860m, expected 0.9..Nonem",
+        "paths": [
+          "/placements/5/position",
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "bookcase"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_desk_bookcase"
+        },
+        "id": "d3fe52418d6b0303",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_entrance_door_console (distance) failed: footprint distance=0.000m, expected 0.3..Nonem",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_entrance_door_console"
+        },
+        "id": "2270757b0b3dc6bd",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('door_leaf', 'leg_right_back'), ('door_leaf', 'console_top'), ('casing_right', 'console_top'), ('casing_right', 'apron_case'), ('casing_right', 'stretcher_back')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "desk_depth",
+        "measured": {},
+        "id": "f381b1101a0f4cde",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('casing_right', 'frame_bottom'), ('casing_header', 'frame_left')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "arched_mirror"
+        ],
+        "scenario": "desk_depth",
+        "measured": {},
+        "id": "377c6a945b1832ce",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('plinth', None), ('side_panel_right', None), ('cupboard_door_right', None), ('shelf_1', None), ('shelf_2', None), ('right_pilaster', None)]",
+        "paths": [
+          "/placements/5/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "bookcase",
+          "desk_chair"
+        ],
+        "scenario": "desk_depth",
+        "measured": {},
+        "id": "f11d2672e5d72f30",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[(None, 'frame_bottom')]",
+        "paths": [
+          "/placements/23/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "oil_lamp",
+          "arched_mirror"
+        ],
+        "scenario": "desk_depth",
+        "measured": {},
+        "id": "71c9d4f771f80919",
+        "upstream_paths": [
+          "/components/23/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "desk_depth",
+        "measured": {},
+        "id": "f0a1cf5fbb9a0690",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by architectural parts ['wall_west', 'wainscot_west', 'chair_rail_west', 'skirting_west']; revise the approach or its owner placement to remain inside the actual room.",
+        "paths": [
+          "/placements/0/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "room_shell"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "f0d280953f28cff2",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by ['desk_lamp', 'binder_notebook']",
+        "paths": [
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "desk_lamp",
+          "binder_notebook"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "902fbed24444bb0e",
+        "upstream_paths": [
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by occupied parts ['secretaire_desk/desktop', 'secretaire_desk/apron', 'secretaire_desk/leg_front_left', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2']",
+        "paths": [
+          "/placements/14/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "secretaire_desk"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "2e05e21c279af47d",
+        "upstream_paths": [
+          "/components/14/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Mounted part entrance_door/door_leaf blocks reserved area entrance_main throughout the conservative feasible translation domain. Its horizontal opposing faces fix yaw; position repair cannot clear it. Review the inferred component geometry/envelope while preserving the original request and a usable aperture.",
+        "paths": [
+          "/placements/2/position"
+        ],
+        "component_ids": [
+          "entrance_door"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "decomposition",
+          "part_ids": [
+            "door_leaf"
+          ],
+          "constraint_id": "entrance_main"
+        },
+        "id": "e50789e1c2985289",
+        "upstream_paths": [
+          "/components/2/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area design_empty_open_entry_axis is blocked by occupied parts ['console_table/leg_right_front', 'console_table/console_top', 'console_table/apron_case', 'console_table/drawer_front', 'console_table/stretcher', 'console_table/stretcher_right']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "design_empty_open_entry_axis"
+        },
+        "id": "874d125c8437a89f",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_secretaire_desk requires 0.750m width; blocked by ['secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/leg_front_right']",
+        "paths": [
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/leg_front_right"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_secretaire_desk"
+        },
+        "id": "afd68bb29a5383f5",
+        "upstream_paths": [
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_desk_chair requires 0.600m width; blocked by ['binder_notebook', 'desk_chair', 'desk_lamp', 'room_shell/chair_rail_west', 'room_shell/skirting_west', 'room_shell/wainscot_west', 'room_shell/wall_west', 'secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2', 'secretaire_desk/leg_front_left']",
+        "paths": [
+          "/placements/0/position",
+          "/placements/14/position",
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "binder_notebook",
+          "desk_lamp",
+          "room_shell",
+          "secretaire_desk",
+          "room_shell/chair_rail_west",
+          "room_shell/skirting_west",
+          "room_shell/wainscot_west",
+          "room_shell/wall_west",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/drawer_front_1",
+          "secretaire_desk/drawer_front_2",
+          "secretaire_desk/leg_front_left"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_desk_chair"
+        },
+        "id": "1ff74452a9e9fa6a",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/14/position",
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_console_table requires 0.550m width; blocked by ['console_table/apron_case', 'console_table/console_top', 'console_table/drawer_front', 'console_table/stretcher']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table",
+          "console_table/apron_case",
+          "console_table/console_top",
+          "console_table/drawer_front",
+          "console_table/stretcher"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_console_table"
+        },
+        "id": "109f32fe82de533d",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_entrance_door_console (distance) failed: footprint distance=0.000m, expected 0.3..Nonem",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_entrance_door_console"
+        },
+        "id": "6b91d457b2d24687",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('door_leaf', 'leg_right_back'), ('door_leaf', 'console_top'), ('casing_right', 'console_top'), ('casing_right', 'apron_case'), ('casing_right', 'stretcher_back')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {},
+        "id": "e6af27ec7484955a",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('casing_right', 'frame_bottom'), ('casing_header', 'frame_left')]",
+        "paths": [
+          "/placements/2/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "arched_mirror"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {},
+        "id": "d56285302c8a58df",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[('plinth', None), ('side_panel_right', None), ('cupboard_door_right', None), ('shelf_1', None), ('shelf_2', None), ('right_pilaster', None)]",
+        "paths": [
+          "/placements/5/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "bookcase",
+          "desk_chair"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {},
+        "id": "13c247b5efdde6f7",
+        "upstream_paths": [
+          "/components/5/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "overlapping occupied geometry bounds; revise placement or local geometry; intersecting part pairs=[(None, 'frame_bottom')]",
+        "paths": [
+          "/placements/23/position",
+          "/placements/27/position"
+        ],
+        "component_ids": [
+          "oil_lamp",
+          "arched_mirror"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {},
+        "id": "815b162a365b3bda",
+        "upstream_paths": [
+          "/components/23/position",
+          "/components/27/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "declared clearance not satisfied",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {},
+        "id": "5259a249f02727b7",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by architectural parts ['wall_west', 'wainscot_west', 'chair_rail_west', 'skirting_west']; revise the approach or its owner placement to remain inside the actual room.",
+        "paths": [
+          "/placements/0/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "room_shell"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "ec6e2d483154080a",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by ['desk_lamp', 'binder_notebook']",
+        "paths": [
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "desk_lamp",
+          "binder_notebook"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "76da13bee8630185",
+        "upstream_paths": [
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area use_desk_chair is blocked by occupied parts ['secretaire_desk/desktop', 'secretaire_desk/apron', 'secretaire_desk/leg_front_left', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2']",
+        "paths": [
+          "/placements/14/position",
+          "/placements/15/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "secretaire_desk"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "use_desk_chair"
+        },
+        "id": "13a3576fa746c9ad",
+        "upstream_paths": [
+          "/components/14/position",
+          "/components/15/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Mounted part entrance_door/door_leaf blocks reserved area entrance_main throughout the conservative feasible translation domain. Its horizontal opposing faces fix yaw; position repair cannot clear it. Review the inferred component geometry/envelope while preserving the original request and a usable aperture.",
+        "paths": [
+          "/placements/2/position"
+        ],
+        "component_ids": [
+          "entrance_door"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "decomposition",
+          "part_ids": [
+            "door_leaf"
+          ],
+          "constraint_id": "entrance_main"
+        },
+        "id": "d40428e96e557f17",
+        "upstream_paths": [
+          "/components/2/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Reserved area design_empty_open_entry_axis is blocked by occupied parts ['console_table/leg_right_front', 'console_table/console_top', 'console_table/apron_case', 'console_table/drawer_front', 'console_table/stretcher', 'console_table/stretcher_right']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "design_empty_open_entry_axis"
+        },
+        "id": "51fe9051e2634642",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_secretaire_desk requires 0.750m width; blocked by ['secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/leg_front_right']",
+        "paths": [
+          "/placements/14/position"
+        ],
+        "component_ids": [
+          "secretaire_desk",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/leg_front_right"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_secretaire_desk"
+        },
+        "id": "6ea6481c913ee72d",
+        "upstream_paths": [
+          "/components/14/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_desk_chair requires 0.600m width; blocked by ['binder_notebook', 'desk_chair', 'desk_lamp', 'room_shell/chair_rail_west', 'room_shell/skirting_west', 'room_shell/wainscot_west', 'room_shell/wall_west', 'secretaire_desk/apron', 'secretaire_desk/desktop', 'secretaire_desk/drawer_front_1', 'secretaire_desk/drawer_front_2', 'secretaire_desk/leg_front_left']",
+        "paths": [
+          "/placements/0/position",
+          "/placements/14/position",
+          "/placements/15/position",
+          "/placements/22/position",
+          "/placements/31/position"
+        ],
+        "component_ids": [
+          "desk_chair",
+          "binder_notebook",
+          "desk_lamp",
+          "room_shell",
+          "secretaire_desk",
+          "room_shell/chair_rail_west",
+          "room_shell/skirting_west",
+          "room_shell/wainscot_west",
+          "room_shell/wall_west",
+          "secretaire_desk/apron",
+          "secretaire_desk/desktop",
+          "secretaire_desk/drawer_front_1",
+          "secretaire_desk/drawer_front_2",
+          "secretaire_desk/leg_front_left"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_desk_chair"
+        },
+        "id": "070c8505798453b8",
+        "upstream_paths": [
+          "/components/0/position",
+          "/components/14/position",
+          "/components/15/position",
+          "/components/22/position",
+          "/components/31/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "Route reach_console_table requires 0.550m width; blocked by ['console_table/apron_case', 'console_table/console_top', 'console_table/drawer_front', 'console_table/stretcher']",
+        "paths": [
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "console_table",
+          "console_table/apron_case",
+          "console_table/console_top",
+          "console_table/drawer_front",
+          "console_table/stretcher"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "reach_console_table"
+        },
+        "id": "384a17d0892ebe45",
+        "upstream_paths": [
+          "/components/16/position"
+        ]
+      },
+      {
+        "code": "layout_relation",
+        "evidence": "rel_entrance_door_console (distance) failed: footprint distance=0.000m, expected 0.3..Nonem",
+        "paths": [
+          "/placements/2/position",
+          "/placements/16/position"
+        ],
+        "component_ids": [
+          "entrance_door",
+          "console_table"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "repair_target": "layout",
+          "constraint_id": "rel_entrance_door_console"
+        },
+        "id": "acab76e6d27dbb66",
+        "upstream_paths": [
+          "/components/2/position",
+          "/components/16/position"
+        ]
+      }
+    ],
+    "blocked_checks": [
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "bookcase_height"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "bookcase_width"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "desk_depth"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "ottoman_height"
+      }
+    ],
+    "coverage": "All independent checks in this stage; blocked checks require corrected prerequisites."
+  }
+}

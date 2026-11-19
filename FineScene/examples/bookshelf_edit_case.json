@@ -1,0 +1,31 @@
+{
+  "schema": "finescene.scene.v1",
+  "scene_id": "vintage_bookshelf_edit_001",
+  "units": "m",
+  "coordinate_frame": {"up": "+Z", "front": "-Y", "right": "+X"},
+  "parameters": {
+    "overall_width": 1.2,
+    "overall_depth": 0.32,
+    "shelf_clearance": 0.28,
+    "shelf_thickness": 0.035,
+    "shelf_count": 4
+  },
+  "components": [
+    {"id": "bookcase_body", "kind": "structure", "parent": null, "bounds": {"size": [1.2, 0.32, 1.35], "unit": "m"}, "transform": {"position": [0, 0, 0.675], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["base", "top", "shelf_1", "shelf_2", "shelf_3", "shelf_4"], "editable": ["overall_width", "overall_depth", "shelf_clearance", "shelf_thickness"], "style": "dark_oak_vintage", "source": {"mode": "adsl", "path": "E:/3DUse/aDSL", "license": null, "generator": "aDSL"}},
+    {"id": "shelf_1", "kind": "structure", "parent": "bookcase_body", "bounds": {"size": [1.12, 0.29, 0.035], "unit": "m"}, "transform": {"position": [0, 0, 0.20], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["top", "front_edge"], "editable": ["shelf_clearance"], "style": "dark_oak_vintage", "source": {"mode": "adsl", "path": "E:/3DUse/aDSL", "license": null, "generator": "aDSL"}},
+    {"id": "shelf_2", "kind": "structure", "parent": "bookcase_body", "bounds": {"size": [1.12, 0.29, 0.035], "unit": "m"}, "transform": {"position": [0, 0, 0.48], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["top", "front_edge"], "editable": ["shelf_clearance"], "style": "dark_oak_vintage", "source": {"mode": "adsl", "path": "E:/3DUse/aDSL", "license": null, "generator": "aDSL"}},
+    {"id": "shelf_3", "kind": "structure", "parent": "bookcase_body", "bounds": {"size": [1.12, 0.29, 0.035], "unit": "m"}, "transform": {"position": [0, 0, 0.76], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["top", "front_edge"], "editable": ["shelf_clearance"], "style": "dark_oak_vintage", "source": {"mode": "adsl", "path": "E:/3DUse/aDSL", "license": null, "generator": "aDSL"}},
+    {"id": "shelf_4", "kind": "structure", "parent": "bookcase_body", "bounds": {"size": [1.12, 0.29, 0.035], "unit": "m"}, "transform": {"position": [0, 0, 1.04], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["top", "front_edge"], "editable": ["shelf_clearance"], "style": "dark_oak_vintage", "source": {"mode": "adsl", "path": "E:/3DUse/aDSL", "license": null, "generator": "aDSL"}},
+    {"id": "book_07", "kind": "book", "parent": "shelf_2", "bounds": {"size": [0.07, 0.24, 0.25], "unit": "m"}, "transform": {"position": [-0.32, 0, 0.615], "rotation_deg": [0, 0, -4], "scale": [1, 1, 1]}, "anchors": ["bottom_center"], "editable": ["position", "rotation", "scale"], "style": "dark_oak_vintage", "source": {"mode": "retrieved", "path": "E:/3DUse/assets/external/polyhaven/book_encyclopedia_set_01_2k/book_encyclopedia_set_01_2k.gltf", "license": "CC0", "generator": "Poly Haven"}},
+    {"id": "knight_01", "kind": "prop", "parent": "book_07", "bounds": {"size": [0.039, 0.045, 0.075], "unit": "m"}, "transform": {"position": [-0.32, 0, 0.7775], "rotation_deg": [0, 0, 0], "scale": [1, 1, 1]}, "anchors": ["bottom_center"], "editable": ["position", "rotation", "scale"], "style": "dark_oak_vintage", "source": {"mode": "retrieved", "path": "E:/3DUse/assets/external/polyhaven/chess_set_2k/chess_set_2k.gltf", "license": "CC0", "generator": "Poly Haven"}}
+  ],
+  "relations": [
+    {"type": "parent", "from": "shelf_2", "to": "bookcase_body", "anchor_from": null, "anchor_to": "shelf_2", "axis": null, "value": null},
+    {"type": "contact", "from": "book_07", "to": "shelf_2", "anchor_from": "bottom_center", "anchor_to": "top", "axis": "+Z", "value": 0},
+    {"type": "parent", "from": "knight_01", "to": "book_07", "anchor_from": "bottom_center", "anchor_to": "top", "axis": "+Z", "value": 0},
+    {"type": "depends_on", "from": "shelf_2", "to": "bookcase_body", "anchor_from": null, "anchor_to": null, "axis": "+Z", "value": 1}
+  ],
+  "edit_operations": [
+    {"id": "raise_all_shelves", "op": "add", "parameter": "shelf_clearance", "delta": 0.1, "expected_affected": ["bookcase_body", "shelf_1", "shelf_2", "shelf_3", "shelf_4", "book_07", "knight_01"]}
+  ]
+}

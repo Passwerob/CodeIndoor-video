@@ -1,0 +1,17 @@
+{
+  "asset": "Wood051",
+  "source": "https://ambientcg.com/a/Wood051",
+  "download": "https://ambientcg.com/get?file=Wood051_1K-JPG.zip",
+  "sha256": "debf3d60f69a09c30613dc95a94da49c8116160ab8a29f77ac8e32cc33f1a1c3",
+  "license_url": "https://docs.ambientcg.com/license/",
+  "license": "CC0 1.0",
+  "files": [
+    "Wood051_1K-JPG_Color.jpg",
+    "Wood051_1K-JPG_Displacement.jpg",
+    "Wood051_1K-JPG_NormalDX.jpg",
+    "Wood051_1K-JPG_NormalGL.jpg",
+    "Wood051_1K-JPG_Roughness.jpg"
+  ],
+  "grain_uv_axis": "u",
+  "orientation_evidence": "Inspected the downloaded albedo: wood fibres run horizontally in image U."
+}

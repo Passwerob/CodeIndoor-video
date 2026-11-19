@@ -1,0 +1,54 @@
+{
+  "source_failure": "runs\\refined_reading_lounge_20261025_43\\agent_runtime\\recipe_bookcase_picture_lights_failure_3.json",
+  "candidate_modified": false,
+  "validation": "passed",
+  "previous_assembly_findings": [
+    {
+      "component_ids": [
+        "bookcase_picture_lights"
+      ],
+      "part_ids": [
+        "left_bulb",
+        "left_shade"
+      ],
+      "code": "unverified_curved_joint",
+      "repair_target": "geometry",
+      "evidence": "Curved attachment contact needs a dedicated surface check; envelope proximity is insufficient."
+    },
+    {
+      "component_ids": [
+        "bookcase_picture_lights"
+      ],
+      "part_ids": [
+        "right_bulb",
+        "right_shade"
+      ],
+      "code": "unverified_curved_joint",
+      "repair_target": "geometry",
+      "evidence": "Curved attachment contact needs a dedicated surface check; envelope proximity is insufficient."
+    },
+    {
+      "component_ids": [
+        "bookcase_picture_lights"
+      ],
+      "part_ids": [
+        "left_bulb"
+      ],
+      "code": "disconnected",
+      "repair_target": "geometry",
+      "evidence": "No verified contact/attachment path to an assembly root."
+    },
+    {
+      "component_ids": [
+        "bookcase_picture_lights"
+      ],
+      "part_ids": [
+        "right_bulb"
+      ],
+      "code": "disconnected",
+      "repair_target": "geometry",
+      "evidence": "No verified contact/attachment path to an assembly root."
+    }
+  ],
+  "checks": "Full recipe, frozen constraints and every parameter edit scenario. Visual acceptance is still pending."
+}

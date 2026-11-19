@@ -1,0 +1,17 @@
+{
+  "name": "The Antiquarian — four-tier vintage bookcase",
+  "coordinate_frame": {"units":"metres","up":"+Z","front":"-Y","right":"+X","overall_size":[1.25,0.41,1.847]},
+  "parameters": {"width":1.25,"depth":0.38,"inner_width":1.11,"shelf_thickness":0.032,"shelf_tops":[0.19,0.59,0.99,1.39],"cornice_top":1.847,"random_seed":20261017},
+  "parts": [
+    {"id":"plinth_and_feet","parent":"scene","function":"floor support","construction":"layered cubes and four bracket feet","appearance":"aged walnut","confidence":"design choice"},
+    {"id":"walnut_carcass","parent":"scene","function":"enclose and support four levels","construction":"two solid sides and beaded pilasters","dimensions":[1.25,0.38,1.84],"appearance":"waxed walnut","confidence":"design choice"},
+    {"id":"paneled_back","parent":"scene","function":"close rear","construction":"six boards with narrow seams","appearance":"walnut grain","confidence":"inferred conventional construction"},
+    {"id":"four_shelves","parent":"scene","function":"four book bearing surfaces","construction":"shelf board, molded nosing, brass support pins","repeat_rule":"at four named top elevations","appearance":"walnut","confidence":"user requested count"},
+    {"id":"crown","parent":"scene","function":"vintage silhouette","construction":"stepped cornice and recessed frieze","appearance":"walnut","confidence":"design choice"},
+    {"id":"books","parent":"scene","function":"irregular library dressing","construction":"individually editable aDSL Assets; covers, inset paper block, spine, bands, labels and gilt rules","dimensions":"varied thickness .026–.049, depth .195–.256, height .236–.332","repeat_rule":"four curated rows mixing runs and stacks","appearance":"muted leather and cloth, cream paper","confidence":"interpretation of user brief"}
+  ],
+  "relations": ["feet anchor at ground Z=0","plinth supports solid sides","four boards bridge side walls","back boards join rear of carcass","cornice rests on sides","books rotated before AABB seating on shelf or stack","clusters occupy bounded intervals with purposeful gaps"],
+  "build_order": ["feet and plinth","side panels and back","four shelves","cornice and nosing","upright book clusters","horizontal stacks","binding details","Blender material and bevel refinement"],
+  "checks": ["exactly four usable levels","book count and distribution in validation.json","finite extents","books inside bay in X/Y and below next shelf","transformed AABB minimum Z touches support","hero and front render review"],
+  "scope": "Original vintage-inspired furniture; semantic aDSL geometry with Blender bevel and procedural material presentation. No historical attribution, watertight or load-bearing engineering claim."
+}

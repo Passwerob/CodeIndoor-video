@@ -1,0 +1,667 @@
+{
+  "source_failure": "runs\\refined_reading_lounge_20261025_46\\agent_runtime\\layout_interfaces_1_failure_3.json",
+  "candidate_modified": false,
+  "report": {
+    "stage": "layout",
+    "status": "needs_revision",
+    "issues": [
+      {
+        "code": "mounting_extent_conflict",
+        "evidence": "sash_window on room_shell/wall_north_sill: At this relative yaw, full support coverage and the scene extent have no common translation. Moving inward loses support; moving outward crosses the boundary. Review the inferred contact parts/faces or physically appropriate yaw; preserve geometry, dimensions and support coverage.",
+        "paths": [],
+        "component_ids": [
+          "sash_window",
+          "room_shell"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "requested_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.9
+          ],
+          "relative_yaw_deg": 0.0,
+          "parent_surface_bounds": [
+            [
+              [
+                -0.8,
+                3.88,
+                0.14999999999999997
+              ],
+              [
+                0.8,
+                4.0,
+                1.05
+              ]
+            ]
+          ],
+          "parent_local_planes_m": [
+            1.05
+          ],
+          "parent_local_patch": [
+            [
+              -0.8,
+              3.85,
+              1.05
+            ],
+            [
+              0.8,
+              3.89,
+              1.05
+            ]
+          ],
+          "resolved_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.97
+          ],
+          "tangent_axes": [
+            "x",
+            "y"
+          ],
+          "support_translation_bounds": [
+            [
+              -0.0030000000000000027,
+              3.9269999999999996
+            ],
+            [
+              0.0030000000000000027,
+              4.013
+            ]
+          ],
+          "scene_feasible_translation_vertices": [],
+          "domain_kind": "conservative support-union bound at the specified relative yaw",
+          "scene_extent_m": [
+            6.4,
+            8.0,
+            3.3
+          ],
+          "child_local_body_bounds": [
+            [
+              -0.875,
+              -0.09,
+              0.0
+            ],
+            [
+              0.875,
+              0.09,
+              2.05
+            ]
+          ]
+        },
+        "expected": {
+          "selected_contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "full_surface_coverage_required": true
+        },
+        "id": "460b03f85d9ad447",
+        "upstream_paths": [
+          "/components/3/surface_contact"
+        ]
+      },
+      {
+        "code": "mounting_extent_conflict",
+        "evidence": "sash_window on room_shell/wall_north_sill: At this relative yaw, full support coverage and the scene extent have no common translation. Moving inward loses support; moving outward crosses the boundary. Review the inferred contact parts/faces or physically appropriate yaw; preserve geometry, dimensions and support coverage.",
+        "paths": [],
+        "component_ids": [
+          "sash_window",
+          "room_shell"
+        ],
+        "scenario": "bookcase_height",
+        "measured": {
+          "contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "requested_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.9
+          ],
+          "relative_yaw_deg": 0.0,
+          "parent_surface_bounds": [
+            [
+              [
+                -0.8,
+                3.88,
+                0.14999999999999997
+              ],
+              [
+                0.8,
+                4.0,
+                1.05
+              ]
+            ]
+          ],
+          "parent_local_planes_m": [
+            1.05
+          ],
+          "parent_local_patch": [
+            [
+              -0.8,
+              3.85,
+              1.05
+            ],
+            [
+              0.8,
+              3.89,
+              1.05
+            ]
+          ],
+          "resolved_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.97
+          ],
+          "tangent_axes": [
+            "x",
+            "y"
+          ],
+          "support_translation_bounds": [
+            [
+              -0.0030000000000000027,
+              3.9269999999999996
+            ],
+            [
+              0.0030000000000000027,
+              4.013
+            ]
+          ],
+          "scene_feasible_translation_vertices": [],
+          "domain_kind": "conservative support-union bound at the specified relative yaw",
+          "scene_extent_m": [
+            6.4,
+            8.0,
+            3.3
+          ],
+          "child_local_body_bounds": [
+            [
+              -0.875,
+              -0.09,
+              0.0
+            ],
+            [
+              0.875,
+              0.09,
+              2.05
+            ]
+          ]
+        },
+        "expected": {
+          "selected_contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "full_surface_coverage_required": true
+        },
+        "id": "5f0576760f6fcee9",
+        "upstream_paths": [
+          "/components/3/surface_contact"
+        ]
+      },
+      {
+        "code": "mounting_extent_conflict",
+        "evidence": "sash_window on room_shell/wall_north_sill: At this relative yaw, full support coverage and the scene extent have no common translation. Moving inward loses support; moving outward crosses the boundary. Review the inferred contact parts/faces or physically appropriate yaw; preserve geometry, dimensions and support coverage.",
+        "paths": [],
+        "component_ids": [
+          "sash_window",
+          "room_shell"
+        ],
+        "scenario": "bookcase_width",
+        "measured": {
+          "contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "requested_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.9
+          ],
+          "relative_yaw_deg": 0.0,
+          "parent_surface_bounds": [
+            [
+              [
+                -0.8,
+                3.88,
+                0.14999999999999997
+              ],
+              [
+                0.8,
+                4.0,
+                1.05
+              ]
+            ]
+          ],
+          "parent_local_planes_m": [
+            1.05
+          ],
+          "parent_local_patch": [
+            [
+              -0.8,
+              3.85,
+              1.05
+            ],
+            [
+              0.8,
+              3.89,
+              1.05
+            ]
+          ],
+          "resolved_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.97
+          ],
+          "tangent_axes": [
+            "x",
+            "y"
+          ],
+          "support_translation_bounds": [
+            [
+              -0.0030000000000000027,
+              3.9269999999999996
+            ],
+            [
+              0.0030000000000000027,
+              4.013
+            ]
+          ],
+          "scene_feasible_translation_vertices": [],
+          "domain_kind": "conservative support-union bound at the specified relative yaw",
+          "scene_extent_m": [
+            6.4,
+            8.0,
+            3.3
+          ],
+          "child_local_body_bounds": [
+            [
+              -0.875,
+              -0.09,
+              0.0
+            ],
+            [
+              0.875,
+              0.09,
+              2.05
+            ]
+          ]
+        },
+        "expected": {
+          "selected_contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "full_surface_coverage_required": true
+        },
+        "id": "75b071403def0cc9",
+        "upstream_paths": [
+          "/components/3/surface_contact"
+        ]
+      },
+      {
+        "code": "mounting_extent_conflict",
+        "evidence": "sash_window on room_shell/wall_north_sill: At this relative yaw, full support coverage and the scene extent have no common translation. Moving inward loses support; moving outward crosses the boundary. Review the inferred contact parts/faces or physically appropriate yaw; preserve geometry, dimensions and support coverage.",
+        "paths": [],
+        "component_ids": [
+          "sash_window",
+          "room_shell"
+        ],
+        "scenario": "desk_depth",
+        "measured": {
+          "contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "requested_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.9
+          ],
+          "relative_yaw_deg": 0.0,
+          "parent_surface_bounds": [
+            [
+              [
+                -0.8,
+                3.88,
+                0.14999999999999997
+              ],
+              [
+                0.8,
+                4.0,
+                1.05
+              ]
+            ]
+          ],
+          "parent_local_planes_m": [
+            1.05
+          ],
+          "parent_local_patch": [
+            [
+              -0.8,
+              3.85,
+              1.05
+            ],
+            [
+              0.8,
+              3.89,
+              1.05
+            ]
+          ],
+          "resolved_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.97
+          ],
+          "tangent_axes": [
+            "x",
+            "y"
+          ],
+          "support_translation_bounds": [
+            [
+              -0.0030000000000000027,
+              3.9269999999999996
+            ],
+            [
+              0.0030000000000000027,
+              4.013
+            ]
+          ],
+          "scene_feasible_translation_vertices": [],
+          "domain_kind": "conservative support-union bound at the specified relative yaw",
+          "scene_extent_m": [
+            6.4,
+            8.0,
+            3.3
+          ],
+          "child_local_body_bounds": [
+            [
+              -0.875,
+              -0.09,
+              0.0
+            ],
+            [
+              0.875,
+              0.09,
+              2.05
+            ]
+          ]
+        },
+        "expected": {
+          "selected_contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "full_surface_coverage_required": true
+        },
+        "id": "36025a8181935a6a",
+        "upstream_paths": [
+          "/components/3/surface_contact"
+        ]
+      },
+      {
+        "code": "mounting_extent_conflict",
+        "evidence": "sash_window on room_shell/wall_north_sill: At this relative yaw, full support coverage and the scene extent have no common translation. Moving inward loses support; moving outward crosses the boundary. Review the inferred contact parts/faces or physically appropriate yaw; preserve geometry, dimensions and support coverage.",
+        "paths": [],
+        "component_ids": [
+          "sash_window",
+          "room_shell"
+        ],
+        "scenario": "ottoman_height",
+        "measured": {
+          "contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "requested_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.9
+          ],
+          "relative_yaw_deg": 0.0,
+          "parent_surface_bounds": [
+            [
+              [
+                -0.8,
+                3.88,
+                0.14999999999999997
+              ],
+              [
+                0.8,
+                4.0,
+                1.05
+              ]
+            ]
+          ],
+          "parent_local_planes_m": [
+            1.05
+          ],
+          "parent_local_patch": [
+            [
+              -0.8,
+              3.85,
+              1.05
+            ],
+            [
+              0.8,
+              3.89,
+              1.05
+            ]
+          ],
+          "resolved_parent_local_offset_m": [
+            0.0,
+            3.9,
+            0.97
+          ],
+          "tangent_axes": [
+            "x",
+            "y"
+          ],
+          "support_translation_bounds": [
+            [
+              -0.0030000000000000027,
+              3.9269999999999996
+            ],
+            [
+              0.0030000000000000027,
+              4.013
+            ]
+          ],
+          "scene_feasible_translation_vertices": [],
+          "domain_kind": "conservative support-union bound at the specified relative yaw",
+          "scene_extent_m": [
+            6.4,
+            8.0,
+            3.3
+          ],
+          "child_local_body_bounds": [
+            [
+              -0.875,
+              -0.09,
+              0.0
+            ],
+            [
+              0.875,
+              0.09,
+              2.05
+            ]
+          ]
+        },
+        "expected": {
+          "selected_contact": {
+            "parent_part": "wall_north_sill",
+            "parent_face": "z_max",
+            "child_part": "lower_sash_frame",
+            "child_face": "z_min"
+          },
+          "full_surface_coverage_required": true
+        },
+        "id": "4803c02e5546d0ac",
+        "upstream_paths": [
+          "/components/3/surface_contact"
+        ]
+      }
+    ],
+    "blocked_checks": [
+      {
+        "check": "world_pose",
+        "reason": "window_shutters: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/4/position"
+        ],
+        "scenario": "baseline"
+      },
+      {
+        "check": "world_pose",
+        "reason": "swing_arm_lamp: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/21/position"
+        ],
+        "scenario": "baseline"
+      },
+      {
+        "check": "layout_relations",
+        "reason": "World bounds could not be fully evaluated.",
+        "paths": [],
+        "scenario": "baseline"
+      },
+      {
+        "check": "world_pose",
+        "reason": "window_shutters: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/4/position"
+        ],
+        "scenario": "bookcase_height"
+      },
+      {
+        "check": "world_pose",
+        "reason": "swing_arm_lamp: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/21/position"
+        ],
+        "scenario": "bookcase_height"
+      },
+      {
+        "check": "layout_relations",
+        "reason": "World bounds could not be fully evaluated.",
+        "paths": [],
+        "scenario": "bookcase_height"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "bookcase_height"
+      },
+      {
+        "check": "world_pose",
+        "reason": "window_shutters: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/4/position"
+        ],
+        "scenario": "bookcase_width"
+      },
+      {
+        "check": "world_pose",
+        "reason": "swing_arm_lamp: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/21/position"
+        ],
+        "scenario": "bookcase_width"
+      },
+      {
+        "check": "layout_relations",
+        "reason": "World bounds could not be fully evaluated.",
+        "paths": [],
+        "scenario": "bookcase_width"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "bookcase_width"
+      },
+      {
+        "check": "world_pose",
+        "reason": "window_shutters: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/4/position"
+        ],
+        "scenario": "desk_depth"
+      },
+      {
+        "check": "world_pose",
+        "reason": "swing_arm_lamp: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/21/position"
+        ],
+        "scenario": "desk_depth"
+      },
+      {
+        "check": "layout_relations",
+        "reason": "World bounds could not be fully evaluated.",
+        "paths": [],
+        "scenario": "desk_depth"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "desk_depth"
+      },
+      {
+        "check": "world_pose",
+        "reason": "window_shutters: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/4/position"
+        ],
+        "scenario": "ottoman_height"
+      },
+      {
+        "check": "world_pose",
+        "reason": "swing_arm_lamp: parent sash_window has an unresolved mounting pose.",
+        "paths": [
+          "/components/21/position"
+        ],
+        "scenario": "ottoman_height"
+      },
+      {
+        "check": "layout_relations",
+        "reason": "World bounds could not be fully evaluated.",
+        "paths": [],
+        "scenario": "ottoman_height"
+      },
+      {
+        "check": "edit_effect",
+        "reason": "Valid baseline required for effect comparison.",
+        "paths": [],
+        "scenario": "ottoman_height"
+      }
+    ],
+    "coverage": "All independent checks in this stage; blocked checks require corrected prerequisites."
+  }
+}

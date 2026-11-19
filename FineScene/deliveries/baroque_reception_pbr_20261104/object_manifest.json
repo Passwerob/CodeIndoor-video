@@ -1,0 +1,484 @@
+{
+  "provenance": "direct parametric construction; real Poly Haven CC0 PBR; NO TRELLIS; NOT a FineScene Agent run",
+  "scene_label": "BaroqueReceptionLounge",
+  "style": "West European Baroque",
+  "units": "m",
+  "coordinate_frame": {
+    "up": "+Z",
+    "front": "-Y",
+    "right": "+X"
+  },
+  "room": {
+    "width": 8.0,
+    "depth": 6.4,
+    "height": 3.6,
+    "floor_top_z": 0.0
+  },
+  "pbr": {
+    "source": "Poly Haven (https://polyhaven.com)",
+    "license": "CC0 1.0 Universal",
+    "material_sets": 10,
+    "texture_maps": 49,
+    "environment_hdri": "ballroom",
+    "trellis_used": false
+  },
+  "object_count": 19,
+  "total_parts": 1170,
+  "editable_objects": [
+    {
+      "id": "room_shell",
+      "label": "ArchitecturalShell",
+      "kind": "structure",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 179,
+      "materials": [
+        "boiserie_dark",
+        "boiserie_walnut",
+        "floor_parquet",
+        "gilded_bronze",
+        "relief_plaster",
+        "stucco_white"
+      ],
+      "geometry_types": [
+        "box",
+        "parametric_mesh",
+        "sweep"
+      ],
+      "note": "8.0 x 6.4 x 3.6 m enclosure; real door and window apertures, herringbone parquet"
+    },
+    {
+      "id": "boiserie",
+      "label": "BoiseriePanels",
+      "kind": "structure",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 112,
+      "materials": [
+        "boiserie_walnut",
+        "damask_crimson",
+        "gilded_bronze"
+      ],
+      "geometry_types": [
+        "box"
+      ],
+      "note": "Raised walnut panelling with crimson damask upholstered inserts and gilt fillets"
+    },
+    {
+      "id": "columns",
+      "label": "CorinthianOrder",
+      "kind": "structure",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 224,
+      "materials": [
+        "gilded_bronze",
+        "marble_cream"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "parametric_mesh",
+        "sweep"
+      ],
+      "note": "Fluted shafts with acanthus capitals and volutes; eight around the room"
+    },
+    {
+      "id": "fireplace",
+      "label": "MarbleFireplace",
+      "kind": "structure",
+      "position": [
+        0,
+        2.9000000000000004,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 54,
+      "materials": [
+        "boiserie_dark",
+        "ember",
+        "flame",
+        "gilded_bronze",
+        "marble_cream",
+        "soot"
+      ],
+      "geometry_types": [
+        "box",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Cream marble chimneypiece with scrolled trusses, dentil mantel and glowing firebox"
+    },
+    {
+      "id": "gilt_mirror",
+      "label": "GiltMirror",
+      "kind": "detail",
+      "position": [
+        0,
+        3.14,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 44,
+      "materials": [
+        "gilded_bronze",
+        "mirror"
+      ],
+      "geometry_types": [
+        "box",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "2.15 x 2.45 m pier glass: silvered field, multi-step gilt frame, corner volutes, shell crest"
+    },
+    {
+      "id": "windows",
+      "label": "ArchedWindows",
+      "kind": "structure",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 108,
+      "materials": [
+        "gilded_bronze",
+        "glass",
+        "skylight",
+        "velvet_crimson"
+      ],
+      "geometry_types": [
+        "box",
+        "cloth_simulated_drape",
+        "sphere"
+      ],
+      "note": "Four arched apertures with real glazing, gilt glazing bars and crimson velvet drapery"
+    },
+    {
+      "id": "entrance",
+      "label": "DoubleDoor",
+      "kind": "structure",
+      "position": [
+        0,
+        -3.22,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 30,
+      "materials": [
+        "boiserie_dark",
+        "boiserie_walnut",
+        "damask_crimson",
+        "gilded_bronze",
+        "marble_cream"
+      ],
+      "geometry_types": [
+        "box",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "1.9 m double door with raised walnut panels, gilt fillets and a scrolled pediment"
+    },
+    {
+      "id": "wall_panels",
+      "label": "GiltTapestryPanels",
+      "kind": "detail",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 68,
+      "materials": [
+        "damask_crimson",
+        "gilded_bronze"
+      ],
+      "geometry_types": [
+        "box",
+        "sweep"
+      ],
+      "note": "Eight crimson damask tapestry panels in carved gilt frames above the boiserie"
+    },
+    {
+      "id": "sofa_west",
+      "label": "CanapeWest",
+      "kind": "furniture",
+      "position": [
+        -2.42,
+        0.3,
+        0
+      ],
+      "yaw_deg": 90.0,
+      "part_count": 35,
+      "materials": [
+        "damask_crimson",
+        "furniture_rosewood",
+        "gilded_bronze",
+        "velvet_crimson"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Velvet upholstered canape: carved rosewood frame, cabriole legs, shell crest"
+    },
+    {
+      "id": "sofa_east",
+      "label": "CanapeEast",
+      "kind": "furniture",
+      "position": [
+        2.42,
+        0.3,
+        0
+      ],
+      "yaw_deg": -90.0,
+      "part_count": 35,
+      "materials": [
+        "damask_crimson",
+        "furniture_rosewood",
+        "gilded_bronze",
+        "velvet_crimson"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Velvet upholstered canape: carved rosewood frame, cabriole legs, shell crest"
+    },
+    {
+      "id": "armchair_southwest",
+      "label": "FauteuilSouthwest",
+      "kind": "furniture",
+      "position": [
+        -1.38,
+        -1.72,
+        0
+      ],
+      "yaw_deg": 165.0,
+      "part_count": 26,
+      "materials": [
+        "damask_crimson",
+        "furniture_rosewood",
+        "gilded_bronze",
+        "velvet_crimson"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "High-back wing armchair in crimson velvet with damask wings and gilt cabriole legs"
+    },
+    {
+      "id": "armchair_southeast",
+      "label": "FauteuilSoutheast",
+      "kind": "furniture",
+      "position": [
+        1.38,
+        -1.72,
+        0
+      ],
+      "yaw_deg": 195.0,
+      "part_count": 26,
+      "materials": [
+        "damask_crimson",
+        "furniture_rosewood",
+        "gilded_bronze",
+        "velvet_crimson"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "parametric_mesh",
+        "sphere",
+        "sweep"
+      ],
+      "note": "High-back wing armchair in crimson velvet with damask wings and gilt cabriole legs"
+    },
+    {
+      "id": "coffee_table",
+      "label": "GiltCoffeeTable",
+      "kind": "furniture",
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 24,
+      "materials": [
+        "furniture_rosewood",
+        "gilded_bronze",
+        "marble_cream"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Marble-top centre table with carved gilt apron and four cabriole legs"
+    },
+    {
+      "id": "area_carpet",
+      "label": "SavonnerieCarpet",
+      "kind": "detail",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 19,
+      "materials": [
+        "damask_crimson",
+        "gilded_bronze"
+      ],
+      "geometry_types": [
+        "box",
+        "parametric_mesh"
+      ],
+      "note": "Crimson damask carpet with gilt border and central medallion"
+    },
+    {
+      "id": "gueridon_west",
+      "label": "Gueridon",
+      "kind": "furniture",
+      "position": [
+        -3.52,
+        -0.9,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 12,
+      "materials": [
+        "gilded_bronze",
+        "marble_cream"
+      ],
+      "geometry_types": [
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Round marble-topped gueridon with three gilt cabriole legs"
+    },
+    {
+      "id": "gueridon_east",
+      "label": "Gueridon",
+      "kind": "furniture",
+      "position": [
+        3.52,
+        -0.9,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 12,
+      "materials": [
+        "gilded_bronze",
+        "marble_cream"
+      ],
+      "geometry_types": [
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Round marble-topped gueridon with three gilt cabriole legs"
+    },
+    {
+      "id": "chandelier",
+      "label": "CrystalChandelier",
+      "kind": "light",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 74,
+      "materials": [
+        "crystal",
+        "flame",
+        "gilded_bronze",
+        "stucco_white"
+      ],
+      "geometry_types": [
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Six-arm gilt chandelier with candle flames and hung crystal drops"
+    },
+    {
+      "id": "wall_sconces",
+      "label": "GiltSconces",
+      "kind": "light",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 44,
+      "materials": [
+        "flame",
+        "gilded_bronze",
+        "stucco_white"
+      ],
+      "geometry_types": [
+        "box",
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Four two-arm gilt wall sconces with candle flames"
+    },
+    {
+      "id": "candelabra",
+      "label": "FloorCandelabra",
+      "kind": "light",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "part_count": 44,
+      "materials": [
+        "flame",
+        "gilded_bronze",
+        "stucco_white"
+      ],
+      "geometry_types": [
+        "cylinder",
+        "sphere",
+        "sweep"
+      ],
+      "note": "Two five-light floor candelabra flanking the fireplace"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+ "_note": "Hand corrections of automatic boxes, each checked against top-down slices of the Any4D point cloud (2026-11-14).",
+ "fridge": {
+  "x": 0.686,
+  "y": -0.37,
+  "dims": [
+   0.7,
+   0.628,
+   1.4
+  ],
+  "_why": "the SAM3 box covered only ~2/3 of the glossy front (0.467 m); point-cloud slices at z 0.3-1.3 m show the front from y -0.72 to -0.02 between the two housing panels, and an A4 notice covers ~2/3 of one door; top at ~1.40 m (dense points at 1.35-1.40, open niche above)"
+ },
+ "dustpan_and_brush": {
+  "x": -0.925,
+  "dims": [
+   0.26,
+   0.236,
+   0.8
+  ],
+  "_why": "the measured depth (0.142 m) is the leaning shafts only; the scoop reaches ~0.21 m out from the west wall (t = 202-210 s), handle against the wall; the brush head overhangs the scoop lip (t = 202 s), so the box is 0.236 deep, back against the wall"
+ },
+ "wet_floor_sign": {
+  "dims": [
+   0.58,
+   0.13,
+   0.0008
+  ],
+  "_why": "only the flat label (the 0.19 m box also took in the aluminium nosing beside it, which is part of the floor)"
+ },
+ "base_cabinet_run": {
+  "y": 1.05,
+  "dims": [
+   2.06,
+   0.605,
+   0.891
+  ],
+  "_why": "the run reaches the fridge housing panel (y ~ 0.02) and the tiled north wall step (y ~ 2.08): point-cloud slice z 0.1-0.8 m shows the door line continuous between them; the automatic box stopped at 0.11"
+ },
+ "pink_bucket": {
+  "x": -0.43,
+  "y": 2.12,
+  "_why": "silhouette fit wants (-0.49, 2.15) (IoU 0.36 -> 0.44), clamped so it stays clear of the NW pier (x -0.58) and the north wall"
+ },
+ "wall_cabinet_run": {
+  "z": 1.64,
+  "dims": [
+   2.827,
+   0.56,
+   0.92
+  ],
+  "hand_params": {
+   "split_x": 0.6595,
+   "split_gap": 0.0145,
+   "niche_bottom": 0.14
+  },
+  "_why": "point-cloud histograms (per-frame corrected): door fronts start at z 1.64 over the counter and end ~2.56; the over-fridge cabinet's underside is at ~1.78 (open niche below); F00 shows ~7.7 tile rows above the worktop; ends at the north wall step (y 2.08) and splits round the housing panel (y -0.005..0.02) -- clip check 2026-11-14",
+  "y": 0.667
+ },
+ "sink": {
+  "x": 0.72,
+  "y": 1.42,
+  "dims": [
+   0.6,
+   0.345,
+   0.248
+  ],
+  "_why": "per-frame-corrected slice z 0.62-0.86 m inside the bowl: opening x 0.55-0.89, y 1.12-1.72; the automatic box reached x 0.99 and took the tap in; rim at the worktop's underside (0.853 m)"
+ },
+ "faucet": {
+  "x": 0.955,
+  "y": 1.35,
+  "_why": "points above the worktop: tap base at x 0.93-0.98, y 1.30-1.40, between the bowl's back edge and the upstand; stands ON the worktop (z 0.891), it was sunk 11 mm",
+  "z": 0.891
+ },
+ "detergent_bottle": {
+  "x": 0.975,
+  "y": 1.62,
+  "_why": "the jug stands on the worktop behind the bowl's back-right corner (t = 120-156 s), points at y 1.50-1.72; moved off the bowl edge"
+ },
+ "microwave": {
+  "x": 0.742,
+  "y": 0.325,
+  "_why": "silhouette fit through the corrected cameras (geometry/refine_poses.py): mean IoU 0.694 -> 0.739 over 12 views"
+ },
+ "trash_bin_1": {
+  "x": -0.885,
+  "y": -0.103,
+  "_why": "silhouette fit through the corrected cameras: IoU 0.696 -> 0.722"
+ },
+ "plant_1": {
+  "x": 0.955,
+  "y": 1.975,
+  "hand_params": {
+   "bounds": {
+    "xmin": -0.083,
+    "ymax": 0.083
+   },
+   "open_azimuth_deg": -45.0,
+   "avoid": [
+    [
+     0.285,
+     0.425,
+     -0.032,
+     0.073,
+     0.33
+    ],
+    [
+     0.087,
+     0.237,
+     -0.41,
+     -0.26,
+     0.13
+    ],
+    [
+     -0.033,
+     0.087,
+     -0.317,
+     -0.195,
+     0.14
+    ]
+   ]
+  },
+  "_why": "the white pot stands right in the worktop corner (t = 150-160 s); leaves stop at the walls and keep clear of the jug and the glass vessels (clip check)"
+ }
+}

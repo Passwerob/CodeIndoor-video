@@ -1,0 +1,541 @@
+{
+  "purpose": "deterministic composition / integrity teaching verification",
+  "provenance": {
+    "agent_run": "E:\\3DUse\\FineScene\\runs\\complete_discussion_room_20261023_01\\agent_runtime\\spatial_plan_accepted.json",
+    "agent_decomposition": "E:\\3DUse\\FineScene\\runs\\complete_discussion_room_20261023_01\\agent_runtime\\decomposition_accepted.json",
+    "agent_layout": "E:\\3DUse\\FineScene\\runs\\complete_discussion_room_20261023_01\\agent_runtime\\coarse_layout_0_raw.txt",
+    "own_geometry": "E:\\3DUse\\FineScene\\deliveries\\baroque_reception_pbr_20261104\\parts.json",
+    "own_normalized": "E:\\3DUse\\FineScene\\deliveries\\baroque_reception_pbr_20261104\\scene_normalized.json",
+    "joints": "E:\\3DUse\\FineScene\\deliveries\\baroque_reception_pbr_20261104\\joint_pairs.json"
+  },
+  "honesty_note": "No FineScene Agent run was executed. The Agent sample is a frozen historical run; the positive sample is real measured geometry from the delivered .blend. The direct construction has no frozen access/route contract, so circulation metrics are reported as not_measured instead of being invented.",
+  "composition": {
+    "agent_run_20261023_01": {
+      "inferred_archetype": "reception_lounge",
+      "inferred": {
+        "status": "needs_revision",
+        "archetype": "reception_lounge",
+        "archetype_notes": "Conversation-first lounge: define the rug/core area, then arrange all seats to face one shared focus. Open floor is the residual of a good arrangement, not a protected rectangle.",
+        "metrics": {
+          "footprint_coverage_pct": 10.415,
+          "focus_id": "table",
+          "enclosure_members": 2,
+          "focus_distance_cv": 0.0,
+          "focus_distance_m": [
+            0.69,
+            0.69
+          ],
+          "focus_facing_max_deg": 0.0,
+          "azimuth_coverage_deg": 180.0,
+          "symmetry_error_m": 0.0,
+          "circulation_vs_access_overlap_m2": 2.153,
+          "circulation_vs_access_overlaps": [
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_floor_entry",
+              "m2": 0.64
+            },
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_table_east",
+              "m2": 0.4875
+            },
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_bookshelf_front",
+              "m2": 0.603
+            },
+            {
+              "zone": "zone_entry_circulation",
+              "area": "acc_chair_a_pullback",
+              "m2": 0.4225
+            }
+          ],
+          "access_area_overlap_m2": 2.318,
+          "access_area_overlaps": [
+            {
+              "a": "acc_table_east",
+              "b": "acc_bookshelf_front",
+              "m2": 0.165
+            }
+          ],
+          "shared_trunk_m": 0.1,
+          "mean_route_length_m": 2.676,
+          "shared_trunk_ratio": 0.0374,
+          "focal_corridor_occlusion": 0.0,
+          "not_measured": []
+        },
+        "issues": [
+          {
+            "code": "sparse_inventory",
+            "evidence": "Furniture covers only 10.41% of the floor (minimum 14.0%). No coordinate tweak can fill a room whose frozen inventory is this sparse.",
+            "measured": {
+              "pct": 10.415
+            },
+            "expected": {
+              "pct_min": 14.0
+            },
+            "repair_target": "decomposition",
+            "component_ids": [
+              "table",
+              "chair_a",
+              "chair_b",
+              "bookshelf"
+            ],
+            "severity": "blocking"
+          },
+          {
+            "code": "missing_enclosure_group",
+            "evidence": "Only 2 enclosing seats; a reception_lounge needs at least 3 members sharing one focus.",
+            "measured": {
+              "members": 2
+            },
+            "expected": {
+              "members_min": 3
+            },
+            "repair_target": "decomposition",
+            "component_ids": [
+              "chair_a",
+              "chair_b"
+            ],
+            "severity": "blocking"
+          },
+          {
+            "code": "use_areas_are_not_exclusive",
+            "evidence": "Operator/access areas overlap by 2.318 m2 (max 0.10 m2). The person browsing the shelf is standing in everyone's corridor.",
+            "measured": {
+              "total_m2": 2.318,
+              "pairs": [
+                {
+                  "a": "acc_table_east",
+                  "b": "acc_bookshelf_front",
+                  "m2": 0.165
+                }
+              ]
+            },
+            "expected": {
+              "total_max_m2": 0.1
+            },
+            "repair_target": "spatial",
+            "component_ids": [],
+            "severity": "blocking"
+          },
+          {
+            "code": "radiating_routes",
+            "evidence": "Routes share only 0.04 of their length as a common entrance trunk (minimum 0.28). One line per target is a wiring diagram, not a circulation plan.",
+            "measured": {
+              "shared_m": 0.1,
+              "mean_route_m": 2.676,
+              "ratio": 0.0374
+            },
+            "expected": {
+              "ratio_min": 0.28
+            },
+            "repair_target": "spatial",
+            "component_ids": [],
+            "severity": "blocking"
+          }
+        ],
+        "issue_count": 4
+      },
+      "common_reception_lounge": {
+        "status": "needs_revision",
+        "archetype": "reception_lounge",
+        "archetype_notes": "Conversation-first lounge: define the rug/core area, then arrange all seats to face one shared focus. Open floor is the residual of a good arrangement, not a protected rectangle.",
+        "metrics": {
+          "footprint_coverage_pct": 10.415,
+          "focus_id": "table",
+          "enclosure_members": 2,
+          "focus_distance_cv": 0.0,
+          "focus_distance_m": [
+            0.69,
+            0.69
+          ],
+          "focus_facing_max_deg": 0.0,
+          "azimuth_coverage_deg": 180.0,
+          "symmetry_error_m": 0.0,
+          "circulation_vs_access_overlap_m2": 2.153,
+          "circulation_vs_access_overlaps": [
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_floor_entry",
+              "m2": 0.64
+            },
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_table_east",
+              "m2": 0.4875
+            },
+            {
+              "zone": "zone_east_circulation_aisle",
+              "area": "acc_bookshelf_front",
+              "m2": 0.603
+            },
+            {
+              "zone": "zone_entry_circulation",
+              "area": "acc_chair_a_pullback",
+              "m2": 0.4225
+            }
+          ],
+          "access_area_overlap_m2": 2.318,
+          "access_area_overlaps": [
+            {
+              "a": "acc_table_east",
+              "b": "acc_bookshelf_front",
+              "m2": 0.165
+            }
+          ],
+          "shared_trunk_m": 0.1,
+          "mean_route_length_m": 2.676,
+          "shared_trunk_ratio": 0.0374,
+          "focal_corridor_occlusion": 0.0,
+          "not_measured": []
+        },
+        "issues": [
+          {
+            "code": "sparse_inventory",
+            "evidence": "Furniture covers only 10.41% of the floor (minimum 14.0%). No coordinate tweak can fill a room whose frozen inventory is this sparse.",
+            "measured": {
+              "pct": 10.415
+            },
+            "expected": {
+              "pct_min": 14.0
+            },
+            "repair_target": "decomposition",
+            "component_ids": [
+              "table",
+              "chair_a",
+              "chair_b",
+              "bookshelf"
+            ],
+            "severity": "blocking"
+          },
+          {
+            "code": "missing_enclosure_group",
+            "evidence": "Only 2 enclosing seats; a reception_lounge needs at least 3 members sharing one focus.",
+            "measured": {
+              "members": 2
+            },
+            "expected": {
+              "members_min": 3
+            },
+            "repair_target": "decomposition",
+            "component_ids": [
+              "chair_a",
+              "chair_b"
+            ],
+            "severity": "blocking"
+          },
+          {
+            "code": "use_areas_are_not_exclusive",
+            "evidence": "Operator/access areas overlap by 2.318 m2 (max 0.10 m2). The person browsing the shelf is standing in everyone's corridor.",
+            "measured": {
+              "total_m2": 2.318,
+              "pairs": [
+                {
+                  "a": "acc_table_east",
+                  "b": "acc_bookshelf_front",
+                  "m2": 0.165
+                }
+              ]
+            },
+            "expected": {
+              "total_max_m2": 0.1
+            },
+            "repair_target": "spatial",
+            "component_ids": [],
+            "severity": "blocking"
+          },
+          {
+            "code": "radiating_routes",
+            "evidence": "Routes share only 0.04 of their length as a common entrance trunk (minimum 0.28). One line per target is a wiring diagram, not a circulation plan.",
+            "measured": {
+              "shared_m": 0.1,
+              "mean_route_m": 2.676,
+              "ratio": 0.0374
+            },
+            "expected": {
+              "ratio_min": 0.28
+            },
+            "repair_target": "spatial",
+            "component_ids": [],
+            "severity": "blocking"
+          }
+        ],
+        "issue_count": 4
+      }
+    },
+    "baroque_direct_20261104": {
+      "inferred_archetype": "baroque_salon",
+      "inferred": {
+        "status": "passed",
+        "archetype": "baroque_salon",
+        "archetype_notes": "Axial salon: one dominant focal wall (fireplace/mirror), a mirrored left-right seating enfilade, a rug-defined conversation core, and peripheral accents in wall niches.",
+        "metrics": {
+          "footprint_coverage_pct": 21.296,
+          "focus_id": "coffee_table",
+          "enclosure_members": 4,
+          "focus_distance_cv": 0.0157,
+          "focus_distance_m": [
+            2.423,
+            2.423,
+            2.348,
+            2.348
+          ],
+          "focus_facing_max_deg": 20.99,
+          "azimuth_coverage_deg": 185.68,
+          "symmetry_error_m": 0.0,
+          "circulation_vs_access_overlap_m2": 0,
+          "circulation_vs_access_overlaps": [],
+          "access_area_overlap_m2": 0,
+          "access_area_overlaps": [],
+          "shared_trunk_m": 0.0,
+          "mean_route_length_m": null,
+          "shared_trunk_ratio": null,
+          "focal_corridor_occlusion": 0.0,
+          "not_measured": [
+            "mean_route_length_m",
+            "shared_trunk_ratio"
+          ]
+        },
+        "issues": [],
+        "issue_count": 0
+      },
+      "common_reception_lounge": {
+        "status": "passed",
+        "archetype": "reception_lounge",
+        "archetype_notes": "Conversation-first lounge: define the rug/core area, then arrange all seats to face one shared focus. Open floor is the residual of a good arrangement, not a protected rectangle.",
+        "metrics": {
+          "footprint_coverage_pct": 21.296,
+          "focus_id": "coffee_table",
+          "enclosure_members": 4,
+          "focus_distance_cv": 0.0157,
+          "focus_distance_m": [
+            2.423,
+            2.423,
+            2.348,
+            2.348
+          ],
+          "focus_facing_max_deg": 20.99,
+          "azimuth_coverage_deg": 185.68,
+          "symmetry_error_m": 0.0,
+          "circulation_vs_access_overlap_m2": 0,
+          "circulation_vs_access_overlaps": [],
+          "access_area_overlap_m2": 0,
+          "access_area_overlaps": [],
+          "shared_trunk_m": 0.0,
+          "mean_route_length_m": null,
+          "shared_trunk_ratio": null,
+          "focal_corridor_occlusion": 0.0,
+          "not_measured": [
+            "mean_route_length_m",
+            "shared_trunk_ratio"
+          ]
+        },
+        "issues": [],
+        "issue_count": 0
+      }
+    }
+  },
+  "part_integrity": {
+    "own_blend": {
+      "counts": {
+        "parts": 1170,
+        "declared_joints": 90,
+        "floating": 0,
+        "joint_gaps": 0,
+        "intersections": 0,
+        "coplanar": 0,
+        "clearance_failures": 0,
+        "blocking_findings": 0,
+        "review_findings": 0
+      },
+      "status": "passed",
+      "findings": []
+    },
+    "agent_clearance_only": {
+      "counts": {
+        "parts": 0,
+        "declared_joints": 0,
+        "floating": 0,
+        "joint_gaps": 0,
+        "intersections": 0,
+        "coplanar": 0,
+        "clearance_failures": 2,
+        "blocking_findings": 2,
+        "review_findings": 0
+      },
+      "status": "needs_revision",
+      "findings": [
+        {
+          "code": "clearance_zero_margin",
+          "evidence": "Clearance 'route_entrance_to_chair_a@plan' measures 0.4000 m against a required 0.4000 m; margin 0.0000 m is below the 0.050 m safety margin. Real mesh bounds will break this.",
+          "measured": {
+            "id": "route_entrance_to_chair_a@plan",
+            "measured_m": 0.4,
+            "required_m": 0.4,
+            "margin_m": 0.0
+          },
+          "expected": {
+            "margin_min_m": 0.05
+          },
+          "repair_target": "spatial",
+          "component_ids": [
+            "chair_a",
+            "route_entrance_to_chair_a"
+          ],
+          "severity": "blocking"
+        },
+        {
+          "code": "clearance_zero_margin",
+          "evidence": "Clearance 'route_entrance_to_chair_a@mesh' measures 0.3950 m against a required 0.4000 m; margin -0.0050 m is below the 0.050 m safety margin. Real mesh bounds will break this.",
+          "measured": {
+            "id": "route_entrance_to_chair_a@mesh",
+            "measured_m": 0.395,
+            "required_m": 0.4,
+            "margin_m": -0.005
+          },
+          "expected": {
+            "margin_min_m": 0.05
+          },
+          "repair_target": "spatial",
+          "component_ids": [
+            "chair_a",
+            "route_entrance_to_chair_a"
+          ],
+          "severity": "blocking"
+        }
+      ]
+    },
+    "note": "The historical Agent run has no part-level mesh export; only its recorded clearance numbers can be checked here."
+  },
+  "design_rules": {
+    "joint_tol_m": 0.02,
+    "ground_tol_m": 0.03,
+    "coplanar_gap_m": 0.002,
+    "coplanar_min_area_m2": 0.015,
+    "intersection_min_volume_m3": 2e-05,
+    "intersection_min_axis_m": 0.012,
+    "clearance_safety_margin_m": 0.05,
+    "mitre_rule": "same-thickness border rails must be shortened so they MEET at corners instead of overlapping; overlapping coplanar rails produce black z-fighting seams",
+    "occluder_rule": "a ceiling fixture must stay above the principal entrance-to-focus sightline; otherwise raise the fixture or move the camera, do not dim it",
+    "margin_rule": "never place at the exact clearance limit: a measured 0.395 m against a required 0.400 m half-width fails as soon as real mesh bounds replace conservative AABBs"
+  },
+  "injected_prompt": "MEASURABLE COMPOSITION PRIOR [archetype=reception_lounge]: Conversation-first lounge: define the rug/core area, then arrange all seats to face one shared focus. Open floor is the residual of a good arrangement, not a protected rectangle.\nCompose the room in this order and keep the order visible in your reasoning: (1) name the single shared focus; (2) define one conversation/enclosure group around it; (3) place the group as one coherent figure (mirrored axis where the archetype asks for it); (4) put peripheral accents in wall niches OUTSIDE the entrance-to-focus sightline; (5) only then draw circulation, as ONE shared entrance trunk that branches near each activity.\nThresholds that will be measured and can reject this candidate: furniture coverage 14-45% of floor; at least 3 enclosing seats sharing one focus; focus-distance CV <= 0.50; every seat within 55 deg of the focus; enclosure arc >= 120 deg; mirrored pair error <= 0.25 m; access-area overlap <= 0.10 m2; shared route trunk >= 0.28 of mean route length.\nDo NOT satisfy these by adding protected open-space rectangles, by spreading one route per object from the entrance, or by declaring prose about openness instead of arranging real inventory. A measured failure reports its repair_target: decomposition for sparse inventory, layout for poses/facing/symmetry, spatial for zones/areas/routes. Repair at that layer; moving coordinates cannot fix a sparse inventory.",
+  "planner_hook_smoke_test": {
+    "status": "needs_revision",
+    "archetype": "reception_lounge",
+    "archetype_notes": "Conversation-first lounge: define the rug/core area, then arrange all seats to face one shared focus. Open floor is the residual of a good arrangement, not a protected rectangle.",
+    "metrics": {
+      "footprint_coverage_pct": 8.615,
+      "focus_id": "table",
+      "enclosure_members": 2,
+      "focus_distance_cv": 0.0,
+      "focus_distance_m": [
+        0.69,
+        0.69
+      ],
+      "focus_facing_max_deg": 0.0,
+      "azimuth_coverage_deg": 180.0,
+      "symmetry_error_m": 0.0,
+      "circulation_vs_access_overlap_m2": 0,
+      "circulation_vs_access_overlaps": [],
+      "access_area_overlap_m2": 0.48,
+      "access_area_overlaps": [
+        {
+          "a": "a1",
+          "b": "a2",
+          "m2": 0.48
+        }
+      ],
+      "shared_trunk_m": 1.0,
+      "mean_route_length_m": 2.207,
+      "shared_trunk_ratio": 0.4531,
+      "focal_corridor_occlusion": 0.0,
+      "not_measured": []
+    },
+    "issue_count": 3,
+    "issues": [
+      {
+        "id": "cmp_403ada184221",
+        "code": "composition_sparse_inventory",
+        "evidence": "[COMPOSITION] Furniture covers only 8.62% of the floor (minimum 14.0%). No coordinate tweak can fill a room whose frozen inventory is this sparse. repair_target=decomposition",
+        "paths": [
+          "/composition"
+        ],
+        "component_ids": [
+          "table",
+          "chair_a",
+          "chair_b"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "pct": 8.615
+        },
+        "expected": {
+          "pct_min": 14.0
+        },
+        "stage": "composition"
+      },
+      {
+        "id": "cmp_ad5eed85d662",
+        "code": "composition_missing_enclosure_group",
+        "evidence": "[COMPOSITION] Only 2 enclosing seats; a reception_lounge needs at least 3 members sharing one focus. repair_target=decomposition",
+        "paths": [
+          "/composition"
+        ],
+        "component_ids": [
+          "chair_a",
+          "chair_b"
+        ],
+        "scenario": "baseline",
+        "measured": {
+          "members": 2
+        },
+        "expected": {
+          "members_min": 3
+        },
+        "stage": "composition"
+      },
+      {
+        "id": "cmp_2091537949cc",
+        "code": "composition_use_areas_are_not_exclusive",
+        "evidence": "[COMPOSITION] Operator/access areas overlap by 0.480 m2 (max 0.10 m2). The person browsing the shelf is standing in everyone's corridor. repair_target=spatial",
+        "paths": [
+          "/composition"
+        ],
+        "component_ids": [],
+        "scenario": "baseline",
+        "measured": {
+          "total_m2": 0.48,
+          "pairs": [
+            {
+              "a": "a1",
+              "b": "a2",
+              "m2": 0.48
+            }
+          ]
+        },
+        "expected": {
+          "total_max_m2": 0.1
+        },
+        "stage": "composition"
+      }
+    ],
+    "scene_summary": {
+      "objects": 3,
+      "focus_id": "table",
+      "enclosure_group": [
+        "chair_a",
+        "chair_b"
+      ],
+      "entrance": {
+        "position": [
+          0.0,
+          -2.0
+        ],
+        "opening_id": "door"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+ "_note": "2026-11-14: hand-written programs (hand_objects/<id>/program.py); the sink is the part-checked forge program rebuilt at the measured opening",
+ "water_dispenser": "runtime/outputs/hand/water_dispenser/water_dispenser.blend",
+ "microwave": "runtime/outputs/hand/microwave/microwave.blend",
+ "fridge": "runtime/outputs/hand/fridge/fridge.blend",
+ "fridge_housing": "runtime/outputs/hand/fridge_housing/fridge_housing.blend",
+ "trash_bin_1": "runtime/outputs/hand/trash_bin_1/trash_bin_1.blend",
+ "dustpan_and_brush": "runtime/outputs/hand/dustpan_and_brush/dustpan_and_brush.blend",
+ "wet_floor_sign": "runtime/outputs/hand/wet_floor_sign/wet_floor_sign.blend",
+ "base_cabinet_run": "runtime/outputs/hand/base_cabinet_run/base_cabinet_run.blend",
+ "wall_cabinet_run": "runtime/outputs/hand/wall_cabinet_run/wall_cabinet_run.blend",
+ "faucet": "runtime/outputs/hand/faucet/faucet.blend",
+ "detergent_bottle": "runtime/outputs/hand/detergent_bottle/detergent_bottle.blend",
+ "plant_1": "runtime/outputs/hand/plant_1/plant_1.blend",
+ "plant_2": "runtime/outputs/hand/plant_2/plant_2.blend",
+ "pink_bucket": "runtime/outputs/hand/pink_bucket/pink_bucket.blend",
+ "sink": "runtime/outputs/hand/sink/sink.blend"
+}

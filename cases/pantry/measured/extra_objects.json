@@ -1,0 +1,21 @@
+{
+ "_note": "objects missing from the automatic layout, added by hand (2026-11-14)",
+ "objects": [
+  {
+   "id": "fridge_housing",
+   "x": 0.704,
+   "y": -0.3775,
+   "z": 0.0,
+   "yaw_deg": -90.0,
+   "dims": [
+    0.795,
+    0.688,
+    2.56
+   ],
+   "mount": "floor",
+   "fit_dims": true,
+   "category": "cabinetry",
+   "why": "tall oak side panels either side of the fridge, floor to the top of the wall cabinets, standing proud of them (t = 79-103 s, 193 s); point-cloud slices show them at y ~ 0.0 and -0.76; stops at the skirting (x 1.048)"
+  }
+ ]
+}

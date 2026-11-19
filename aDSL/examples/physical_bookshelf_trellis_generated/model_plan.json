@@ -1,0 +1,26 @@
+{
+  "coordinate_frame": {
+    "up": "z",
+    "front": "-y",
+    "right": "+x",
+    "units": "m",
+    "overall_size": "inherited from physical_bookshelf.define"
+  },
+  "parameters": {
+    "bay_1_clearance": 0.368,
+    "bay_2_clearance": 0.368,
+    "bay_3_clearance": 0.368,
+    "bay_4_clearance": 0.4,
+    "trellis_instance_height": 0.15
+  },
+  "parts": [
+    {"id": "shelf_structure", "route": "parametric aDSL code", "parent": null},
+    {"id": "books", "route": "repeated parametric aDSL code", "parent": "shelf_structure"},
+    {"id": "mounted_components/book_19_trellis_local", "route": "ExternalMesh raw GLB", "parent": "books/book_19", "rigid": true}
+  ],
+  "relations": [
+    {"kind": "attached", "child": "mounted_components/book_19_trellis_local", "target": "books/book_19", "anchors": ["bottom", "top"]}
+  ],
+  "build_order": ["shelf_structure", "books", "trellis_component", "attachment"],
+  "checks": ["external GLB exists", "explicit local AABB", "component remains rigid under bay-height overrides", "attachment follows book_19"]
+}

@@ -1,0 +1,214 @@
+{
+  "schema": "finescene.general_plan.v1",
+  "intent": {
+    "scene_id": "metrology_display",
+    "description": "Two metal cylindrical test samples on a square display base; technical prototype, no room.",
+    "style": "technical display",
+    "quality_target": "prototype",
+    "extent": [
+      3.0,
+      3.0,
+      2.0
+    ],
+    "coordinate_frame": {
+      "up": "+Z",
+      "front": "-Y",
+      "right": "+X"
+    },
+    "lighting_expectations": "physically plausible key, fill and practical lights",
+    "camera_expectations": "overview, reverse, top and component close-ups"
+  },
+  "parameters": {
+    "base_width": 1.6
+  },
+  "components": [
+    {
+      "id": "base",
+      "semantic": "square display base",
+      "category": "display_structure",
+      "quantity": 1,
+      "dimensions": [
+        "base_width",
+        1.2,
+        0.12
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "instance_positions": [],
+      "orientation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null,
+      "support": null,
+      "attachment": "free",
+      "collision_role": "solid",
+      "editable_parameters": {},
+      "rigidity": "parametric",
+      "decomposition_reason": "Base width must remain editable independently of the rigid samples.",
+      "required_features": [
+        "flat top surface",
+        "square edged slab"
+      ],
+      "material_requirements": [
+        "matte dark gray"
+      ],
+      "interface_notes": [],
+      "parts": [
+        {
+          "id": "slab",
+          "primitive": "box",
+          "size": [
+            "w",
+            "d",
+            "h"
+          ],
+          "center": [
+            0.0,
+            0.0,
+            "h/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.1,
+            0.12,
+            0.14
+          ]
+        }
+      ],
+      "visual_importance": 3,
+      "source": {
+        "mode": "parametric",
+        "reason": "Exact rectangular structure with editable width and explicit slab geometry.",
+        "retrieval_query": "",
+        "reference_query": "",
+        "reference_image": null,
+        "trellis_required": false,
+        "trellis_reason": "",
+        "quality_target": "prototype",
+        "generation_trigger": "not_applicable",
+        "reference_requirements": []
+      }
+    },
+    {
+      "id": "sample",
+      "semantic": "machined cylindrical test sample",
+      "category": "test_specimen",
+      "quantity": 2,
+      "dimensions": [
+        0.24,
+        0.24,
+        0.5
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "instance_positions": [
+        [
+          -0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.0,
+          0.0
+        ]
+      ],
+      "orientation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "base",
+      "support": "base",
+      "attachment": "top",
+      "collision_role": "solid",
+      "editable_parameters": {},
+      "rigidity": "rigid",
+      "decomposition_reason": "Each sample is a separate rigid object supported on the editable base.",
+      "required_features": [
+        "circular cross section",
+        "flat top and bottom"
+      ],
+      "material_requirements": [
+        "uniform neutral gray prototype material"
+      ],
+      "interface_notes": [],
+      "parts": [
+        {
+          "id": "body",
+          "primitive": "cylinder",
+          "size": [
+            "w",
+            "d",
+            "h"
+          ],
+          "center": [
+            0.0,
+            0.0,
+            "h/2"
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": [
+            0.55,
+            0.57,
+            0.6
+          ]
+        }
+      ],
+      "visual_importance": 3,
+      "source": {
+        "mode": "parametric",
+        "reason": "Cylindrical samples require exact regular geometry without generated detail.",
+        "retrieval_query": "",
+        "reference_query": "",
+        "reference_image": null,
+        "trellis_required": false,
+        "trellis_reason": "",
+        "quality_target": "prototype",
+        "generation_trigger": "not_applicable",
+        "reference_requirements": []
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "supported_by",
+      "from": "sample",
+      "to": "base",
+      "clearance": null,
+      "note": ""
+    }
+  ],
+  "edit_plans": [
+    {
+      "parameter": "base_width",
+      "affected_components": [
+        "base"
+      ],
+      "invariant_components": [
+        "sample"
+      ],
+      "recomputation_scope": "component"
+    }
+  ],
+  "assumptions": [
+    "Explicit authored regression fixture, not a natural-language planning result.",
+    "Prototype material; no claim of photorealistic appearance."
+  ]
+}

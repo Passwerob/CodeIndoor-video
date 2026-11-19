@@ -1,0 +1,438 @@
+{
+ "room": {
+  "width": 8.0,
+  "depth": 6.4,
+  "height": 3.6
+ },
+ "objects": [
+  {
+   "id": "area_carpet",
+   "role": "floor_covering",
+   "position": [
+    0,
+    0.1,
+    0
+   ],
+   "size_xy_from_mesh": [
+    5.25,
+    3.87,
+    0.287
+   ],
+   "size": [
+    5.25,
+    3.87,
+    0.287
+   ],
+   "yaw_deg": 0,
+   "part_count": 19
+  },
+  {
+   "id": "armchair_southeast",
+   "role": "armchair",
+   "position": [
+    1.38,
+    -1.72,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.1581,
+    1.1071,
+    1.6621
+   ],
+   "size": [
+    1.1581,
+    1.1071,
+    1.6621
+   ],
+   "yaw_deg": 195.0,
+   "part_count": 26
+  },
+  {
+   "id": "armchair_southwest",
+   "role": "armchair",
+   "position": [
+    -1.38,
+    -1.72,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.1581,
+    1.1071,
+    1.6621
+   ],
+   "size": [
+    1.1581,
+    1.1071,
+    1.6621
+   ],
+   "yaw_deg": 165.0,
+   "part_count": 26
+  },
+  {
+   "id": "boiserie",
+   "role": "shell",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    7.976,
+    6.37,
+    0.86
+   ],
+   "size": [
+    7.976,
+    6.37,
+    0.86
+   ],
+   "yaw_deg": 0,
+   "part_count": 112
+  },
+  {
+   "id": "candelabra",
+   "role": "light",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    7.1503,
+    0.5745,
+    1.6016
+   ],
+   "size": [
+    7.1503,
+    0.5745,
+    1.6016
+   ],
+   "yaw_deg": 0,
+   "part_count": 44
+  },
+  {
+   "id": "chandelier",
+   "role": "light",
+   "position": [
+    0,
+    0.2,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.24,
+    1.0899,
+    2.52
+   ],
+   "size": [
+    1.24,
+    1.0899,
+    2.52
+   ],
+   "yaw_deg": 0,
+   "part_count": 74
+  },
+  {
+   "id": "coffee_table",
+   "role": "coffee_table",
+   "position": [
+    0,
+    0.18,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.56,
+    0.92,
+    0.8785
+   ],
+   "size": [
+    1.56,
+    0.92,
+    0.8785
+   ],
+   "yaw_deg": 0,
+   "part_count": 24
+  },
+  {
+   "id": "columns",
+   "role": "shell",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    7.96,
+    6.12,
+    3.376
+   ],
+   "size": [
+    7.96,
+    6.12,
+    3.376
+   ],
+   "yaw_deg": 0,
+   "part_count": 224
+  },
+  {
+   "id": "entrance",
+   "role": "shell",
+   "position": [
+    0,
+    -3.22,
+    0
+   ],
+   "size_xy_from_mesh": [
+    2.3847,
+    0.288,
+    3.2823
+   ],
+   "size": [
+    2.3847,
+    0.288,
+    3.2823
+   ],
+   "yaw_deg": 0,
+   "part_count": 30
+  },
+  {
+   "id": "fireplace",
+   "role": "wall_fixture",
+   "position": [
+    0,
+    2.9000000000000004,
+    0
+   ],
+   "size_xy_from_mesh": [
+    2.38,
+    0.9661,
+    1.7013
+   ],
+   "size": [
+    2.38,
+    0.9661,
+    1.7013
+   ],
+   "yaw_deg": 0,
+   "part_count": 54
+  },
+  {
+   "id": "gilt_mirror",
+   "role": "wall_fixture",
+   "position": [
+    0,
+    3.14,
+    0
+   ],
+   "size_xy_from_mesh": [
+    2.5032,
+    0.195,
+    2.0051
+   ],
+   "size": [
+    2.5032,
+    0.195,
+    2.0051
+   ],
+   "yaw_deg": 0,
+   "part_count": 44
+  },
+  {
+   "id": "gueridon_east",
+   "role": "side_table",
+   "position": [
+    3.52,
+    -0.9,
+    0
+   ],
+   "size_xy_from_mesh": [
+    0.63,
+    0.63,
+    0.7557
+   ],
+   "size": [
+    0.63,
+    0.63,
+    0.7557
+   ],
+   "yaw_deg": 0,
+   "part_count": 12
+  },
+  {
+   "id": "gueridon_west",
+   "role": "side_table",
+   "position": [
+    -3.52,
+    -0.9,
+    0
+   ],
+   "size_xy_from_mesh": [
+    0.63,
+    0.63,
+    0.7557
+   ],
+   "size": [
+    0.63,
+    0.63,
+    0.7557
+   ],
+   "yaw_deg": 0,
+   "part_count": 12
+  },
+  {
+   "id": "room_shell",
+   "role": "shell",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    8.54,
+    6.94,
+    3.98
+   ],
+   "size": [
+    8.54,
+    6.94,
+    3.98
+   ],
+   "yaw_deg": 0,
+   "part_count": 179
+  },
+  {
+   "id": "sofa_east",
+   "role": "sofa",
+   "position": [
+    2.42,
+    0.3,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.0577,
+    2.8884,
+    1.6428
+   ],
+   "size": [
+    1.0577,
+    2.8884,
+    1.6428
+   ],
+   "yaw_deg": -90.0,
+   "part_count": 35
+  },
+  {
+   "id": "sofa_west",
+   "role": "sofa",
+   "position": [
+    -2.42,
+    0.3,
+    0
+   ],
+   "size_xy_from_mesh": [
+    1.0577,
+    2.8884,
+    1.6428
+   ],
+   "size": [
+    1.0577,
+    2.8884,
+    1.6428
+   ],
+   "yaw_deg": 90.0,
+   "part_count": 35
+  },
+  {
+   "id": "wall_panels",
+   "role": "structure",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    6.9253,
+    6.325,
+    1.6085
+   ],
+   "size": [
+    6.9253,
+    6.325,
+    1.6085
+   ],
+   "yaw_deg": 0,
+   "part_count": 68
+  },
+  {
+   "id": "wall_sconces",
+   "role": "light",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    7.79,
+    4.596,
+    0.5516
+   ],
+   "size": [
+    7.79,
+    4.596,
+    0.5516
+   ],
+   "yaw_deg": 0,
+   "part_count": 44
+  },
+  {
+   "id": "windows",
+   "role": "shell",
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "size_xy_from_mesh": [
+    8.45,
+    5.8499,
+    3.0922
+   ],
+   "size": [
+    8.45,
+    5.8499,
+    3.0922
+   ],
+   "yaw_deg": 0,
+   "part_count": 108
+  }
+ ],
+ "focus_id": "coffee_table",
+ "enclosure_group": [
+  "sofa_west",
+  "sofa_east",
+  "armchair_southwest",
+  "armchair_southeast"
+ ],
+ "symmetry_pairs": [
+  [
+   "sofa_west",
+   "sofa_east"
+  ],
+  [
+   "armchair_southwest",
+   "armchair_southeast"
+  ],
+  [
+   "gueridon_west",
+   "gueridon_east"
+  ]
+ ],
+ "entrance": {
+  "position": [
+   0,
+   -3.22
+  ]
+ },
+ "access_areas": [],
+ "routes": [],
+ "contract_note": "no frozen spatial contract; circulation metrics not measured"
+}

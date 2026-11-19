@@ -1,0 +1,1538 @@
+[
+  {
+    "id": 0,
+    "level": 1,
+    "kind": "upright",
+    "palette": 4,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.538,
+        -0.14491004078526137,
+        0.19
+      ],
+      [
+        -0.5103023425260886,
+        0.06553637978648391,
+        0.43766765819871895
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_00_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 1,
+    "level": 1,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.5074935422284979,
+        -0.15828468886875546,
+        0.19
+      ],
+      [
+        -0.4669896921405634,
+        0.0695499587348732,
+        0.5199553445670537
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_01_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "kind": "upright",
+    "palette": 2,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.46408106931529863,
+        -0.156864939133707,
+        0.19
+      ],
+      [
+        -0.4207730795148625,
+        0.052413894127584126,
+        0.456234829834247
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_02_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.4178611775391314,
+        -0.16672392729588786,
+        0.19
+      ],
+      [
+        -0.38334311454918296,
+        0.04344186949907197,
+        0.42719992772703574
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_03_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.380941793277314,
+        -0.14827491141534124,
+        0.19
+      ],
+      [
+        -0.3422413397360517,
+        0.08042407921196035,
+        0.5191446850627726
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_04_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.3401397672428094,
+        -0.15911863857580794,
+        0.19
+      ],
+      [
+        -0.30502528619437047,
+        0.0889407381183043,
+        0.4672019736545204
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_05_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 6,
+    "level": 1,
+    "kind": "upright",
+    "palette": 2,
+    "lean_degrees": -12,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.3031790602886823,
+        -0.15775089928365268,
+        0.19
+      ],
+      [
+        -0.19115105139480798,
+        0.08554813561488309,
+        0.5177953487888702
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_06_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 7,
+    "level": 1,
+    "kind": "stack",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": -1.440906314941171,
+    "bounds": [
+      [
+        -0.10067029487792123,
+        -0.16678964824872386,
+        0.19
+      ],
+      [
+        0.14623092109405317,
+        0.09609700287901082,
+        0.23461523625684078
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_07_stack",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 8,
+    "level": 1,
+    "kind": "stack",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": -3.4610542503959976,
+    "bounds": [
+      [
+        -0.09466239537094756,
+        -0.1655580081911541,
+        0.23461523625684075
+      ],
+      [
+        0.17256183199513814,
+        0.10663439092384905,
+        0.2824863207331388
+      ]
+    ],
+    "support_z": 0.23461523625684078,
+    "supported_by": 7,
+    "part_id": "books/level_1_volume_08_stack",
+    "support_part": "books/level_1_volume_07_stack"
+  },
+  {
+    "id": 9,
+    "level": 1,
+    "kind": "stack",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": -0.8129283619523711,
+    "bounds": [
+      [
+        -0.093481847592694,
+        -0.15225889034258702,
+        0.28248632073313873
+      ],
+      [
+        0.15628357383064273,
+        0.053650905209394334,
+        0.3289303442117826
+      ]
+    ],
+    "support_z": 0.2824863207331388,
+    "supported_by": 8,
+    "part_id": "books/level_1_volume_09_stack",
+    "support_part": "books/level_1_volume_08_stack"
+  },
+  {
+    "id": 10,
+    "level": 1,
+    "kind": "upright",
+    "palette": 2,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.232,
+        -0.16696926873160792,
+        0.19
+      ],
+      [
+        0.26009595696371013,
+        0.036182869436261436,
+        0.478868638507952
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_10_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 11,
+    "level": 1,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.2620403399600498,
+        -0.1455591582019052,
+        0.19
+      ],
+      [
+        0.30076898512662237,
+        0.060563328367317565,
+        0.4985163501566292
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_11_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 12,
+    "level": 1,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.30301004114069985,
+        -0.16872730472233494,
+        0.19
+      ],
+      [
+        0.3502280952129948,
+        0.06874947939336157,
+        0.44632566840613536
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_12_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 13,
+    "level": 1,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3539598095682383,
+        -0.15912215038041044,
+        0.19
+      ],
+      [
+        0.3915432439350904,
+        0.05370195949209276,
+        0.45952031743381994
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_13_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 14,
+    "level": 1,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3940339340960105,
+        -0.16092608751411658,
+        0.19
+      ],
+      [
+        0.43698888630527066,
+        0.060890994499758544,
+        0.520915234274297
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_14_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 15,
+    "level": 1,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.43878089065238174,
+        -0.1635365831539347,
+        0.19
+      ],
+      [
+        0.48172776012382984,
+        0.044583890350439304,
+        0.48170365730993125
+      ]
+    ],
+    "support_z": 0.19,
+    "supported_by": "shelf_1",
+    "part_id": "books/level_1_volume_15_upright",
+    "support_part": "four_shelves/level_1/shelf_board"
+  },
+  {
+    "id": 16,
+    "level": 2,
+    "kind": "stack",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 3.0874640949670535,
+    "bounds": [
+      [
+        -0.5207131160774442,
+        -0.15817298453608983,
+        0.5900000000000001
+      ],
+      [
+        -0.2713218703692464,
+        0.09614872323713063,
+        0.6176278531010009
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_16_stack",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 17,
+    "level": 2,
+    "kind": "stack",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": -2.513922427420674,
+    "bounds": [
+      [
+        -0.5246214908263703,
+        -0.16369091986975765,
+        0.617627853101001
+      ],
+      [
+        -0.2672646170122162,
+        0.05922575391393346,
+        0.6555478751777014
+      ]
+    ],
+    "support_z": 0.6176278531010009,
+    "supported_by": 16,
+    "part_id": "books/level_2_volume_17_stack",
+    "support_part": "books/level_2_volume_16_stack"
+  },
+  {
+    "id": 18,
+    "level": 2,
+    "kind": "stack",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 1.8749189426064028,
+    "bounds": [
+      [
+        -0.5171764880297725,
+        -0.15914267578023716,
+        0.6555478751777014
+      ],
+      [
+        -0.26232711219731225,
+        0.08206535506108187,
+        0.6922051573033557
+      ]
+    ],
+    "support_z": 0.6555478751777014,
+    "supported_by": 17,
+    "part_id": "books/level_2_volume_18_stack",
+    "support_part": "books/level_2_volume_17_stack"
+  },
+  {
+    "id": 19,
+    "level": 2,
+    "kind": "stack",
+    "palette": 2,
+    "lean_degrees": 0,
+    "yaw": 2.5388102702311626,
+    "bounds": [
+      [
+        -0.5177341005626925,
+        -0.15682644613051658,
+        0.6922051573033557
+      ],
+      [
+        -0.23919647823303442,
+        0.08394231745756306,
+        0.7308624509292988
+      ]
+    ],
+    "support_z": 0.6922051573033557,
+    "supported_by": 18,
+    "part_id": "books/level_2_volume_19_stack",
+    "support_part": "books/level_2_volume_18_stack"
+  },
+  {
+    "id": 20,
+    "level": 2,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.19,
+        -0.15353855504186806,
+        0.5900000000000001
+      ],
+      [
+        -0.15274181461473352,
+        0.06326161209118308,
+        0.8343474514635524
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_20_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 21,
+    "level": 2,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.14994218418337657,
+        -0.154823090094855,
+        0.5900000000000001
+      ],
+      [
+        -0.11630948754540649,
+        0.08934780620231372,
+        0.9026107140357151
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_21_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 22,
+    "level": 2,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.11338650431666966,
+        -0.14517396069979355,
+        0.5900000000000001
+      ],
+      [
+        -0.07786160384541552,
+        0.10865991564115082,
+        0.9139886680622701
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_22_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 23,
+    "level": 2,
+    "kind": "upright",
+    "palette": 1,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.07588137435765331,
+        -0.16390907821526318,
+        0.5900000000000001
+      ],
+      [
+        -0.04613671632102799,
+        0.08337496231552947,
+        0.8665470690793433
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_23_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 24,
+    "level": 2,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.04398007970158288,
+        -0.14887371876387862,
+        0.5900000000000001
+      ],
+      [
+        0.0058857838463903245,
+        0.08325460120142275,
+        0.8779867449758496
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_24_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 25,
+    "level": 2,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.008447280077276378,
+        -0.14453511168980718,
+        0.5900000000000001
+      ],
+      [
+        0.053222065679189204,
+        0.09075655290107552,
+        0.851885355352904
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_25_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 26,
+    "level": 2,
+    "kind": "upright",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.05515701473122109,
+        -0.1541923663784628,
+        0.5900000000000001
+      ],
+      [
+        0.08502206912244656,
+        0.06546465045465133,
+        0.8837154436788494
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_26_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 27,
+    "level": 2,
+    "kind": "upright",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.08766446021270957,
+        -0.1508964595486091,
+        0.5900000000000001
+      ],
+      [
+        0.13277153766483846,
+        0.09959410072958302,
+        0.8654092669846494
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_27_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 28,
+    "level": 2,
+    "kind": "upright",
+    "palette": 4,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.286,
+        -0.15818971328649675,
+        0.5900000000000001
+      ],
+      [
+        0.33388884407489267,
+        0.050847793061011254,
+        0.921375616370443
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_28_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 29,
+    "level": 2,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3370751170917854,
+        -0.14415075405189764,
+        0.5900000000000001
+      ],
+      [
+        0.3726769845637423,
+        0.08814095102851907,
+        0.8671072495115038
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_29_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 30,
+    "level": 2,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3763522782415457,
+        -0.16663718255470883,
+        0.5900000000000001
+      ],
+      [
+        0.41008521208091575,
+        0.0670483379749767,
+        0.8630277734725782
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_30_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 31,
+    "level": 2,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.4127865443972318,
+        -0.15647348683109089,
+        0.5900000000000001
+      ],
+      [
+        0.4502680038122641,
+        0.09218142150598846,
+        0.8279787402872275
+      ]
+    ],
+    "support_z": 0.5900000000000001,
+    "supported_by": "shelf_2",
+    "part_id": "books/level_2_volume_31_upright",
+    "support_part": "four_shelves/level_2/shelf_board"
+  },
+  {
+    "id": 32,
+    "level": 3,
+    "kind": "upright",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.538,
+        -0.15881743084175154,
+        0.9900000000000001
+      ],
+      [
+        -0.49558584134910677,
+        0.10081612766204198,
+        1.2459777289969662
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_32_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 33,
+    "level": 3,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.49251945559397187,
+        -0.14715318190129056,
+        0.9900000000000001
+      ],
+      [
+        -0.46334659030149955,
+        0.08363547299451352,
+        1.2423959175925665
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_33_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 34,
+    "level": 3,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.4597993584445512,
+        -0.1573066376094903,
+        0.9900000000000001
+      ],
+      [
+        -0.4220272194979353,
+        0.0454498599911438,
+        1.243400655431237
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_34_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 35,
+    "level": 3,
+    "kind": "upright",
+    "palette": 1,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.4197414867546252,
+        -0.16161585702174447,
+        0.9900000000000001
+      ],
+      [
+        -0.3856722440085919,
+        0.051019794271135815,
+        1.2760166712674992
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_35_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 36,
+    "level": 3,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.38298769429274215,
+        -0.15628657341499233,
+        0.9900000000000001
+      ],
+      [
+        -0.33690476246900747,
+        0.04608479475496688,
+        1.3050525402471935
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_36_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 37,
+    "level": 3,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": -14,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.33437186439270977,
+        -0.14972870996597654,
+        0.9900000000000001
+      ],
+      [
+        -0.2323842893473635,
+        0.06144401096380732,
+        1.240583369643544
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_37_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 38,
+    "level": 3,
+    "kind": "stack",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": -0.697009178184353,
+    "bounds": [
+      [
+        -0.14725308910314755,
+        -0.14945580815835158,
+        0.9900000000000002
+      ],
+      [
+        0.09495563162849954,
+        0.07228359541781891,
+        1.0390048375375573
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_38_stack",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 39,
+    "level": 3,
+    "kind": "stack",
+    "palette": 4,
+    "lean_degrees": 0,
+    "yaw": -1.4589644516150777,
+    "bounds": [
+      [
+        -0.14573413768179522,
+        -0.16665226410821105,
+        1.0390048375375573
+      ],
+      [
+        0.10136293998019205,
+        0.08739339670088289,
+        1.068313180320192
+      ]
+    ],
+    "support_z": 1.0390048375375573,
+    "supported_by": 38,
+    "part_id": "books/level_3_volume_39_stack",
+    "support_part": "books/level_3_volume_38_stack"
+  },
+  {
+    "id": 40,
+    "level": 3,
+    "kind": "stack",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": -2.000263456508115,
+    "bounds": [
+      [
+        -0.158609575681459,
+        -0.15407705717164497,
+        1.0683131803201922
+      ],
+      [
+        0.09996965735075436,
+        0.10651635829373764,
+        1.1047783612452196
+      ]
+    ],
+    "support_z": 1.068313180320192,
+    "supported_by": 39,
+    "part_id": "books/level_3_volume_40_stack",
+    "support_part": "books/level_3_volume_39_stack"
+  },
+  {
+    "id": 41,
+    "level": 3,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.174,
+        -0.16492663946277958,
+        0.9900000000000001
+      ],
+      [
+        0.21703594336220444,
+        0.039250023070358325,
+        1.2280453159109923
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_41_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 42,
+    "level": 3,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.22092681938520436,
+        -0.15593054105052606,
+        0.9900000000000001
+      ],
+      [
+        0.26157976661026777,
+        0.09759154633008607,
+        1.2510580723583264
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_42_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 43,
+    "level": 3,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.26339417782518115,
+        -0.16131672138452008,
+        0.9900000000000001
+      ],
+      [
+        0.3021377590479182,
+        0.05771660364310134,
+        1.3012816371957097
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_43_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 44,
+    "level": 3,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3039873714031997,
+        -0.1661361662242991,
+        0.9900000000000001
+      ],
+      [
+        0.33321362675446514,
+        0.05831127647414988,
+        1.25104837087369
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_44_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 45,
+    "level": 3,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3361401439383721,
+        -0.14271660092909613,
+        0.9900000000000001
+      ],
+      [
+        0.38260561676289784,
+        0.06266745540317958,
+        1.2625517065526664
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_45_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 46,
+    "level": 3,
+    "kind": "upright",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3842346768522956,
+        -0.14581600965064054,
+        0.9900000000000001
+      ],
+      [
+        0.4315737439892038,
+        0.09498721995511412,
+        1.3174807721726525
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_46_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 47,
+    "level": 3,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.4349045608133801,
+        -0.14440768701967102,
+        0.9900000000000001
+      ],
+      [
+        0.47787787977971524,
+        0.0753032606736212,
+        1.2341416971770311
+      ]
+    ],
+    "support_z": 0.9900000000000001,
+    "supported_by": "shelf_3",
+    "part_id": "books/level_3_volume_47_upright",
+    "support_part": "four_shelves/level_3/shelf_board"
+  },
+  {
+    "id": 48,
+    "level": 4,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.538,
+        -0.16765909281445435,
+        1.3900000000000001
+      ],
+      [
+        -0.49624066012225304,
+        0.06542455808949293,
+        1.7047735480749324
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_48_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 49,
+    "level": 4,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.4938576046557661,
+        -0.15659780174230345,
+        1.3900000000000001
+      ],
+      [
+        -0.46310529559740576,
+        0.0571219297124443,
+        1.6972416813861573
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_49_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 50,
+    "level": 4,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.46055368931176754,
+        -0.16833199697652546,
+        1.3900000000000001
+      ],
+      [
+        -0.4283679727296502,
+        0.06208824342404548,
+        1.7061930690099283
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_50_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 51,
+    "level": 4,
+    "kind": "upright",
+    "palette": 5,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        -0.4263916962868478,
+        -0.15266854661626147,
+        1.3900000000000001
+      ],
+      [
+        -0.3975083979827517,
+        0.08404530566316407,
+        1.6935757562451843
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_51_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 52,
+    "level": 4,
+    "kind": "stack",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": -3.3724391361865673,
+    "bounds": [
+      [
+        -0.3101056274443358,
+        -0.1554795912800169,
+        1.3900000000000001
+      ],
+      [
+        -0.0583096445529189,
+        0.066824094201643,
+        1.4190550877351074
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_52_stack",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 53,
+    "level": 4,
+    "kind": "stack",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 2.4146159855338576,
+    "bounds": [
+      [
+        -0.3075418691215452,
+        -0.14694137971413146,
+        1.4190550877351074
+      ],
+      [
+        -0.03570361329088023,
+        0.09016773509348756,
+        1.4545621904097192
+      ]
+    ],
+    "support_z": 1.4190550877351074,
+    "supported_by": 52,
+    "part_id": "books/level_4_volume_53_stack",
+    "support_part": "books/level_4_volume_52_stack"
+  },
+  {
+    "id": 54,
+    "level": 4,
+    "kind": "stack",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": -1.5196311496603259,
+    "bounds": [
+      [
+        -0.3083602177479348,
+        -0.14274395596479725,
+        1.4545621904097192
+      ],
+      [
+        -0.03199947643821077,
+        0.11775807966848281,
+        1.49522661344148
+      ]
+    ],
+    "support_z": 1.4545621904097192,
+    "supported_by": 53,
+    "part_id": "books/level_4_volume_54_stack",
+    "support_part": "books/level_4_volume_53_stack"
+  },
+  {
+    "id": 55,
+    "level": 4,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.025,
+        -0.15687265888608318,
+        1.3900000000000001
+      ],
+      [
+        0.06915619751185592,
+        0.07639267846594348,
+        1.669815891017698
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_55_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 56,
+    "level": 4,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.07163337709617952,
+        -0.14262387661877277,
+        1.3900000000000001
+      ],
+      [
+        0.09917585562014881,
+        0.06629101200616316,
+        1.712949618988982
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_56_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 57,
+    "level": 4,
+    "kind": "upright",
+    "palette": 2,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.10285996133182916,
+        -0.15706291619741455,
+        1.3900000000000001
+      ],
+      [
+        0.14110645923993487,
+        0.05313745339396489,
+        1.6779833370509802
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_57_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 58,
+    "level": 4,
+    "kind": "upright",
+    "palette": 6,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.14312644311236486,
+        -0.14709720469540763,
+        1.3900000000000001
+      ],
+      [
+        0.19084799326030708,
+        0.08669511490082411,
+        1.7030345084149345
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_58_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 59,
+    "level": 4,
+    "kind": "upright",
+    "palette": 3,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.19276214885167903,
+        -0.16153012349712795,
+        1.3900000000000001
+      ],
+      [
+        0.23674140929690762,
+        0.05055084809300933,
+        1.6538464055015174
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_59_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 60,
+    "level": 4,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.24065271572035613,
+        -0.1626719654083902,
+        1.3900000000000001
+      ],
+      [
+        0.2870966984373305,
+        0.0509437837636364,
+        1.647952484437171
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_60_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 61,
+    "level": 4,
+    "kind": "upright",
+    "palette": 7,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.2907851123125154,
+        -0.15087802892799654,
+        1.3900000000000001
+      ],
+      [
+        0.32367055276852125,
+        0.0872704426193354,
+        1.6621863471533356
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_61_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 62,
+    "level": 4,
+    "kind": "upright",
+    "palette": 0,
+    "lean_degrees": 0,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.3258368478820145,
+        -0.1529909548339379,
+        1.3900000000000001
+      ],
+      [
+        0.3602159211670156,
+        0.09745723272231799,
+        1.6930404823447678
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_62_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  },
+  {
+    "id": 63,
+    "level": 4,
+    "kind": "upright",
+    "palette": 2,
+    "lean_degrees": -10,
+    "yaw": 0,
+    "bounds": [
+      [
+        0.36246272155264064,
+        -0.15759063746589727,
+        1.3900000000000001
+      ],
+      [
+        0.4424445099412991,
+        0.09176303090685417,
+        1.6656741616768032
+      ]
+    ],
+    "support_z": 1.3900000000000001,
+    "supported_by": "shelf_4",
+    "part_id": "books/level_4_volume_63_upright",
+    "support_part": "four_shelves/level_4/shelf_board"
+  }
+]

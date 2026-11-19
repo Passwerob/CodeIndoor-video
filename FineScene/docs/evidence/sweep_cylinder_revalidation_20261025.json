@@ -1,0 +1,32 @@
+{
+  "source_failure": "runs\\refined_reading_lounge_20261025_42\\agent_runtime\\recipe_floor_lamp_failure_2.json",
+  "candidate_modified": false,
+  "validation": "passed",
+  "previous_assembly_findings": [
+    {
+      "component_ids": [
+        "floor_lamp"
+      ],
+      "part_ids": [
+        "bulb",
+        "drum_shade"
+      ],
+      "code": "intersection",
+      "repair_target": "geometry",
+      "evidence": "Undeclared/excessive part penetration: 0.0990m."
+    },
+    {
+      "component_ids": [
+        "floor_lamp"
+      ],
+      "part_ids": [
+        "bulb",
+        "gooseneck"
+      ],
+      "code": "intersection",
+      "repair_target": "geometry",
+      "evidence": "Undeclared/excessive part penetration: 0.0530m."
+    }
+  ],
+  "checks": "Full recipe validation including frozen parts, assembly, measured envelope and all four parameter edit scenarios; this is not visual acceptance."
+}
